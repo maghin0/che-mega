@@ -1,7 +1,37 @@
 @import '~bulma/bulma.sass';
 
+.content ol:not([type]) {
+  list-style-type: none !important;
+}
+.carousel-indicators {
+  margin-left: 8vw !important;
+}
+.carousel-indicators li {
+  background-color: pink !important;
+  position: relative !important;
+  margin-top: 10vh !important;
+}
 .carousell {
   position: flex;
   width: 100%;
-  height: 600px;
+  height: 800px;
+}
+
+.ourteam {
+  background-image: url(../img/asset.svg);
+  background-repeat: no-repeat;
+  min-height: 100%;
+  min-width: 2024px !important;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  margin: 5em;
+  /* Set up positioning */
+  position: relative;
+  top: 0;
+  left: 10%;
+}
+.containerabout {
+  max-width: 800px;
 }
