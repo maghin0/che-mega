@@ -15,6 +15,7 @@ media_library:
   config:
     cloud_name: dafxdz7mx
     publicKey: 542642991754692
+    multiple: true
 
 collections:
   - name: 'blog'
