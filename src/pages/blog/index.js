@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-import Layout from '../../components/Layout'
-import BlogRoll from '../../components/BlogRoll'
-
+import Layout from '../../components/Layout';
+import BlogRoll from '../../components/BlogRoll';
+import BlogRollEvents from '../../components/BlogRollEvents';
+import BlogRollVisits from '../../components/BlogRollVisits';
 export default class BlogIndexPage extends React.Component {
   render() {
     return (
@@ -28,11 +29,16 @@ export default class BlogIndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
+              <h1>Latest News </h1>
               <BlogRoll />
+              <h1>Conference and Events</h1>
+              <BlogRollEvents />
+              <h1>Visitations and Delegates</h1>
+              <BlogRollVisits />
             </div>
           </div>
         </section>
       </Layout>
-    )
+    );
   }
 }

@@ -10,6 +10,11 @@ backend:
 
 media_folder: static/img
 public_folder: /img
+media_library:
+  name: uploadcare
+  config:
+    cloud_name: dafxdz7mx
+    publicKey: 542642991754692
 
 collections:
   - name: 'blog'
