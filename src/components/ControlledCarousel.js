@@ -21,18 +21,23 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/img/flavor_wheel.jpg"
+          src="/img/homepage products/asset 1.png"
           alt="First slide"
         />
         <Carousel.Caption>
           <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <p>
+            Nulla vitae elit libero, a pharetra augue mollis interdum Nulla
+            vitae elit libero, a pharetra augue mollis interdum Nulla vitae elit
+            libero, a pharetra augue mollis interdum Nulla vitae elit libero, a
+            pharetra augue mollis interdum.
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/img/flavor_wheel.jpg"
+          src="/img/homepage products/asset 2.png"
           alt="Third slide"
         />
 
@@ -44,7 +49,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/img/flavor_wheel.jpg"
+          src="/img/homepage products/asset 4.png"
           alt="Third slide"
         />
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import logo from '../img/logo.svg';
+import logo from '../img/social/logo.svg';
 import smallfacebook from '../img/social/smallfacebook.svg';
 import smalltwitter from '../img/social/smalltwitter.svg';
 import smallyoutube from '../img/social/smallyoutube.svg';
@@ -36,15 +36,11 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/products">
+                      <Link className="navbar-item" to="/lab-devices-page">
                         Products
                       </Link>
                     </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
-                      </Link>
-                    </li>
+
                     <li>
                       <a
                         className="navbar-item"

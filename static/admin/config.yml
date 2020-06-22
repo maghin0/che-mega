@@ -38,6 +38,30 @@ collections:
       - { label: 'imageone', name: 'imageone', widget: image }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
+      - label: 'Home Section'
+        name: 'sections'
+        widget: 'list'
+        types:
+          - label: 'Carousel'
+            name: 'carousel'
+            widget: object
+            summary: '{{fields.header}}'
+      - {
+          label: Header,
+          name: header,
+          widget: string,
+          default: 'Image Gallery',
+        }
+      - {
+          label: Template,
+          name: template,
+          widget: string,
+          default: 'carousel.html',
+        }
+      - label: Images
+        name: images
+        widget: list
+        field: { label: Image, name: image, widget: image }
 
   - name: 'pages'
     label: 'Pages'

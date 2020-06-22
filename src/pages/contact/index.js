@@ -56,10 +56,11 @@ export default class Index extends React.Component {
           <div
             style={{
               display: 'flex',
-              height: '350px',
+              height: '100%',
+              width: '100%',
               lineHeight: '1',
               justifyContent: 'space-around',
-              alignItems: 'left',
+              alignItems: 'center',
               flexDirection: 'column',
               backgroundColor: 'rgba(28,28,71, 0.4)',
             }}

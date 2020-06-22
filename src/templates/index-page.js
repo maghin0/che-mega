@@ -65,6 +65,11 @@ export const IndexPageTemplate = ({
                   <div className="column is-12 has-text-centered"></div>
                 </div>
                 <ControlledCarousel />
+                <div className="column is-12 has-text-centered">
+                  <Link className="btn" to="/lab-devices-page">
+                    Read more
+                  </Link>
+                </div>
                 <br />
                 <table className="table">
                   <thead>

@@ -3,8 +3,8 @@ import React from 'react';
 import LabDevices from '../components/LabDevices';
 import Layout from '../components/Layout';
 
-import asset1 from '../img/devices/asset 1.png';
-import asset2 from '../img/devices/asset 2.png';
+import asset1 from '../img/devices/asset 5.png';
+import asset2 from '../img/devices/asset 4.png';
 const LabDevicesPage = () => {
   return (
     <Layout>
@@ -21,10 +21,11 @@ const LabDevicesPage = () => {
         <div
           style={{
             display: 'flex',
-            height: '350px',
+            height: '100%',
+            width: '100%',
             lineHeight: '1',
             justifyContent: 'space-around',
-            alignItems: 'left',
+            alignItems: 'center',
             flexDirection: 'column',
             backgroundColor: 'rgba(28,28,71, 0.4)',
           }}
