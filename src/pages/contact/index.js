@@ -72,6 +72,7 @@ export default class Index extends React.Component {
                 lineHeight: '1',
                 padding: '0.25em',
                 margin: 'auto',
+                backgroundColor: '#00d1b2',
               }}
             >
               Contact Us
@@ -101,7 +102,11 @@ export default class Index extends React.Component {
                   <h1>Find Us</h1>
                   <div className="columns is-multiline">
                     <div className="column is-4">
-                      <a title="facebook" href="https://facebook.com">
+                      <a
+                        title="facebook"
+                        href="https://www.facebook.com/%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D9%85%D9%8A%D9%83%D8%B1%D9%88%D8%B3%D9%83%D9%88%D8%A8-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%89-%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1%D8%A9-566336020116519/"
+                        target="_blank"
+                      >
                         <img
                           src={facebook}
                           alt="Facebook"
@@ -111,24 +116,32 @@ export default class Index extends React.Component {
                       </a>
                     </div>
                     <div className="column is-6">
-                      <a title="facebook" href="https://facebook.com">
+                      <a
+                        title="facebook"
+                        href="https://twitter.com/mansoura_uni"
+                        target="_blank"
+                      >
                         <img
                           src={twitter}
                           alt="Twitter"
                           style={{ width: '2em', height: '2em', margin: '1em' }}
                         />
-                        Facebook
+                        Twitter
                       </a>
                     </div>
 
                     <div className="column is-4 ">
-                      <a title="facebook" href="https://facebook.com">
+                      <a
+                        title="facebook"
+                        href="https://www.youtube.com/user/mansvu"
+                        target="_blank"
+                      >
                         <img
                           src={youtube}
                           alt="Youtube"
                           style={{ width: '2em', height: '2em', margin: '1em' }}
                         />
-                        Facebook
+                        Youtube
                       </a>
                     </div>
 
@@ -136,24 +149,22 @@ export default class Index extends React.Component {
                     <div className="column is-10">
                       <h1>Contact Us</h1>
                     </div>
-                    <div className="column is-4">
-                      <a title="facebook" href="https://facebook.com">
-                        <img
-                          src={call}
-                          alt="call us"
-                          style={{ width: '2em', height: '2em', margin: '1em' }}
-                        />
-                        Facebook
-                      </a>
+                    <div className="column is-8">
+                      <img
+                        src={call}
+                        alt="call us"
+                        style={{ width: '2em', height: '2em', margin: '1em' }}
+                      />
+                      Call Us 002 (050) 2221688
                     </div>
-                    <div className="column is-4">
-                      <a title="facebook" href="https://facebook.com">
+                    <div className="column is-6">
+                      <a title="facebook" href="mailto:emunit@mans.edu.eg">
                         <img
                           src={email}
                           alt="email us"
                           style={{ width: '2em', height: '2em', margin: '1em' }}
                         />
-                        Facebook
+                        Email Us
                       </a>
                     </div>
                   </div>

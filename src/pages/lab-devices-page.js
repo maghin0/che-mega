@@ -37,6 +37,7 @@ const LabDevicesPage = () => {
               lineHeight: '1',
               padding: '0.25em',
               margin: 'auto',
+              backgroundColor: '#00d1b2',
             }}
           >
             Lab Devices
