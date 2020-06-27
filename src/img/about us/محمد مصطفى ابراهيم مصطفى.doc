@@ -1,0 +1,445 @@
+<!DOCTYPE html><!--mixin personalData--><!--  -if(data["CVOptions"].itemsOrder.indexOf('personalData') >-1 )--><!--    -if(data['personalData'])--><!--      section--><!--        article--><!--          .sectionTitle--><!--            h1 البيانات الشخصية--><!--          .sectionContent--><!--            ul(style='text-align: justify')--><!--              -if(data["CVOptions"].showContactData == '1')--><!--                -if(data["personalData"].HomeTel != '')--><!--                  li= "هاتف المنزل" + " : " + data["personalData"].HomeTel--><!--                -if(data["personalData"].WorkTel != '')--><!--                  li= "هاتف العمل"  + " : " +  data["personalData"].WorkTel--><!--                -if(data["personalData"].Fax != '')--><!--                  li= "الفاكس"  + " : " +  data["personalData"].Fax--><!--              -if(data["CVOptions"].Address == '1')--><!--                -if(data["personalData"].Address != '')--><!--                  li= "العنوان"  + " : " +  data["personalData"].Address--><!--      .clear--><html><head><title>السيرة الذاتية - د. محمد مصطفى ابراهيم مصطفى - جامعة المنصورة - كلية الصيدلة - الصيدلانيات</title><meta name="viewport" content="width=device-width"><meta name="description" content="The Curriculum Vitae."><meta charset="UTF-8"><style type="text/css">html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+border:0;
+font:inherit;
+font-size:100%;
+margin:0;
+padding:0;
+vertical-align:baseline;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	display:block;
+}
+
+html, body {background: #FFF;background-color: #222; font-family: arial, sans-serif; font-size: 16px; color: #222;}
+
+.clear {clear: both;}
+
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	color: #444;
+}
+
+#contact-info{float:right;margin-right:10px}
+ul#social-media{margin-bottom:18px;list-style:none}
+ul#social-media li{display:inline}
+
+.mail{
+	background-image: url(/images/icons/Streamline-58.png);
+}
+.site{
+	background-image: url(/images/icons/Internet_explorer.png);
+}
+.tel{
+	background-image: url(/images/icons/Telephone_.png);
+}
+
+#imgID {
+	float: left;
+	margin-right: 25px;
+	background-color: #FFF;
+	border: 1px solid #dedede;
+	padding: 10px;
+}
+
+#cv {
+	width: 95%;
+	max-width: 850px;
+	background-color: #FFF;
+	margin: 30px auto;
+	border-bottom: 5px solid #FDB020;
+	border-top: 15px solid #FDB020;
+}
+
+.mainDetails {
+	padding: 25px 30px;
+	/*border-bottom: 2px solid #cf8a05;*/
+	border-bottom: 1px solid #dfdfdf;
+	/*background: #ededed;*/
+	background-color: #F8F8F8;
+}
+
+#name h1 {
+	font-size: 2.0em;
+	font-weight: 700;
+	font-family:  Arial, sans-serif;
+	margin-bottom: -6px;
+}
+
+#name h2 {
+	font-size: 2em;
+	margin-left: 2px;
+	font-family:  Arial, sans-serif;
+}
+
+#mainArea {
+	padding: 0 40px;
+}
+
+#headshot {
+	width: 13%;
+	float: right;
+	margin-left: 12px;
+	background-color: #F8F8F8;
+}
+
+
+#name {
+	float: right;
+}
+
+#contactDetails {
+	float: right;
+}
+
+#contactDetails ul {
+	list-style-type: none;
+	font-size: 0.9em;
+	margin-top: 2px;
+}
+
+#contactDetails ul li {
+	margin-bottom: 5px;
+	color: #444;
+	background-repeat: no-repeat;
+	/*padding-left: 26px;*/
+	/*padding-right:  10px;*/
+	/*background-position: 0 .1em;*/
+	/*height: 25px;*/
+	/*display: block;*/
+	/*margin-top: -2px;*/
+}
+
+#personal li {
+	padding-left: 26px;
+}
+
+#social-media li {
+	padding-right: 26px;
+}
+
+#contactDetails ul li a, a[href^=tel] {
+	color: #444; 
+	text-decoration: none;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+
+#contactDetails ul li a:hover { 
+	color: #cf8a05;
+}
+
+
+section {
+	border-top: 1px solid #dedede;
+	padding: 20px 0 0;
+}
+
+section:first-child {
+	border-top: 0;
+}
+
+section:last-child {
+	padding: 20px 0 10px;
+}
+
+.sectionTitle {
+	float: right;
+	width: 22%;
+}
+
+.sectionContent {
+	float: right;
+	width: 75.5%;
+}
+
+.sectionTitle h1 {
+	font-family: Arial, sans-serif;
+	/*font-style: italic;*/
+	font-size: 1.2em;
+	color: #cf8a05;
+}
+
+.sectionContent h2 {
+	font-family: Arial, sans-serif;
+	font-size: 1.2em;
+	margin-bottom: -2px;
+}
+
+.subDetails {
+	font-size: 0.8em;
+	/*font-style: italic;*/
+	margin-bottom: 3px;
+}
+
+.keySkills {
+	list-style-type: none;
+	-moz-column-count:3;
+	-webkit-column-count:3;
+	column-count:3;
+	margin-bottom: 20px;
+	font-size: 1em;
+	color: #444;
+}
+
+.keySkills ul li {
+	margin-bottom: 3px;
+}
+
+@media all and (min-width: 602px) and (max-width: 800px) {
+	/*#headshot {
+		display: none;
+	}
+	
+	.keySkills {
+	-moz-column-count:2;
+	-webkit-column-count:2;
+	column-count:2;
+	}*/
+}
+
+@media all and (max-width: 601px) {
+	#cv {
+		width: 95%;
+		margin: 10px auto;
+		min-width: 280px;
+	}
+	
+/*#headshot {
+		display: none;
+	}
+	
+	#name, #contactDetails {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.sectionTitle, .sectionContent {
+		float: none;
+		width: 100%;
+	}
+	
+	.sectionTitle {
+		margin-right: -2px;
+		font-size: 1.25em;
+	}
+	
+	.keySkills {
+		-moz-column-count:2;
+		-webkit-column-count:2;
+		column-count:2;
+	}*/
+}
+
+@media all and (max-width: 480px) {
+	.mainDetails {
+		padding: 15px 15px;
+	}
+	
+	section {
+		padding: 15px 0 0;
+	}
+	
+	#mainArea {
+		padding: 0 25px;
+	}
+
+	
+	.keySkills {
+	-moz-column-count:1;
+	-webkit-column-count:1;
+	column-count:1;
+	}
+	
+	#name h1 {
+		line-height: .8em;
+		margin-bottom: 4px;
+	}
+}
+
+@media print {
+	#cv {
+	    width: 100%;
+	    background: #fff;
+	    border:none;
+	    float:none;
+	    margin:0;
+	}
+	.sectionTitle h1{
+	    color:black !important;
+	    font-style:normal;
+	    font-weight:bold;
+	}
+	html,body{
+	    background: #fff;
+	    }
+       #social-media{display:none}
+       section{margin:0}
+	.sectionTitle{
+	   float:none;margin-bottom:20px;
+	   width: 100%;
+	   }
+	.sectionContent{float:none;width:90%;margin-right:10%}
+
+}
+
+@-webkit-keyframes reset {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes reset {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes reset {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.instaFade {
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-timing-function: ease-in;
+	
+	-moz-animation-name: reset, fade-in;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-timing-function: ease-in;
+	
+	animation-name: reset, fade-in;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+}
+
+.quickFade {
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: 2.5s;
+    -webkit-animation-timing-function: ease-in;
+	
+	-moz-animation-name: reset, fade-in;
+    -moz-animation-duration: 2.5s;
+    -moz-animation-timing-function: ease-in;
+	
+	animation-name: reset, fade-in;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in;
+}
+ 
+.delayOne {
+	-webkit-animation-delay: 0, .5s;
+	-moz-animation-delay: 0, .5s;
+	animation-delay: 0, .5s;
+}
+
+.delayTwo {
+	-webkit-animation-delay: 0, 1s;
+	-moz-animation-delay: 0, 1s;
+	animation-delay: 0, 1s;
+}
+
+.delayThree {
+	-webkit-animation-delay: 0, 1.5s;
+	-moz-animation-delay: 0, 1.5s;
+	animation-delay: 0, 1.5s;
+}
+
+.delayFour {
+	-webkit-animation-delay: 0, 2s;
+	-moz-animation-delay: 0, 2s;
+	animation-delay: 0, 2s;
+}
+
+.delayFive {
+	-webkit-animation-delay: 0, 2.5s;
+	-moz-animation-delay: 0, 2.5s;
+	animation-delay: 0, 2.5s;
+}</style><!--|<script>alert('#{data.exportType}')</script>--><style type="text/css">html,body{
+         background: #fff;
+}
+
+#cv {
+         width: 100%;
+         background: #fff;
+         border:none;
+         float:none;
+         margin:0
+}
+
+ul#social-media li{
+         display:none;
+}
+
+section{margin:0}
+.sectionTitle{
+   float:none;margin-bottom:20px;
+   width: 100%;
+}
+
+
+.sectionTitle h1{
+         color:black !important;
+         font-style:normal;
+	 font-weight:bold;
+}
+.sectionContent{float:none;width:95%;margin-left:5%}
+</style></head><body id="top" dir="rtl"><div id="cv" class="instaFade"><div class="mainDetails"><div id="headshot" class="quickFade"><img id="imgID" src="http://eupc.mans.edu.eg/download/openImg?fileID=39618&amp;fileName=00.jpg" style="max-height: 100pt;max-width: 100pt;"></div><div id="name" style="width:85%"><h1 class="quickFade delayOne">محمد مصطفى ابراهيم مصطفى</h1><br><h3 class="quickFade delayOne">الصيدلانيات - كلية الصيدلة - جامعة المنصورة</h3></div><!--.clear--><div id="contactDetails" align="left" style="width:30%;word-break: break-all;padding-top: 15px;" class="quickFade delayTwo"><ul id="personal" style="float:right;"><li class="mail"><a style="color: #06A;" href="mailto:mmimr2004@hotmail.com">mmimr2004@hotmail.com</a><!--span=data["personalData"].Email.toLowerCase()--></li><li class="tel"><span>0019013716916</span></li></ul></div><div class="clear">      </div><!--div#contactDetails.quickFade.delayTwo(align='left',style="width:30%;word-break: break-all;")--><ul id="social-media" style="float: left;"><li><a href="javascript:window.open(&quot;/V2/get?Dr=27710051200097&amp;T=2&amp;L=A&amp;exportCV=1&amp;exportType=htm&quot;, &quot;download&quot;);" class="tip"><img src="http://eupc.mans.edu.eg/images/icons/explorer.png" style="width:16px;height:16px;" alt="حفظ(.htm)" title="حفظ(htm.)"></a></li><li><a href="javascript:window.open(&quot;/V2/get?Dr=27710051200097&amp;T=2&amp;L=A&amp;exportCV=1&amp;exportType=doc&quot;, &quot;download&quot;);" class="tip"><img src="http://eupc.mans.edu.eg/images/icons/word.png" style="width:16px;height:16px;" alt="حفظ(.doc)" title="حفظ(doc.)"></a></li><li><a href="javascript:window.print()" class="tip"><img src="http://eupc.mans.edu.eg/images/icons/printer.jpg" style="width:16px;height:16px;" alt="طباعة" title="طباعة"></a></li><li><a href="javascript:window.open(&quot;http://eupc.mans.edu.eg/V2/get?Dr=27710051200097&amp;T=2&amp;L=E&quot;)" class="tip"><img src="http://eupc.mans.edu.eg/images/icons/en.png" style="width:18px;height:18px;" alt="عرض السيرة الذاتية باللغة الإنجليزية" title="عرض السيرة الذاتية باللغة الإنجليزية"></a></li></ul><!--.clear--></div><div id="mainArea" class="quickFade delayThree"><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><section><article><div class="sectionTitle"><h1>الندوات والمؤتمرات</h1></div><div class="sectionContent"><ul style="text-align: justify"><li>American Association of Pharmaceutical Scientists (AAPS) PharmSci 360 Meeting في الولايات المتحدة الأمريكية - من 03/11/2019 إلي 06/11/2019</li><li>Association for Ocular Pharmacology and Therapeutics (AOPT) 14th Meeting في الولايات المتحدة الأمريكية - من 07/03/2019 إلي 10/03/2019</li><li>	American Association of Pharmaceutical Scientists (AAPS) PharmSci 360 Meeting في الولايات المتحدة الأمريكية - من 04/11/2018 إلي 07/11/2018</li><li>	Association of Egyptian American Scholars (AEAS) 35th Annual International Conference في مصر - من 27/12/2008 إلي 29/12/2008</li></ul></div></article></section><div class="clear"></div><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><section><article><div class="sectionTitle"><h1>الدرجات الوظيفية</h1></div><div class="sectionContent"><ul style="text-align: justify"><li>معيد في 25/11/2001</li><li>مدرس مساعد في 15/11/2007</li><li>مدرس في 25/11/2014</li></ul></div></article></section><div class="clear"></div><!--  mixin personalData--><!--  mixin personalData--><section><article><div class="sectionTitle"><h1>المؤهلات العلمية</h1></div><div class="sectionContent"><ul style="text-align: justify"><li>بكالوريوس بتقدير جيد جداً مع مرتبة الشرف في 2001</li><li>ماجستير   في 2007</li><li>الدكتوراه   في 2014</li></ul></div></article></section><div class="clear"></div><!--  mixin personalData--><section><article><div class="sectionTitle"><h1>الأبحاث العلمية</h1></div><div class="sectionContent"><ul style="text-align: justify"><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=27710051200097&amp;Item=92.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Once Daily Pregabalin Eye Drops for Management of Glaucoma, Mohamed Moustafa Ibrahim, Doaa Nabih Maria, Sanjay R. Mishra, Deepa Guragain, XiangDi Wang and Monica M. Jablonski, ACS Nano, 12 November</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=27710051200097&amp;Item=85.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Gellan gum based sol-to-gel transforming system of natamycin transfersomes improves topical ocular delivery, Karthik Yadav Janga, Akshaya Tatke, Narendar Dudhipala, Sai Prachetan Balguri, Mohamed Moustafa Ibrahim, Doaa Nabih Maria, Monica M Jablonski and Soumyajit Majumdar, Journal of Pharmacology and Experimental Therapeutics, September 13</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=27710051200097&amp;Item=91.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>The Impact of R-801 Nanoparticles as a Long Acting Topical Glaucoma Therapy, Mohamed Moustafa Ibrahim and Monica M. Jablonski, Journal of Biomedical Nanotechnology, 1 February</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=27710051200097&amp;Item=84.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Ion sensitive in situ hydrogels of natamycin bilosomes for enhanced and prolonged ocular pharmacotherapy: in vitro permeability, cytotoxicity and in vivo evaluation, Karthik Yadav Janga, Akshaya Tatke, Sai Prachetan Balguri, Surya P
+Lamichanne, Mohamed Moustafa Ibrahim, Doaa Nabih Maria, Monica M
+Jablonski &amp; Soumyajit Majumdar, Artificial Cells, Nanomedicine, and Biotechnology, 23 February</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=27710051200097&amp;Item=83.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Stability and Ocular Pharmacokinetics of Celecoxib-Loaded Nanoparticles Topical Ophthalmic Formulations, Mohammed Mostafa Ibrahim, Abd-Elgawad Helmy Abd-Elgawad, Osama Abd-Elazeem Soliman, Monica M. Jablonski, Journal of Pharmaceutical Sciences, 24 October</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=27710051200097&amp;Item=79.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Natural Bioadhesive Biodegradable Nanoparticle-Based Topical Ophthalmic Formulations for Management of Glaucoma., Mohammed Mostafa Ibrahim, Abd-Elgawad Helmy Abd-Elgawad, Osama Abd Elazeem Soliman, and Monica M. Jablonski, Translational Vision Science and Technology,TVTS, 30 june</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=27710051200097&amp;Item=30.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Novel Topical Ophthalmic Formulations for Management of Glaucoma,  محمد مصطفى ابراهيم مصطفى|أ.د. عبد الجواد حلمى عبد الجواد|أ.د. أسامه عبد العظيم سليمان|مونيكا جابلونسكي, Pharmaceutical Research, فبراير 2013</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=27710051200097&amp;Item=29.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Nanoparticle-Based Topical Ophthalmic Formulations for Sustained Celecoxib Release,  محمد مصطفى ابراهيم مصطفى|أ.د. عبد الجواد حلمى عبد الجواد|أ.د. أسامه عبد العظيم سليمان|مونيكا جابلونسكي, JOURNAL OF PHARMACEUTICAL SCIENCES, أغسطس 2012</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=27710051200097&amp;Item=28.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Natural bioadhesive biodegradable nanoparticles-based topical ophthalmic formulations for sustained celecoxib release: In vitro Study,  محمد مصطفى ابراهيم مصطفى|أ.د. عبد الجواد حلمى عبد الجواد|أ.د. أسامه عبد العظيم سليمان|مونيكا جابلونسكي, Journal of Pharmaceutical Technology and Drug Research, يناير2013</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=27710051200097&amp;Item=26.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Formulation and Evaluation of Self-Emulsifying Systems Containing Indomethacin, أ.د. عبد الجواد حلمى عبد الجواد|أ.د. محمد حامد زكى الشابورى| محمد مصطفى ابراهيم مصطفى, The Egyptian American Scholars 35th International Annual Conference, 27-29 December, 2008, December, 2008</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=27710051200097&amp;Item=27.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Formulation and Evaluation of Self-Emulsifying Systems Containing Piroxicam, أ.د. عبد الجواد حلمى عبد الجواد|أ.د. محمد حامد زكى الشابورى| محمد مصطفى ابراهيم مصطفى, The Egyptian American Scholars 35th International Annual Conference, 27-29 December, 2008,  December, 2008</li></a></ul></div></article></section><div class="clear"></div><!--  mixin personalData--><section><article><div class="sectionTitle"><h1> المهمات العلمية</h1></div><div class="sectionContent"><ul style="text-align: justify"><li>دورة تدريبية بالخارج - من 19/8/2018  إلي 18/9/2019 الولايات المتحدة الامريكية</li><li>دورة تدريبية بالخارج - من 19/9/2017  إلي 18/9/2018 أمريكا</li><li>المهمات العلمية - من 19/9/2016  إلي 18/9/2017 الولايات المتحدة الامريكية</li><li>المهمات العلمية - من 19/9/2015  إلي 18/9/2016 الولايات المتحدة الامريكية</li><li>الإشراف المشترك(خارجي) - من 15/12/2011  إلي 14/12/2012 الورلايات المتحدة الامريكية</li></ul></div></article></section><div class="clear"></div><!--  mixin personalData--><section><article><div class="sectionTitle"><h1> الدورات</h1></div><div class="sectionContent"><ul style="text-align: justify"><li>برنامج مشروع تنمية قدرات اعضاء هيئة التدريس والقيادات ( مهارات الاتصال الفعال ) - من  إلي 28/9/2004 </li><li>برنامج مشروع تنمية قدرات اعضاء هيئة التدريس والقيادات (اخلاقيات واداب المهنة ) - من  إلي 2/10/2004 </li><li>TOEFL - من    </li><li>برنامج مشروع تنمية قدرات اعضاء هيئة التدريس والقيادات( مهارات البحث العلمى ) - من  إلي 25/9/2004 </li><li>برنامج مشروع تنمية قدرات اعضاء هيئة التدريس والقيادات (مهارات التفكير ) - من  إلي 5/10/2004 </li><li>اعداد المعلم الجامعي - من  إلي 24/2/2013 </li><li>برنامج تنمية قدرات أعضاء هيئة التدريس (نظام الساعات المعتمدة ) - من  إلي 5/1/2014 </li><li>برنامج تنمية قدرات أعضاء هيئة التدريس (الجوانب المالية والقانونية في الاعمال الجامعية ) - من  إلي 17/3/2014 </li><li>برنامج تنمية قدرات أعضاء هيئة التدريس ( ادارة الوقت والاجتماعات ) - من  إلي 29/6/2014 </li><li>برنامج تنمية قدرات أعضاء هيئة التدريس ( اخلاقيات البحث العلمي ) - من  إلي 3/8/2014 </li><li>برنامج تنمية قدرات أعضاء هيئة التدريس( نظم الامتحانات وتقويم الطلاب ) - من  إلي 5/8/2014 </li><li>برنامج تنمية قدرات أعضاء هيئة التدريس ( ICDL ) - من    </li></ul></div></article></section><div class="clear"></div><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><section><article><div class="sectionTitle"></div></article></section><div class="clear"></div></div><div align="center" style="background-color:#FDB020;padding-top:5px;"><a style="text-decoration: none" href="http://citc.mans.edu.eg/" target="_blank" title="مركز تقنية الاتصالات والمعلومات (CITC)" alt="مركز تقنية الاتصالات والمعلومات (CITC)">© مركز تقنية الاتصالات والمعلومات (CITC)</a><span> ،</span><a style="text-decoration: none" href="http://www.mans.edu.eg/" target="_blank" title="جامعة المنصورة" alt="جامعة المنصورة">جامعة المنصورة</a><span> 1998-2017</span></div></div></body></html><script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();</script>

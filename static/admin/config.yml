@@ -14,7 +14,7 @@ media_library:
   name: cloudinary
   config:
     cloud_name: dafxdz7mx
-    publicKey: 542642991754692
+    api_key: 542642991754692
     multiple: true
 
 collections:

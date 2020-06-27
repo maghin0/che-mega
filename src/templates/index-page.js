@@ -12,6 +12,15 @@ import '../components/styles.scss';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
+import carousel1 from '../img/01.jpg';
+import carousel2 from '../img/02.jpg';
+import carousel3 from '../img/03.jpg';
+import carousel4 from '../img/04.jpg';
+import carousel5 from '../img/05.jpg';
+import carousel6 from '../img/06.jpg';
+import carousel7 from '../img/07.jpg';
+import carousel8 from '../img/08.jpg';
+
 export const IndexPageTemplate = ({
   // image,
   // title,
@@ -25,16 +34,36 @@ export const IndexPageTemplate = ({
     <div>
       <Carousel showArrows={true}>
         <div className="carousell">
-          <img src="/img/01.jpg" />
+          <img src={carousel1} />
           <p className="legend">flavor_wheel</p>
         </div>
         <div className="carousell">
-          <img src="/img/02.jpg" />
-          <p className="legend">Legend 2</p>
+          <img src={carousel2} />
+          <p className="legend">flavor_wheel</p>
         </div>
         <div className="carousell">
-          <img src="/img/03.jpg" />
-          <p className="legend">Legend 3</p>
+          <img src={carousel3} />
+          <p className="legend">flavor_wheel</p>
+        </div>
+        <div className="carousell">
+          <img src={carousel4} />
+          <p className="legend">flavor_wheel</p>
+        </div>
+        <div className="carousell">
+          <img src={carousel5} />
+          <p className="legend">flavor_wheel</p>
+        </div>
+        <div className="carousell">
+          <img src={carousel6} />
+          <p className="legend">flavor_wheel</p>
+        </div>
+        <div className="carousell">
+          <img src={carousel7} />
+          <p className="legend">flavor_wheel</p>
+        </div>
+        <div className="carousell">
+          <img src={carousel8} />
+          <p className="legend">flavor_wheel</p>
         </div>
       </Carousel>
     </div>

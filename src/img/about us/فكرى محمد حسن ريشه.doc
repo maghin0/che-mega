@@ -1,0 +1,461 @@
+<!DOCTYPE html><!--mixin personalData--><!--  -if(data["CVOptions"].itemsOrder.indexOf('personalData') >-1 )--><!--    -if(data['personalData'])--><!--      section--><!--        article--><!--          .sectionTitle--><!--            h1 البيانات الشخصية--><!--          .sectionContent--><!--            ul(style='text-align: justify')--><!--              -if(data["CVOptions"].showContactData == '1')--><!--                -if(data["personalData"].HomeTel != '')--><!--                  li= "هاتف المنزل" + " : " + data["personalData"].HomeTel--><!--                -if(data["personalData"].WorkTel != '')--><!--                  li= "هاتف العمل"  + " : " +  data["personalData"].WorkTel--><!--                -if(data["personalData"].Fax != '')--><!--                  li= "الفاكس"  + " : " +  data["personalData"].Fax--><!--              -if(data["CVOptions"].Address == '1')--><!--                -if(data["personalData"].Address != '')--><!--                  li= "العنوان"  + " : " +  data["personalData"].Address--><!--      .clear--><html><head><title>السيرة الذاتية - أ.د. فكرى محمد حسن ريشه - جامعة المنصورة - كلية العلوم - الفيزياء</title><meta name="viewport" content="width=device-width"><meta name="description" content="The Curriculum Vitae."><meta charset="UTF-8"><style type="text/css">html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+border:0;
+font:inherit;
+font-size:100%;
+margin:0;
+padding:0;
+vertical-align:baseline;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	display:block;
+}
+
+html, body {background: #FFF;background-color: #222; font-family: arial, sans-serif; font-size: 16px; color: #222;}
+
+.clear {clear: both;}
+
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	color: #444;
+}
+
+#contact-info{float:right;margin-right:10px}
+ul#social-media{margin-bottom:18px;list-style:none}
+ul#social-media li{display:inline}
+
+.mail{
+	background-image: url(/images/icons/Streamline-58.png);
+}
+.site{
+	background-image: url(/images/icons/Internet_explorer.png);
+}
+.tel{
+	background-image: url(/images/icons/Telephone_.png);
+}
+
+#imgID {
+	float: left;
+	margin-right: 25px;
+	background-color: #FFF;
+	border: 1px solid #dedede;
+	padding: 10px;
+}
+
+#cv {
+	width: 95%;
+	max-width: 850px;
+	background-color: #FFF;
+	margin: 30px auto;
+	border-bottom: 5px solid #FDB020;
+	border-top: 15px solid #FDB020;
+}
+
+.mainDetails {
+	padding: 25px 30px;
+	/*border-bottom: 2px solid #cf8a05;*/
+	border-bottom: 1px solid #dfdfdf;
+	/*background: #ededed;*/
+	background-color: #F8F8F8;
+}
+
+#name h1 {
+	font-size: 2.0em;
+	font-weight: 700;
+	font-family:  Arial, sans-serif;
+	margin-bottom: -6px;
+}
+
+#name h2 {
+	font-size: 2em;
+	margin-left: 2px;
+	font-family:  Arial, sans-serif;
+}
+
+#mainArea {
+	padding: 0 40px;
+}
+
+#headshot {
+	width: 13%;
+	float: right;
+	margin-left: 12px;
+	background-color: #F8F8F8;
+}
+
+
+#name {
+	float: right;
+}
+
+#contactDetails {
+	float: right;
+}
+
+#contactDetails ul {
+	list-style-type: none;
+	font-size: 0.9em;
+	margin-top: 2px;
+}
+
+#contactDetails ul li {
+	margin-bottom: 5px;
+	color: #444;
+	background-repeat: no-repeat;
+	/*padding-left: 26px;*/
+	/*padding-right:  10px;*/
+	/*background-position: 0 .1em;*/
+	/*height: 25px;*/
+	/*display: block;*/
+	/*margin-top: -2px;*/
+}
+
+#personal li {
+	padding-left: 26px;
+}
+
+#social-media li {
+	padding-right: 26px;
+}
+
+#contactDetails ul li a, a[href^=tel] {
+	color: #444; 
+	text-decoration: none;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+
+#contactDetails ul li a:hover { 
+	color: #cf8a05;
+}
+
+
+section {
+	border-top: 1px solid #dedede;
+	padding: 20px 0 0;
+}
+
+section:first-child {
+	border-top: 0;
+}
+
+section:last-child {
+	padding: 20px 0 10px;
+}
+
+.sectionTitle {
+	float: right;
+	width: 22%;
+}
+
+.sectionContent {
+	float: right;
+	width: 75.5%;
+}
+
+.sectionTitle h1 {
+	font-family: Arial, sans-serif;
+	/*font-style: italic;*/
+	font-size: 1.2em;
+	color: #cf8a05;
+}
+
+.sectionContent h2 {
+	font-family: Arial, sans-serif;
+	font-size: 1.2em;
+	margin-bottom: -2px;
+}
+
+.subDetails {
+	font-size: 0.8em;
+	/*font-style: italic;*/
+	margin-bottom: 3px;
+}
+
+.keySkills {
+	list-style-type: none;
+	-moz-column-count:3;
+	-webkit-column-count:3;
+	column-count:3;
+	margin-bottom: 20px;
+	font-size: 1em;
+	color: #444;
+}
+
+.keySkills ul li {
+	margin-bottom: 3px;
+}
+
+@media all and (min-width: 602px) and (max-width: 800px) {
+	/*#headshot {
+		display: none;
+	}
+	
+	.keySkills {
+	-moz-column-count:2;
+	-webkit-column-count:2;
+	column-count:2;
+	}*/
+}
+
+@media all and (max-width: 601px) {
+	#cv {
+		width: 95%;
+		margin: 10px auto;
+		min-width: 280px;
+	}
+	
+/*#headshot {
+		display: none;
+	}
+	
+	#name, #contactDetails {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.sectionTitle, .sectionContent {
+		float: none;
+		width: 100%;
+	}
+	
+	.sectionTitle {
+		margin-right: -2px;
+		font-size: 1.25em;
+	}
+	
+	.keySkills {
+		-moz-column-count:2;
+		-webkit-column-count:2;
+		column-count:2;
+	}*/
+}
+
+@media all and (max-width: 480px) {
+	.mainDetails {
+		padding: 15px 15px;
+	}
+	
+	section {
+		padding: 15px 0 0;
+	}
+	
+	#mainArea {
+		padding: 0 25px;
+	}
+
+	
+	.keySkills {
+	-moz-column-count:1;
+	-webkit-column-count:1;
+	column-count:1;
+	}
+	
+	#name h1 {
+		line-height: .8em;
+		margin-bottom: 4px;
+	}
+}
+
+@media print {
+	#cv {
+	    width: 100%;
+	    background: #fff;
+	    border:none;
+	    float:none;
+	    margin:0;
+	}
+	.sectionTitle h1{
+	    color:black !important;
+	    font-style:normal;
+	    font-weight:bold;
+	}
+	html,body{
+	    background: #fff;
+	    }
+       #social-media{display:none}
+       section{margin:0}
+	.sectionTitle{
+	   float:none;margin-bottom:20px;
+	   width: 100%;
+	   }
+	.sectionContent{float:none;width:90%;margin-right:10%}
+
+}
+
+@-webkit-keyframes reset {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes reset {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes reset {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.instaFade {
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-timing-function: ease-in;
+	
+	-moz-animation-name: reset, fade-in;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-timing-function: ease-in;
+	
+	animation-name: reset, fade-in;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+}
+
+.quickFade {
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: 2.5s;
+    -webkit-animation-timing-function: ease-in;
+	
+	-moz-animation-name: reset, fade-in;
+    -moz-animation-duration: 2.5s;
+    -moz-animation-timing-function: ease-in;
+	
+	animation-name: reset, fade-in;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in;
+}
+ 
+.delayOne {
+	-webkit-animation-delay: 0, .5s;
+	-moz-animation-delay: 0, .5s;
+	animation-delay: 0, .5s;
+}
+
+.delayTwo {
+	-webkit-animation-delay: 0, 1s;
+	-moz-animation-delay: 0, 1s;
+	animation-delay: 0, 1s;
+}
+
+.delayThree {
+	-webkit-animation-delay: 0, 1.5s;
+	-moz-animation-delay: 0, 1.5s;
+	animation-delay: 0, 1.5s;
+}
+
+.delayFour {
+	-webkit-animation-delay: 0, 2s;
+	-moz-animation-delay: 0, 2s;
+	animation-delay: 0, 2s;
+}
+
+.delayFive {
+	-webkit-animation-delay: 0, 2.5s;
+	-moz-animation-delay: 0, 2.5s;
+	animation-delay: 0, 2.5s;
+}</style><!--|<script>alert('#{data.exportType}')</script>--><style type="text/css">html,body{
+         background: #fff;
+}
+
+#cv {
+         width: 100%;
+         background: #fff;
+         border:none;
+         float:none;
+         margin:0
+}
+
+ul#social-media li{
+         display:none;
+}
+
+section{margin:0}
+.sectionTitle{
+   float:none;margin-bottom:20px;
+   width: 100%;
+}
+
+
+.sectionTitle h1{
+         color:black !important;
+         font-style:normal;
+	 font-weight:bold;
+}
+.sectionContent{float:none;width:95%;margin-left:5%}
+</style></head><body id="top" dir="rtl"><div id="cv" class="instaFade"><div class="mainDetails"><div id="headshot" class="quickFade"><img id="imgID" src="http://eupc.mans.edu.eg/download/openImg?fileID=6101&amp;fileName=00.jpg" style="max-height: 100pt;max-width: 100pt;"></div><div id="name" style="width:85%"><h1 class="quickFade delayOne">فكرى محمد حسن ريشه</h1><br><h3 class="quickFade delayOne">الفيزياء - كلية العلوم - جامعة المنصورة</h3></div><!--.clear--><div id="contactDetails" align="left" style="width:30%;word-break: break-all;padding-top: 15px;" class="quickFade delayTwo"></div><div class="clear">      </div><!--div#contactDetails.quickFade.delayTwo(align='left',style="width:30%;word-break: break-all;")--><ul id="social-media" style="float: left;"><li><a href="javascript:window.open(&quot;/V2/get?Dr=24201251500858&amp;T=2&amp;L=A&amp;exportCV=1&amp;exportType=htm&quot;, &quot;download&quot;);" class="tip"><img src="http://eupc.mans.edu.eg/images/icons/explorer.png" style="width:16px;height:16px;" alt="حفظ(.htm)" title="حفظ(htm.)"></a></li><li><a href="javascript:window.open(&quot;/V2/get?Dr=24201251500858&amp;T=2&amp;L=A&amp;exportCV=1&amp;exportType=doc&quot;, &quot;download&quot;);" class="tip"><img src="http://eupc.mans.edu.eg/images/icons/word.png" style="width:16px;height:16px;" alt="حفظ(.doc)" title="حفظ(doc.)"></a></li><li><a href="javascript:window.print()" class="tip"><img src="http://eupc.mans.edu.eg/images/icons/printer.jpg" style="width:16px;height:16px;" alt="طباعة" title="طباعة"></a></li><li><a href="javascript:window.open(&quot;http://eupc.mans.edu.eg/V2/get?Dr=24201251500858&amp;T=2&amp;L=E&quot;)" class="tip"><img src="http://eupc.mans.edu.eg/images/icons/en.png" style="width:18px;height:18px;" alt="عرض السيرة الذاتية باللغة الإنجليزية" title="عرض السيرة الذاتية باللغة الإنجليزية"></a></li></ul><!--.clear--></div><div id="mainArea" class="quickFade delayThree"><!--  mixin personalData--><!--  mixin personalData--><section><article><div class="sectionTitle"><h1>المؤهلات العلمية</h1></div><div class="sectionContent"><ul style="text-align: justify"><li>بكالوريوس بتقدير جيد جداً في 1966</li><li>ماجستير   في 1976</li><li>الدكتوراه   في 1982</li></ul></div></article></section><div class="clear"></div><!--  mixin personalData--><section><article><div class="sectionTitle"><h1>الدرجات الوظيفية</h1></div><div class="sectionContent"><ul style="text-align: justify"><li>معيد في 1/1/1967</li><li>مدرس مساعد في 23/2/1976</li><li>مدرس في 1/8/1982</li><li>استاذ مساعد لقب علمى في 31/1/1988</li><li>أستاذ مساعد في 1/7/1988</li><li>استاذ لقب علمى في 30/3/1998</li><li>أستاذ في 1/7/1998</li><li>أستاذ متفرغ في 25/1/2002</li></ul></div></article></section><div class="clear"></div><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><section><article><div class="sectionTitle"><h1> الدورات</h1></div><div class="sectionContent"><ul style="text-align: justify"><li>ورشه عمل عن اساسيات علم البللورات وتطبيقاته - من  إلي 5/4/1997 </li></ul></div></article></section><div class="clear"></div><!--  mixin personalData--><section><article><div class="sectionTitle"><h1>الأبحاث العلمية</h1></div><div class="sectionContent"><ul style="text-align: justify"><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=221.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>تطوير امكانية تحلل الأغشية المغزولة كهربائيا لمركبات اساسها الجيلاتين المضادة للبكتيريا علي المدى الطويل لتطبيقات تضميد الجروح , R. Morsy, M.Hosny, F. Reicha, T. Elnimr , [1] P.I. Morgado, A. Aguiar-Ricardo, I.J. Correia, Asymmetric membranes as ideal wound
+dressings: an overview on production methods, structure, properties and performance
+relationship—a review, , 4 March</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=220.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>تطوير وتقييم الخصائص الفيزيائية والكيميائية لاغشية الجيلاتين-جليسرول النانونية المغزولة كهربائيا لاستخدامها فى التطبيقات الطبية, Reda Morsy, Marwa Hosny, Fikry Reicha, Tarek Elnimr, [1] K. Jalaja, D. Naskar, S.C. Kundu, N.R. James, Potential of electrospun core-shell
+structured gelatin-chitosan nanofibers for biomedical applications,
+Carbohydr. Polym. 136 (2016) 1098e1107.&lt;, 26 January</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=219.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>تطوير وتشخيص نسيخ مكون من الياف نانومترية من اكسيد الحديديك-جيلاتين-جليسرين مغزولة كهربائيا ومتعددة الوظائف ليتم استخدامها في تطبيقات الجروح, Reda Morsy, Marwa Hosny, Fikry Reicha, Tarek Elnimr , 1. A. J. Meinel, O. Germershaus, T. Luhmann, H. P. Merkle,
+and L. Meinel, Eur. J. Pharm. Biopharm., 81, 1 (2012).
+2. D. Kai, S. S. Liow, and X. J. Loh, Mater. Sci. Eng. CMater.
+Biol. Appl., 4, 10November</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=215.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Evaluation of Antimicrobial Activity of Water Infusion Plant-Mediated Silver Nanoparticles, Omar El Shahaby , Mustafa El Zayat  *, Ehab Salih  , Ibrahim M El-Sherbiny  , Fikry and M Reicha , Journal of  Nanomedicine and Nanotechnology , 27 july 2013</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=214.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Green synthesis of densely dispersed and stable silver nanoparticles using myrrh extract and evaluation of their antibacterial activity, Ibrahim M El-Sherbiny - Ehab Salih and Fikry M Reicha
+, Journal Of Nanostructure in Chemistry 2013, 3:8, 8 april 2013</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=216.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>
+Preparation of silver nanoparticle in the presence of chitosan by electrochemical method, Fikry M.Reicha  ,Afaf Sarhan  ,Maysa I.Abdel-Hamid Ibrahim M.El-Sherbiny, Carbohydrate Polymers 89 (2012) 236–244, 7 mars 2012</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=217.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Factors Controlling The Adsorption Capacity Of Crosslinked Chitosan Beads And 
+Natural Montmorillonite Powder: Comparative Study  , 1
+M.A. moharram, 
+2
+F.M. Reicha, 
+3
+N. Kinawy and 
+1
+Walid El Hotaby , Journal of Applied Sciences Research, 8(11): 5425-5435, 2012 , 18 jan. 2013</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=218.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>ELECTROCHEMICAL SYNTHESIS, CHARACTERIZATION AND 
+BIOLOGICAL ACTIVITY OF CHITOSAN METAL COMPLEXES , Fikry. M. Reicha , Ayman. S. Shebl , Faried. A. Badria  and Ahmed. A. EL-Asmy, International Journal of Basic and Applied Chemical Sciences ISSN: 2277-2073 (Online) , 1 jan. 2012</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=172.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Nano- beta tricalium phosphates synthesis and biodegradation : Effect of microwave and So ion on ?-TCP synthesis and its characterization, Wafa I. Abdel-fattah, F. M. Reicha, and Tarek A Elkhooly|فكرى محمد حسن ريشه, , </li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=171.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Synthesis and characteristic of nano biphasic calcium phosphate under microwave curing, Wafa I. Abdel- Fattah, F. M. Reicha, and Tarek A. Elkhooly|فكرى محمد حسن ريشه, 2nd Arabic international conference on biophysics and mathematical modeling, Arabic nation university, Cairo 21-23 August (2007)</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=170.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Creep test and time to fracture for commercial Copper, S,A.                El-shazly , and F. M. Reicha,|فكرى محمد حسن ريشه, Mansoura Science Bulletin, 1977</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=169.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Surface growth topography of grain boundaries in Ai thin films, P. B. Barna, G. Radnoozi and F. M. Reicha|فكرى محمد حسن ريشه, Vacuum, 38, 1988</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=168.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Effect of co-depositing oxygen on the growth morphology of       (111) and (100) Al single crystal faces in thin films, P. B. Barna, F. M. Reicha, G. Barcza and L.Gosztole|فكرى محمد حسن ريشه, 2 Joint Meeting of the              Roland Eotvos Physical Society and the Austrian Vacuum Society ,  Karl Flottl Center-Austry, 27-29 October 1981</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=167.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Growth of hillocks and Whiskers in aluminum films, P. B. Barna,      F. M. Reicha, and G. Barcza, Intern|فكرى محمد حسن ريشه, Summer School on the              processes of Thin Film Formation, Fonyod, Lake Balaten-Hung, 28 Sept. to 4 October 1980</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=165.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	The effect of oxygen up take of crystallographic faces on the       growth, and coalescence of crystals in aluminum films, P. B.                Barna. And F. M. Reicha|فكرى محمد حسن ريشه, Intern. Vacuum Congress.                 Cannes-France, 22-26 Sept. Vol. 1., (1980),</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=164.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Standard absolute potentials of M and Ag, Agx ; X electrons in     Ethylene Glycol + Water Solvents and Related Transfer free        energies, Mahmoud M. Elsemongy and F. M. Reicha|فكرى محمد حسن ريشه, Thermochimica Acta, 1986</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=163.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Solvent effect on single electrode potential and related            thermodynamic quantities, Mahmoud M. Elsemongy and F. M. Reicha,|فكرى محمد حسن ريشه, Thermochimica Acta, 1985</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=162.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Absolute electrode potentials in Dimethyi Suiphoxide- Water       mixture and transfer free energies of individual ions, Mahmoud           M. Elsemongy and F. M. Reicha,|فكرى محمد حسن ريشه, Thermochimica Acta, 1986</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=161.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Discovery of phase transitions in a new series of organic metal- Halogen compound, M. F. Mustafa, M. El-Nemr and F. M. Reicha|فكرى محمد حسن ريشه, physical script 43, 1991</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=160.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Structure and growth morphology of SiO films deposited on NaCl   (001) faces, M. EI-Hiti, P. B. Barna, and F. M. Reicha, Hung-            Aust. Yugos.,|فكرى محمد حسن ريشه, Vac, Conf, 7- 9 August 1985</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=159.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Dielectric and relaxation behavior studies in Acrylonitrile         Methylacrylate Copolymer, M. D. Migahed, F. M. Reicha, A.            Ishra and M.-El-Nemr|فكرى محمد حسن ريشه, J. Materials Sci., Material in Electronics, 1991</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=158.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Frequency- dependent activation , energy of ac-conductivity in poly (4,4- N,N – Diaminosulphoxide diamiophenyl ether )., M. A. Soliman , F. M. Reicha and A.M. Shaban|فكرى محمد حسن ريشه, polymer Bulletin, 1993</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=157.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Phase separation and physical properties of sodium borosilicate    glasses with intermediate silica content, H. Doweidar, M. S. L.           Shahawi, F. M. Reicha, H. A. Silim and K. El-Egaly|فكرى محمد حسن ريشه, phys. D. Applied Phys.,, 1990</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=155.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Chitosan ? poly. (Acrylic Acid) Complex suitable for Medical application, F.M. Reicha, Hesham Elzanaty,|فكرى محمد حسن ريشه, 9th inter. Conf. chemistry and its role in development, Mansoura-Sharm El sheikh, 16-19 April 2007</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=154.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Precursor materials used for producing Carbon fibers prepared by electro polymerization technique, F. M. Reicha|فكرى محمد حسن ريشه, 6th Arab international conference on polymer Sci. and Technology, 1-5 Sept., 2001</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=153.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Spectral and electrical properties of electro polymerized Homo polyacrylonitrile and its Novel complexes, F. M. Reicha|فكرى محمد حسن ريشه, the XXII conference on solid state Science, 18- 23 March, 2001, Hurgada, Egypt.</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=152.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Preparation , characterization and physical properties of polymer complexes prepared by a new technique of electrochemical polymerization, F. M. Reicha|فكرى محمد حسن ريشه, Amman, Jordon, Forth international conference of physics of condensed matter, university of Jordon, 10- 13 April, 2000</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=151.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Physical characterization of polarized electro polymerized polyacrylonitrile, F. M. Reicha|فكرى محمد حسن ريشه, The XX Conference on Solid state science and workshop on New materials, Nov. 5- 9, 1997, Luxor, Egypt.</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=150.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Characterization of Heat-Treated Electro polymerized polyaclonitrile, F. M. Reicha|فكرى محمد حسن ريشه, Fourth Int. Conf. On Frontiers of polymer and Advanced materials, Cairo, Egypt, Jan. 4- 9 , 1997</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=147.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>On. The mechanism of hillocks formation in vapour deposition      thin films, F. M. Reicha, and P. B. Barna, Coil. Abst. Second.           Hung|فكرى محمد حسن ريشه, Conf. on Crystal Growth, Matrafured-Hung, 28-30 March         1979</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=146.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Preparation characterization and physical properties of polymer complexes prepared by a new technique of electrochemical polymerization , part 1 : polyacrylonitrile- Fe, F. M. Reicha, and M. F. Mustafa|فكرى محمد حسن ريشه, Egyptian . J. solids, 1997</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=145.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	AC Conductivity and dielectric properties of calcium phosphate having different molar ratio, F. M. Reicha, Wafa I. Abd- Elfattah, and Tarek A EL-Kholy|فكرى محمد حسن ريشه, 2nd Arabic international conference on biophysics and mathematical modeling, Arabic nation university, Cairo 21-23 august (2007)</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=144.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Dielectric Spectroscopy of chitosan and PVA Blend films, F. M. Reicha, T. Fahmy and H. M. EL-Hendawy,|فكرى محمد حسن ريشه, 8th Conf. on chemistry and its role in development ICCRD8 , Mansoura&amp;amp; Sharm EL-Sheikh, April 11-14, 2005</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=143.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Investigation of growth hillocks in Al thin films by electron         microscopy, F. M. Reicha, P. B. Barna, and O. Geszti-herkner.          Abstract: Xi. Hung|فكرى محمد حسن ريشه, Conf. on Electron Microscopy, Szeged-Hung, Aug. 19 Sept. 1, 1979</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=141.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	On the physical and electrical properties of polypro penal prepared by electro polymerization technique, F. M. Reicha, M. Ishra, M. Mansour Gabr|فكرى محمد حسن ريشه, J. Physics&amp;amp; Chem. Solids, 2003</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=140.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Conducting polymer V-Electrical conductivity of polymer complexes of Bis. ( 2,6- diarninopyrinesulphoxide Copper halides), F. M. Reicha, M. EL-Hiti., A.Z. El-Sonbati and M. A. Diab|فكرى محمد حسن ريشه, J.Phys. D. Applied phys, 1991</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=139.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Conducting polymers IV. Electrical conductivity of poly. (4,4-      N,N Diaminosulphoxide diarninopheny1 ether )., F. M. Reicha, M. A. Soliman|فكرى محمد حسن ريشه, , 1991</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=138.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Frequency and temperature response of conductivity in polyacrylonitrile copper (II) halide polymer complexes, F. M. Reicha, M. A. Hefni, A. B. Abd El-Moiz, and A. Haq- Sultan|فكرى محمد حسن ريشه, New polymeric mater, 1995</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=136.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>The effect of Oxygen on the structure and growth, morphology of    vapour deposited Cu- Films, F. M. Reicha , M. EI-Hiti, and P. B.      Barna, Hung. Aust-Yugos|فكرى محمد حسن ريشه, Vac. Conf., 7- 9 August             1985</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=134.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Halom kepzodese as Aluminium vekonyretegek feluleten, F. M.          Reicha, and P. B. Barna, MFII Hung|فكرى محمد حسن ريشه, Year Book, 1979</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=133.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Electrical properties of thin oxidized. Aluminum films, F. M.           Reicha, M. EL-Hiti and P.Barna.|فكرى محمد حسن ريشه, J. Material Science, 1991</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=132.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	A (100), (110),es (111) Kristaly feluleten novekedesi szerkezette    aluminum vekonyretegek, Barna, L. Gosztola ,F. M. Reicha, and       Bareza|فكرى محمد حسن ريشه, XII, Magyar Electron microscope as Microanalysis Inferences, 29-31 March, 1982</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=131.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	On the orientation relationships of decoration gold particles on     alkali halides, B. Barna, M. Ei-Hiti, and F. M. Reicha|فكرى محمد حسن ريشه, Phys. Stat. Sol, 1989</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=128.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Conducting polymers II. Electrical conductivity of poly ( bis-2,6-   diarninopyridine Suiphoxide), A. Z. El-Sonbati, M. A. Ahmed, F. M. Reicha, and M. A. Diab|فكرى محمد حسن ريشه, Fur. Polym. J, 1989</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=127.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	The inhibitive action of some furfural derivatives towards the       corrosion of Aluminum in acid solution, A. S. Fouda, H. A.                 Mustafa, A. Elsonbati and F. M. Reicha|فكرى محمد حسن ريشه, Bulletin De La Societe        Chimique De France, 1987</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=126.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Cathodic polarization of vapour deposited Aluminium film        electrodes in HCl medium, A. M. Ghander, F. M. Reicha, and M.      I. Youssif. Proc.|فكرى محمد حسن ريشه, The 10th  Tnt. Cong., On Metallic Corrosion,             Madras- India, 7-11 Nov. 1987</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=125.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	The Discharge operational mode of a coaxial electrodes ion        source, A. M. Ghander, A. M. Yousef, F. M. Reicha, and A. A. Afifi, J|فكرى محمد حسن ريشه, Lazer Sci. &amp;amp; Tech.,, 1987</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=124.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Dispersion of dielectric properties of Titanium substituted W type Hexa Ferrites, A. M. Abo El Ata, F. M. Reicha, M. M. Ali|فكرى محمد حسن ريشه, physics of low dimensional structures, 2006</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=122.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	A possible mechanism of dielectric crystal growth, A. Barna, G.          Radnoczi, F. M. Reicha, and L. Toth, Second. Hung|فكرى محمد حسن ريشه, Conf. on Crystal Growth, Matrafured-Hung, 28-30 March 1979</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=166.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Impurity controlled crystal growth in Al thin films, P. B. Barna,         F. M. Reicha, and G. Barcza, MKEI Hung|فكرى محمد حسن ريشه, Year Book, 1980</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=156.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>On the mechanism of Hillocks formation in vapour thin film, F.M. Reicha, and P. B. Barna|فكرى محمد حسن ريشه, FLFT-OGW Vacuum Conf., Gyor-Hung, 1979</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=149.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Structure and some physical properties of electro polymerized polyacrylonitrile, F. M. Reicha|فكرى محمد حسن ريشه, polymer international, 1996</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=148.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Spectral thermo gravimetric and electrical studies on a Novel prepared Acrylonitrile- ferric chloride polymer complex, F. M. Reicha|فكرى محمد حسن ريشه, New polymeric matter, 1995</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=142.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Conductivity of conducting polymers. Ill- frequency and          temperature dependent on the electrical of poly. (bis-2,6-           diarninopyridine Suiphoxide)., F. M. Reicha, M.A. Ahmed ,M.            Ei-Nemr, A. Z. El-Sonbati and  M. A. Diab|فكرى محمد حسن ريشه, Acta Polymerica, 1989</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=137.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Role of deposition conditions in the structure and topographical    features of thin gold films on glass substrates, F. M. Reicha, A.         M. Ghander, M. M. Alzaidia, and S. M. El-Rabie|فكرى محمد حسن ريشه, Abstract: X Conf. on Solid state Science Faculty of Education Science Bulletin, 1987</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=121.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Formation of Aluminum thin films in the presence of Oxygen, A.       Barna, P. B. Barna, G. Radnoczi, F. M. Reicha, and L. Toth,              MFKI Hung.,|فكرى محمد حسن ريشه, Year Book, 1978</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=135.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Structure of electro polymerized polyacrylonitrile, F. M. Reicha , A. M. Elabsy, A. A. Atta and M. M. ELmahdy|فكرى محمد حسن ريشه, J. Polym. Matter, 2004</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=130.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	A study of the relation between ion beam etching and chemical     etching of Aluminum thin films prepared at different experimental   conditions, A.M. Ghander, F. M. Reicha, and M. I. Youssif|فكرى محمد حسن ريشه, •	The 10th mt. Cong. On Metallic Corrosion, Madras- India  Proc, 7- 11 Nov.   1987</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=129.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Transport on magnetic permeability study of SrCu2-x/2 TixFe16-xO27W type Hexa Ferrites, A.M. Abo El Ata F. M. Reicha, M. M. Ali|فكرى محمد حسن ريشه, J. Mag . Materials, 2005</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=123.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Formation of Aluminum thin films in the presence of Oxygen, and   Nickel, A. Barna, P. B. Barna, G. Radnoczi, F. M. Reicha, and L.Toth|فكرى محمد حسن ريشه, Phys. Stat. Sol., 1979</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=173.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Nano- beta tricalium phosphates synthesis and biodegradation : Effect of microwave and So ion on ?-TCP synthesis and its characterization, Wafa I. Abdel-fattah, F. M. Reicha, and Tarek A Elkhooly|فكرى محمد حسن ريشه, , </li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=174.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>Creep life formula for metals, Y. K. M. Badawy ; and F. M. Reicha|فكرى محمد حسن ريشه, Mansoura Science Bulletin, 1976</li></a><a style="text-decoration: none;color:#222" onmouseover="this.style.color=&quot;#0078d7&quot;" onmouseout="this.style.color=&quot;#222&quot;" href="http://eupc.mans.edu.eg/showPaperData/getPData?DrID=24201251500858&amp;Item=175.&amp;L=A" target="_blank" title="اضغط لعرض بيانات البحث" alt="اضغط لعرض بيانات البحث"><li>•	Synthesis and characteristic of polyelectrolyte- complexes composed of chitosan? poly. (Acrylic Acid ) suitable for Biomedical applications, فكرى محمد حسن ريشه, 2nd Arabic international conference on biophysics and mathematical modeling, Arabic nation university, Cairo 21-23 August (2007)</li></a></ul></div></article></section><div class="clear"></div><!--  mixin personalData--><section><article><div class="sectionTitle"><h1> المهمات العلمية</h1></div><div class="sectionContent"><ul style="text-align: justify"><li>المهمات العلمية - من 10/1/1989  إلي 10/2/1989 المجر</li><li>المهمات العلمية - من 10/1/1988  إلي 8/2/1988 المجر</li><li>المهمات العلمية - من 30/12/1986  إلي 23/1/1987 المجر</li><li>المهمات العلمية - من 9/7/1985  إلي 6/9/1985 المجر</li><li>المهمات العلمية - من 19/8/1984  إلي 16/10/1984 المجر</li><li>الإجازات الدراسية(منحة اجنبية) - من 16/10/1976  إلي 17/7/1982 بورابست - المجر</li></ul></div></article></section><div class="clear"></div><!--  mixin personalData--><!--  mixin personalData--><section><article><div class="sectionTitle"><h1>الندوات والمؤتمرات</h1></div><div class="sectionContent"><ul style="text-align: justify"><li>المؤتمر العربي الدولي الثاني للفيزياء البيولوجيه والرياضيات في مصر - من 21/8/2007 إلي 23/8/2007</li><li>المؤتمر الدول التاسع للكيمياء ودوها في التنميه في مصر - من 16/4/2007 إلي 19/4/2007</li><li>المؤتمر الثاني لتسويق البحوث الجامعيه التطبيقيه في مصر - من 5/12/2006 إلي 6/12/2006</li><li>المؤتمر الدولي الثامن للكيمياء ودورها في التنميه في مصر - من 11/4/2005 إلي 14/4/2005</li><li>المؤتمر العربي السادس لعلوم  وتكنولوجيا البلورات في مصر - من 1/9/2001 إلي 5/9/2001</li><li>المؤتمر الدولي السادس للكيمياء ودورها في التنميه في مصر - من 1/4/2001 إلي 19/4/2001</li><li>المؤتمر الثاني والعشرون للجمعيه المصريه لعلوم الجوامد في مصر - من 18/3/2001 إلي 23/3/2001</li><li>المؤتمر الدولي الرابع لفيزياء الحاله المكثفه في الأردن - من 18/4/2000 إلي 23/4/2000</li><li>ورشه العمل العالميه التالته عن المعالجه الضوئيه الديناميكيه في انجلترا - من 14/4/2000 إلي 16/4/2000</li><li>المؤتمر الدولي الجامس لعلوم وتكنولوجيا البلورات في مصر - من 18/9/1999 إلي 23/9/1999</li><li>ورشه العمل المصريه الاوكرانيه عن تكنولوجيا السيلكون والكترونيات الدقيقه واشباه الموصلات في مصر - من 23/1/1999 إلي 29/1/1999</li><li>ندوه المواد الجديده والمتقدمه في مصر في مصر - من 17/3/1998 إلي 18/3/1998</li><li>مؤتمر الجمعيه المصريه لعلم البلورات وتطبيقاتها في مصر - من 5/11/1997 إلي 9/11/1997</li><li>المؤتمر الرابع عن البلورات والمواد المتطوره في مصر - من 4/1/1997 إلي 9/1/1997</li><li>المؤتمر الدولي الرابع في مجال الطاقه الشمسيه في مصر - من 1/1/1997 إلي 6/1/1997</li><li>المؤتمر الدولي في مجال الالياف النسيجيه وتحويراتها في مصر - من 10/12/1996 إلي 15/12/1996</li><li>المؤتمر العربي للعلوم الاساسيه والتكنولوجيا المتقدمه في مصر - من 9/11/1996 إلي 13/11/1996</li><li>المؤتمر الحادي عشر لعلوم الجوامد وتطبيقاتها في مصر - من 15/4/1988 إلي 30/4/1988</li><li>the 10th int. cong. on metallic corrosion في ايطاليا - من 7/11/1987 إلي 11/11/1987</li><li>المؤتمر العاشر لعلوم الجوامد وتطبيقاتها في مصر - من 5/9/1987 إلي 9/9/1987</li><li>hung- austra yugos vac. conf في مصر - من 7/12/1985 إلي 9/12/1985</li><li>vi intern conf.on thin film في السويد - من 13/8/1984 إلي 17/8/1984</li><li>xii- hung electron microscopy and micro annalysis conf في مصر - من 29/3/1982 إلي 31/3/1982</li><li>2nd joint meeting of the roland eotvos physical society and the austrian vacuum scoiety في استراليا - من 27/10/1981 إلي 29/10/1981</li><li>summer school on processes of thin film formation في مصر - من 28/9/1980 إلي 4/10/1980</li><li>proc. intern vaccum conf. في فرنسا - من 22/9/1980 إلي 26/9/1980</li><li>proc. elft- qgw vaccum conf. في مصر - من 22/10/1979 إلي 25/10/1979</li><li>XI hung conf. on electron microscope في مصر - من 25/9/1979 إلي 29/9/1979</li><li>Second hung conf. on crystallgrowth, في النرويج - من 28/3/1979 إلي 30/3/1979</li></ul></div></article></section><div class="clear"></div><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><!--  mixin personalData--><section><article><div class="sectionTitle"></div></article></section><div class="clear"></div></div><div align="center" style="background-color:#FDB020;padding-top:5px;"><a style="text-decoration: none" href="http://citc.mans.edu.eg/" target="_blank" title="مركز تقنية الاتصالات والمعلومات (CITC)" alt="مركز تقنية الاتصالات والمعلومات (CITC)">© مركز تقنية الاتصالات والمعلومات (CITC)</a><span> ،</span><a style="text-decoration: none" href="http://www.mans.edu.eg/" target="_blank" title="جامعة المنصورة" alt="جامعة المنصورة">جامعة المنصورة</a><span> 1998-2017</span></div></div></body></html><script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();</script>

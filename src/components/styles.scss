@@ -1,5 +1,11 @@
 @import '~bulma/bulma.sass';
 
+.size-big {
+  font-size: 5rem !important;
+}
+.a {
+  color: yellow !important;
+}
 .content ol:not([type]) {
   list-style-type: none !important;
 }

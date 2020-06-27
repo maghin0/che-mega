@@ -7,7 +7,24 @@ import Features from '../components/Features';
 import TagRoute from '../templates/tags';
 import '../components/styles.scss';
 
-import teamone from '../img/consultant/09.jpg';
+//team
+import yasser from '../img/about us/yasser.jpg';
+import yassercv from '../img/about us/yassercv.pdf';
+import basem from '../img/about us/basem-tawfik.jpg';
+import mahomoud from '../img/about us/mahmoud-hasan.jpg';
+import mohameds from '../img/about us/mohamed-shaheen.jpg';
+import reham from '../img/about us/reham-abdulah.jpg';
+import salmao from '../img/about us/salma-osama.jpg';
+import salmam from '../img/about us/salma-moustafa.jpg';
+import hagar from '../img/about us/hagar-dewedar.jpg';
+import khadiga from '../img/about us/khadiga-hassan.jpg';
+import khalid from '../img/about us/khalid-fathy.jpg';
+//consultants
+import awni from '../img/about us/awni-hassan.jpg';
+import zak from '../img/about us/zak-baka.jpg';
+import maher from '../img/about us/maher-mahmoud.jpg';
+import mohamedm from '../img/about us/mohamed-mostafa.jpg';
+import fekry from '../img/about us/fekry-mohamed.jpg';
 
 export const AboutPageTemplate = ({
   title,
@@ -42,13 +59,12 @@ export const AboutPageTemplate = ({
           }}
         >
           <h1
-            className=" has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+            className=" has-text-weight-bold size-big is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
             style={{
               color: 'white',
               lineHeight: '1',
               padding: '0.25em',
               margin: 'auto',
-              backgroundColor: '#00d1b2',
             }}
           >
             About Us
@@ -69,41 +85,243 @@ export const AboutPageTemplate = ({
               </div>
             </div>
           </div>
-          <h1 className="has-text-weight-bold is-size-2 has-text-centered">
-            Our Team
-          </h1>
-          <br />
-          <br />
-          <div className="container" style={{ marginLeft: '20%' }}>
-            <div className="columns is-multiline">
-              <div className="column is-12 is-offset-4 ">
+
+          <div
+            className="container "
+            style={{
+              backgroundColor: '#1c1c47',
+              borderRadius: '1rem',
+              padding: '4em',
+            }}
+          >
+            <h1 className="has-text-weight-bold has-text-white is-size-2 has-text-centered">
+              Our Team
+            </h1>
+
+            <br />
+            <br />
+
+            <div className="columns column is-multiline is-offset-2">
+              <div className="column is-6">
+                <img src={yasser} alt="" />
+              </div>
+              <div className="column is-4">
+                <h1 className="has-text-white">
+                  الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
+                  <br />{' '}
+                  <a href={yassercv} target="_blank">
+                    {' '}
+                    نبذة مختصرة{' '}
+                  </a>
+                  <br />
+                  <a
+                    href="http://osp.mans.edu.eg/yassershabana/"
+                    target="_blank"
+                  >
+                    {' '}
+                    الموقع الشخصي{' '}
+                  </a>
+                </h1>
+              </div>
+              <div className="column is-6">
+                <img src={reham} alt="" />
+              </div>
+              <div className="column is-4">
+                <h1 className="has-text-white">
+                  الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
+                  <br />{' '}
+                  <a href={yassercv} target="_blank">
+                    {' '}
+                    نبذة مختصرة{' '}
+                  </a>
+                  <br />
+                  <a
+                    href="http://osp.mans.edu.eg/yassershabana/"
+                    target="_blank"
+                  >
+                    {' '}
+                    الموقع الشخصي{' '}
+                  </a>
+                </h1>
+              </div>
+              <div className="column is-6">
+                <img src={khalid} alt="" />
+              </div>
+              <div className="column is-4">
+                <h1 className="has-text-white">
+                  الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
+                  <br />{' '}
+                  <a href={yassercv} target="_blank">
+                    {' '}
+                    نبذة مختصرة{' '}
+                  </a>
+                  <br />
+                  <a
+                    href="http://osp.mans.edu.eg/yassershabana/"
+                    target="_blank"
+                  >
+                    {' '}
+                    الموقع الشخصي{' '}
+                  </a>
+                </h1>
+              </div>
+              <div className="column is-6">
+                <img src={basem} alt="" />
+              </div>
+              <div className="column is-4">
+                <h1 className="has-text-white">
+                  الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
+                  <br />{' '}
+                  <a href={yassercv} target="_blank">
+                    {' '}
+                    نبذة مختصرة{' '}
+                  </a>
+                  <br />
+                  <a
+                    href="http://osp.mans.edu.eg/yassershabana/"
+                    target="_blank"
+                  >
+                    {' '}
+                    الموقع الشخصي{' '}
+                  </a>
+                </h1>
+              </div>
+
+              <div className="column is-6">
+                <img src={mahomoud} alt="" />
+              </div>
+              <div className="column is-4">
+                <h1 className="has-text-white">
+                  الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
+                  <br />{' '}
+                  <a href={yassercv} target="_blank">
+                    {' '}
+                    نبذة مختصرة{' '}
+                  </a>
+                  <br />
+                  <a
+                    href="http://osp.mans.edu.eg/yassershabana/"
+                    target="_blank"
+                  >
+                    {' '}
+                    الموقع الشخصي{' '}
+                  </a>
+                </h1>
+              </div>
+              <div className="column is-6">
+                <img src={mohameds} alt="" />
+              </div>
+              <div className="column is-4">
+                <h1 className="has-text-white">
+                  الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
+                  <br />{' '}
+                  <a href={yassercv} target="_blank">
+                    {' '}
+                    نبذة مختصرة{' '}
+                  </a>
+                  <br />
+                  <a
+                    href="http://osp.mans.edu.eg/yassershabana/"
+                    target="_blank"
+                  >
+                    {' '}
+                    الموقع الشخصي{' '}
+                  </a>
+                </h1>
+              </div>
+              <div className="column is-6">
+                <img src={salmao} alt="" />
+              </div>
+              <div className="column is-4">
+                <h1 className="has-text-white">
+                  الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
+                  <br />{' '}
+                  <a href={yassercv} target="_blank">
+                    {' '}
+                    نبذة مختصرة{' '}
+                  </a>
+                  <br />
+                  <a
+                    href="http://osp.mans.edu.eg/yassershabana/"
+                    target="_blank"
+                  >
+                    {' '}
+                    الموقع الشخصي{' '}
+                  </a>
+                </h1>
+              </div>
+              <div className="column is-6">
+                <img src={hagar} alt="" />
+              </div>
+              <div className="column is-4">
+                <h1 className="has-text-white">
+                  الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
+                  <br />{' '}
+                  <a href={yassercv} target="_blank">
+                    {' '}
+                    نبذة مختصرة{' '}
+                  </a>
+                  <br />
+                  <a
+                    href="http://osp.mans.edu.eg/yassershabana/"
+                    target="_blank"
+                  >
+                    {' '}
+                    الموقع الشخصي{' '}
+                  </a>
+                </h1>
+              </div>
+              <div className="column is-6">
+                <img src={khadiga} alt="" />
+              </div>
+              <div className="column is-4">
+                <h1 className="has-text-white">
+                  الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
+                  <br />{' '}
+                  <a href={yassercv} target="_blank">
+                    {' '}
+                    نبذة مختصرة{' '}
+                  </a>
+                  <br />
+                  <a
+                    href="http://osp.mans.edu.eg/yassershabana/"
+                    target="_blank"
+                  >
+                    {' '}
+                    الموقع الشخصي{' '}
+                  </a>
+                </h1>
+              </div>
+              <div className="column is-6">
+                <img src={salmam} alt="" />
+              </div>
+              <div className="column is-4">
+                <h1 className="has-text-white">
+                  الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
+                  <br />{' '}
+                  <a href={yassercv} target="_blank">
+                    {' '}
+                    نبذة مختصرة{' '}
+                  </a>
+                  <br />
+                  <a
+                    href="http://osp.mans.edu.eg/yassershabana/"
+                    target="_blank"
+                  >
+                    {' '}
+                    الموقع الشخصي{' '}
+                  </a>
+                </h1>
+              </div>
+
+              {/* <div className="column is-4">
                 <img src={teamone} alt="" />
                 <h1>wowthi sis kinda crazzyy</h1>
               </div>
               <div className="column is-4">
                 <img src={teamone} alt="" />
                 <h1>wowthi sis kinda crazzyy</h1>
-              </div>
-              <div className="column is-4">
-                <img src={teamone} alt="" />
-                <h1>wowthi sis kinda crazzyy</h1>
-              </div>
-              <div className="column is-4">
-                <img src={teamone} alt="" />
-                <h1>wowthi sis kinda crazzyy</h1>
-              </div>
-              <div className="column is-4">
-                <img src={teamone} alt="" />
-                <h1>wowthi sis kinda crazzyy</h1>
-              </div>
-              <div className="column is-4">
-                <img src={teamone} alt="" />
-                <h1>wowthi sis kinda crazzyy</h1>
-              </div>
-              <div className="column is-4">
-                <img src={teamone} alt="" />
-                <h1>wowthi sis kinda crazzyy</h1>
-              </div>
+              </div> */}
             </div>
           </div>
           <br />
@@ -116,7 +334,7 @@ export const AboutPageTemplate = ({
             <br />
             <div className="columns">
               <div className="column is-4 is-offset-2">
-                <img src="../img/02.jpg"></img>
+                <img src={awni}></img>
               </div>
               <div className="column is-4">
                 <h1 className="has-text-weight-bold">
@@ -133,7 +351,7 @@ export const AboutPageTemplate = ({
             </div>
             <div className="columns">
               <div className="column is-4 is-offset-2">
-                <img src="../img/02.jpg"></img>
+                <img src={zak}></img>
               </div>
               <div className="column is-4">
                 <h1 className="has-text-weight-bold">
@@ -150,7 +368,7 @@ export const AboutPageTemplate = ({
             </div>
             <div className="columns">
               <div className="column is-4 is-offset-2">
-                <img src="../img/02.jpg"></img>
+                <img src={maher}></img>
               </div>
               <div className="column is-4">
                 <h1 className="has-text-weight-bold">
@@ -167,7 +385,24 @@ export const AboutPageTemplate = ({
             </div>
             <div className="columns">
               <div className="column is-4 is-offset-2">
-                <img src="../img/02.jpg"></img>
+                <img src={mohamedm}></img>
+              </div>
+              <div className="column is-4">
+                <h1 className="has-text-weight-bold">
+                  Prof. Awni Hassan Ibrahim Yassin
+                </h1>
+                <br />
+                <p>
+                  Head of the Histology Department - Faculty of Medicine -
+                  Mansoura University Scientific consultant for the unit in the
+                  field of processing and examination of living tissues with the
+                  electron microscope in force.
+                </p>
+              </div>
+            </div>
+            <div className="columns">
+              <div className="column is-4 is-offset-2">
+                <img src={fekry}></img>
               </div>
               <div className="column is-4">
                 <h1 className="has-text-weight-bold">
