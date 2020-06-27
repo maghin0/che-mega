@@ -21,7 +21,7 @@ import asset15 from '../img/devices/table top centrifuge.png';
 import asset16 from '../img/devices/tem.png';
 import asset17 from '../img/devices/thermometer.png';
 import asset18 from '../img/devices/tissue rotator.png';
-import asset19 from '../img/devices/ultramicrotome.png';
+import asset19 from '../img/devices/microtome.png';
 import asset20 from '../img/devices/vacuum oven.png';
 import asset21 from '../img/devices/zeta potential analyzer.png';
 
