@@ -4,7 +4,7 @@ import LabDevices from '../components/LabDevices';
 import Layout from '../components/Layout';
 
 import asset1 from '../img/devices/analytical balance.png';
-import asset2 from '../img/devices/asset 6.png';
+import asset2 from '../img/devices/asset.png';
 import asset3 from '../img/devices/balance.png';
 import asset4 from '../img/devices/binocular microscopes.png';
 import asset5 from '../img/devices/compact incubator.png';
