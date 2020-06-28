@@ -4,7 +4,7 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 import Features from '../components/Features';
-import TagRoute from '../templates/tags';
+
 import '../components/styles.scss';
 
 //team
@@ -109,7 +109,7 @@ export const AboutPageTemplate = ({
                 <h1 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
                   <br />{' '}
-                  <a href={yassercv} target="_blank">
+                  <a href={yassercv} target="_blank" rel="noopener noreferrer">
                     {' '}
                     نبذة مختصرة{' '}
                   </a>
@@ -117,6 +117,7 @@ export const AboutPageTemplate = ({
                   <a
                     href="http://osp.mans.edu.eg/yassershabana/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {' '}
                     الموقع الشخصي{' '}
@@ -130,7 +131,7 @@ export const AboutPageTemplate = ({
                 <h1 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
                   <br />{' '}
-                  <a href={yassercv} target="_blank">
+                  <a href={yassercv} target="_blank" rel="noopener noreferrer">
                     {' '}
                     نبذة مختصرة{' '}
                   </a>
@@ -138,6 +139,7 @@ export const AboutPageTemplate = ({
                   <a
                     href="http://osp.mans.edu.eg/yassershabana/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {' '}
                     الموقع الشخصي{' '}
@@ -151,7 +153,7 @@ export const AboutPageTemplate = ({
                 <h1 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
                   <br />{' '}
-                  <a href={yassercv} target="_blank">
+                  <a href={yassercv} target="_blank" rel="noopener noreferrer">
                     {' '}
                     نبذة مختصرة{' '}
                   </a>
@@ -159,6 +161,7 @@ export const AboutPageTemplate = ({
                   <a
                     href="http://osp.mans.edu.eg/yassershabana/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {' '}
                     الموقع الشخصي{' '}
@@ -172,7 +175,7 @@ export const AboutPageTemplate = ({
                 <h1 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
                   <br />{' '}
-                  <a href={yassercv} target="_blank">
+                  <a href={yassercv} target="_blank" rel="noopener noreferrer">
                     {' '}
                     نبذة مختصرة{' '}
                   </a>
@@ -180,6 +183,7 @@ export const AboutPageTemplate = ({
                   <a
                     href="http://osp.mans.edu.eg/yassershabana/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {' '}
                     الموقع الشخصي{' '}
@@ -194,7 +198,7 @@ export const AboutPageTemplate = ({
                 <h1 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
                   <br />{' '}
-                  <a href={yassercv} target="_blank">
+                  <a href={yassercv} target="_blank" rel="noopener noreferrer">
                     {' '}
                     نبذة مختصرة{' '}
                   </a>
@@ -202,6 +206,7 @@ export const AboutPageTemplate = ({
                   <a
                     href="http://osp.mans.edu.eg/yassershabana/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {' '}
                     الموقع الشخصي{' '}
@@ -215,7 +220,7 @@ export const AboutPageTemplate = ({
                 <h1 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
                   <br />{' '}
-                  <a href={yassercv} target="_blank">
+                  <a href={yassercv} target="_blank" rel="noopener noreferrer">
                     {' '}
                     نبذة مختصرة{' '}
                   </a>
@@ -223,6 +228,7 @@ export const AboutPageTemplate = ({
                   <a
                     href="http://osp.mans.edu.eg/yassershabana/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {' '}
                     الموقع الشخصي{' '}
@@ -236,7 +242,7 @@ export const AboutPageTemplate = ({
                 <h1 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
                   <br />{' '}
-                  <a href={yassercv} target="_blank">
+                  <a href={yassercv} target="_blank" rel="noopener noreferrer">
                     {' '}
                     نبذة مختصرة{' '}
                   </a>
@@ -244,6 +250,7 @@ export const AboutPageTemplate = ({
                   <a
                     href="http://osp.mans.edu.eg/yassershabana/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {' '}
                     الموقع الشخصي{' '}
@@ -257,7 +264,7 @@ export const AboutPageTemplate = ({
                 <h1 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
                   <br />{' '}
-                  <a href={yassercv} target="_blank">
+                  <a href={yassercv} target="_blank" rel="noopener noreferrer">
                     {' '}
                     نبذة مختصرة{' '}
                   </a>
@@ -265,6 +272,7 @@ export const AboutPageTemplate = ({
                   <a
                     href="http://osp.mans.edu.eg/yassershabana/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {' '}
                     الموقع الشخصي{' '}
@@ -278,7 +286,7 @@ export const AboutPageTemplate = ({
                 <h1 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
                   <br />{' '}
-                  <a href={yassercv} target="_blank">
+                  <a href={yassercv} target="_blank" rel="noopener noreferrer">
                     {' '}
                     نبذة مختصرة{' '}
                   </a>
@@ -286,6 +294,7 @@ export const AboutPageTemplate = ({
                   <a
                     href="http://osp.mans.edu.eg/yassershabana/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {' '}
                     الموقع الشخصي{' '}
@@ -299,7 +308,7 @@ export const AboutPageTemplate = ({
                 <h1 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
                   <br />{' '}
-                  <a href={yassercv} target="_blank">
+                  <a href={yassercv} target="_blank" rel="noopener noreferrer">
                     {' '}
                     نبذة مختصرة{' '}
                   </a>
@@ -307,6 +316,7 @@ export const AboutPageTemplate = ({
                   <a
                     href="http://osp.mans.edu.eg/yassershabana/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {' '}
                     الموقع الشخصي{' '}
@@ -334,7 +344,7 @@ export const AboutPageTemplate = ({
             <br />
             <div className="columns">
               <div className="column is-4 is-offset-2">
-                <img src={awni}></img>
+                <img src={awni} alt="Dr Awni"></img>
               </div>
               <div className="column is-4">
                 <h1 className="has-text-weight-bold">
@@ -351,7 +361,7 @@ export const AboutPageTemplate = ({
             </div>
             <div className="columns">
               <div className="column is-4 is-offset-2">
-                <img src={zak}></img>
+                <img src={zak} alt="Dr Zak"></img>
               </div>
               <div className="column is-4">
                 <h1 className="has-text-weight-bold">
@@ -368,7 +378,7 @@ export const AboutPageTemplate = ({
             </div>
             <div className="columns">
               <div className="column is-4 is-offset-2">
-                <img src={maher}></img>
+                <img src={maher} alt="Dr maher"></img>
               </div>
               <div className="column is-4">
                 <h1 className="has-text-weight-bold">
@@ -385,7 +395,7 @@ export const AboutPageTemplate = ({
             </div>
             <div className="columns">
               <div className="column is-4 is-offset-2">
-                <img src={mohamedm}></img>
+                <img src={mohamedm} alt="Dr Mohamed"></img>
               </div>
               <div className="column is-4">
                 <h1 className="has-text-weight-bold">
@@ -402,7 +412,7 @@ export const AboutPageTemplate = ({
             </div>
             <div className="columns">
               <div className="column is-4 is-offset-2">
-                <img src={fekry}></img>
+                <img src={fekry} alt="Dr Fekry"></img>
               </div>
               <div className="column is-4">
                 <h1 className="has-text-weight-bold">

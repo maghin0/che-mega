@@ -34,35 +34,35 @@ export const IndexPageTemplate = ({
     <div>
       <Carousel showArrows={true}>
         <div className="carousell">
-          <img src={carousel1} />
+          <img src={carousel1} alt="Third slide" />
           <p className="legend">flavor_wheel</p>
         </div>
         <div className="carousell">
-          <img src={carousel2} />
+          <img src={carousel2} alt="Third slide" />
           <p className="legend">flavor_wheel</p>
         </div>
         <div className="carousell">
-          <img src={carousel3} />
+          <img src={carousel3} alt="Third slide" />
           <p className="legend">flavor_wheel</p>
         </div>
         <div className="carousell">
-          <img src={carousel4} />
+          <img src={carousel4} alt="Third slide" />
           <p className="legend">flavor_wheel</p>
         </div>
         <div className="carousell">
-          <img src={carousel5} />
+          <img src={carousel5} alt="Third slide" />
           <p className="legend">flavor_wheel</p>
         </div>
         <div className="carousell">
-          <img src={carousel6} />
+          <img src={carousel6} alt="Third slide" />
           <p className="legend">flavor_wheel</p>
         </div>
         <div className="carousell">
-          <img src={carousel7} />
+          <img src={carousel7} alt="Third slide" />
           <p className="legend">flavor_wheel</p>
         </div>
         <div className="carousell">
-          <img src={carousel8} />
+          <img src={carousel8} alt="Third slide" />
           <p className="legend">flavor_wheel</p>
         </div>
       </Carousel>

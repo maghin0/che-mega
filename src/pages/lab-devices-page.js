@@ -26,13 +26,13 @@ import asset20 from '../img/devices/vacuum oven.png';
 import asset21 from '../img/devices/zeta potential analyzer.png';
 
 const LabDevicesPage = () => {
-  let content = {
-    English: {
-      title: 'Lorem',
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    },
-  };
+  // let content = {
+  //   English: {
+  //     title: 'Lorem',
+  //     description:
+  //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  //   },
+  // };
   return (
     <Layout>
       <div
