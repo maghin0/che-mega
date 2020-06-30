@@ -21,7 +21,7 @@ const LabDevices = props => {
         </div>
         <div className="section">
           <div className="columns">
-            <div className="column is-3 is-offset-2">
+            <div className="column is-2 is-offset-2">
               <img src={img} alt={device} />
             </div>
 
@@ -41,7 +41,7 @@ const LabDevices = props => {
         <div className="section">
           <div className="columns">
             <div className="column is-6 is-offset-2">{descriptiontwo}</div>
-            <div className="column is-3 ">
+            <div className="column is-2 ">
               <img src={imgtwo} alt={devicetwo} />
             </div>
           </div>

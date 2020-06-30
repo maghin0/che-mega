@@ -25,31 +25,28 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img className="d-block w-100" src={product1} alt="First slide" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>
-            Nulla vitae elit libero, a pharetra augue mollis interdum Nulla
-            vitae elit libero, a pharetra augue mollis interdum Nulla vitae elit
-            libero, a pharetra augue mollis interdum Nulla vitae elit libero, a
-            pharetra augue mollis interdum.
-          </p>
+          <h3 style={{ color: '#1c1c47' }}>
+            Transmission Electron Microscope (TEM)
+          </h3>
+          <p style={{ color: '#1c1c47' }}>Model: JEOL JEM-2100</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100" src={product2} alt="Third slide" />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3 style={{ color: '#1c1c47' }}>Fume Hood </h3>
+          <p style={{ color: '#1c1c47' }}>FH1500 Fume Hood BIOBASE</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100" src={product3} alt="Third slide" />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3 style={{ color: '#f4f4f4' }}>
+            Scanning Electron Microscope (SEM)
+          </h3>
+          <p>JEOL JSM 6510 lv</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

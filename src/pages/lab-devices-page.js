@@ -77,17 +77,12 @@ const LabDevicesPage = () => {
           imgtwo={asset2}
           device="Four-Digit Analytical Balance"
           model="OHAUS Laboratory Analytical Balance"
-          modeltwo="what text"
-          devicetwo="SOME OTHER DEVICE"
+          modeltwo="Digital Magnetic Stirrer"
+          devicetwo="Four-Spot Magnetic Stirrer"
           description="
           يستخدم فى وزن المواد المختلفة وتحضير الوزنات الدقيقة بصورة دقيقه جدا تصل إلى أربعة أرقام عشرية.
       "
-          descriptiontwo="
-   
-                 
-          الاستخدام
-          يستخدم لفحص أسطح العينات ويعطى صورة مجسمة عالية الجودة والوضوح تصل القدرة التكبيرية إلى 300000 مرة ، يعمل تحت تفريغ عالى ، ويمكنه العمل تحت تفريغ منخفض ،  وذلك ليلائم جميع التطبيقات المادية والبيولوجية والصناعية والتعدين وتحليل التربة والخامات وفحص البلورات وأبحاث النانو وكذلك الأنسجة والتراكيب السطحية.
-      "
+          descriptiontwo="يستخدم فى إذابة ومزج المواد الكميائية المختلفة بسرعات مختلفة ومدد زمنية متعددة وإمكانيات أخرى. "
         />
         <LabDevices
           img={asset3}
@@ -98,10 +93,7 @@ const LabDevicesPage = () => {
           modeltwo="Olympus CX31 Binocular Halogen Microscope"
           description="
           يستخدم فى وزن المواد المختلفة وتحضير الوزنات بدقه تصل لرقمين عشريين."
-          descriptiontwo="
-   
-                 
-          لتكبير الأجسام الصغيرة التي لا يمكن رؤيتها بالعين المجردة أو لإظهار التفاصيل الدقيقة للأشياء من أجل اكتشاف تكوينها و دراستها ، حيث يمكن لهذا النوع التكبير لأكثر من ألف مرة."
+          descriptiontwo="لتكبير الأجسام الصغيرة التي لا يمكن رؤيتها بالعين المجردة أو لإظهار التفاصيل الدقيقة للأشياء من أجل اكتشاف تكوينها و دراستها ، حيث يمكن لهذا النوع التكبير لأكثر من ألف مرة."
         />
         <LabDevices
           img={asset5}
@@ -129,7 +121,7 @@ const LabDevicesPage = () => {
           img={asset9}
           imgtwo={asset10}
           device="Rotary Shaker"
-          devicetwo="Scanning Electron Microscope"
+          devicetwo="Scanning Electron Microscope (SEM)"
           model="Scientificindustries Roto-Shake Genie"
           modeltwo="JEOL JSM 6510 lv"
           description="يستخدم هذا الجهاز فى تقليب وخلط ومزج العينات والمواد الكميائية عن طريق دوران الجهاز بسرعات مختلفة سريعة وبطيئة."

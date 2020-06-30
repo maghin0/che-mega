@@ -58,7 +58,7 @@ export const AboutPageTemplate = ({
             backgroundColor: 'rgba(28,28,71, 0.4)',
           }}
         >
-          <h1
+          <h5
             className=" has-text-weight-bold size-big is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
             style={{
               color: 'white',
@@ -68,7 +68,7 @@ export const AboutPageTemplate = ({
             }}
           >
             About Us
-          </h1>
+          </h5>
         </div>
       </div>
       <section className="section section--gradient">
@@ -94,19 +94,19 @@ export const AboutPageTemplate = ({
               padding: '4em',
             }}
           >
-            <h1 className="has-text-weight-bold has-text-white is-size-2 has-text-centered">
+            <h5 className="has-text-weight-bold has-text-white is-size-2 has-text-centered">
               Our Team
-            </h1>
+            </h5>
 
             <br />
             <br />
 
-            <div className="columns column is-multiline is-offset-2">
+            <div className="columns column is-multiline is-offset-2 ">
               <div className="column is-6">
                 <img src={yasser} alt="" />
               </div>
               <div className="column is-4">
-                <h1 className="has-text-white">
+                <h5 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
                   <br />{' '}
                   <a href={yassercv} target="_blank" rel="noopener noreferrer">
@@ -122,13 +122,13 @@ export const AboutPageTemplate = ({
                     {' '}
                     الموقع الشخصي{' '}
                   </a>
-                </h1>
+                </h5>
               </div>
               <div className="column is-6">
                 <img src={reham} alt="" />
               </div>
               <div className="column is-4">
-                <h1 className="has-text-white">
+                <h5 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
                   <br />{' '}
                   <a href={yassercv} target="_blank" rel="noopener noreferrer">
@@ -144,13 +144,13 @@ export const AboutPageTemplate = ({
                     {' '}
                     الموقع الشخصي{' '}
                   </a>
-                </h1>
+                </h5>
               </div>
               <div className="column is-6">
                 <img src={khalid} alt="" />
               </div>
               <div className="column is-4">
-                <h1 className="has-text-white">
+                <h5 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
                   <br />{' '}
                   <a href={yassercv} target="_blank" rel="noopener noreferrer">
@@ -166,13 +166,13 @@ export const AboutPageTemplate = ({
                     {' '}
                     الموقع الشخصي{' '}
                   </a>
-                </h1>
+                </h5>
               </div>
               <div className="column is-6">
                 <img src={basem} alt="" />
               </div>
               <div className="column is-4">
-                <h1 className="has-text-white">
+                <h5 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
                   <br />{' '}
                   <a href={yassercv} target="_blank" rel="noopener noreferrer">
@@ -188,14 +188,14 @@ export const AboutPageTemplate = ({
                     {' '}
                     الموقع الشخصي{' '}
                   </a>
-                </h1>
+                </h5>
               </div>
 
               <div className="column is-6">
                 <img src={mahomoud} alt="" />
               </div>
               <div className="column is-4">
-                <h1 className="has-text-white">
+                <h5 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
                   <br />{' '}
                   <a href={yassercv} target="_blank" rel="noopener noreferrer">
@@ -211,13 +211,13 @@ export const AboutPageTemplate = ({
                     {' '}
                     الموقع الشخصي{' '}
                   </a>
-                </h1>
+                </h5>
               </div>
               <div className="column is-6">
                 <img src={mohameds} alt="" />
               </div>
               <div className="column is-4">
-                <h1 className="has-text-white">
+                <h5 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
                   <br />{' '}
                   <a href={yassercv} target="_blank" rel="noopener noreferrer">
@@ -233,13 +233,13 @@ export const AboutPageTemplate = ({
                     {' '}
                     الموقع الشخصي{' '}
                   </a>
-                </h1>
+                </h5>
               </div>
               <div className="column is-6">
                 <img src={salmao} alt="" />
               </div>
               <div className="column is-4">
-                <h1 className="has-text-white">
+                <h5 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
                   <br />{' '}
                   <a href={yassercv} target="_blank" rel="noopener noreferrer">
@@ -255,13 +255,13 @@ export const AboutPageTemplate = ({
                     {' '}
                     الموقع الشخصي{' '}
                   </a>
-                </h1>
+                </h5>
               </div>
               <div className="column is-6">
                 <img src={hagar} alt="" />
               </div>
               <div className="column is-4">
-                <h1 className="has-text-white">
+                <h5 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
                   <br />{' '}
                   <a href={yassercv} target="_blank" rel="noopener noreferrer">
@@ -277,13 +277,13 @@ export const AboutPageTemplate = ({
                     {' '}
                     الموقع الشخصي{' '}
                   </a>
-                </h1>
+                </h5>
               </div>
               <div className="column is-6">
                 <img src={khadiga} alt="" />
               </div>
               <div className="column is-4">
-                <h1 className="has-text-white">
+                <h5 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
                   <br />{' '}
                   <a href={yassercv} target="_blank" rel="noopener noreferrer">
@@ -299,13 +299,13 @@ export const AboutPageTemplate = ({
                     {' '}
                     الموقع الشخصي{' '}
                   </a>
-                </h1>
+                </h5>
               </div>
               <div className="column is-6">
                 <img src={salmam} alt="" />
               </div>
               <div className="column is-4">
-                <h1 className="has-text-white">
+                <h5 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
                   <br />{' '}
                   <a href={yassercv} target="_blank" rel="noopener noreferrer">
@@ -321,25 +321,25 @@ export const AboutPageTemplate = ({
                     {' '}
                     الموقع الشخصي{' '}
                   </a>
-                </h1>
+                </h5>
               </div>
 
               {/* <div className="column is-4">
                 <img src={teamone} alt="" />
-                <h1>wowthi sis kinda crazzyy</h1>
+                <h5>wowthi sis kinda crazzyy</h5>
               </div>
               <div className="column is-4">
                 <img src={teamone} alt="" />
-                <h1>wowthi sis kinda crazzyy</h1>
+                <h5>wowthi sis kinda crazzyy</h5>
               </div> */}
             </div>
           </div>
           <br />
           <br />
           <div className="container">
-            <h1 className="has-text-weight-bold is-size-2 has-text-centered">
+            <h5 className="has-text-weight-bold is-size-2 has-text-centered">
               Scientific Consultant
-            </h1>
+            </h5>
             <br />
             <br />
             <div className="columns">
@@ -347,9 +347,9 @@ export const AboutPageTemplate = ({
                 <img src={awni} alt="Dr Awni"></img>
               </div>
               <div className="column is-4">
-                <h1 className="has-text-weight-bold">
+                <h5 className="has-text-weight-bold">
                   Prof. Awni Hassan Ibrahim Yassin
-                </h1>
+                </h5>
                 <br />
                 <p>
                   Head of the Histology Department - Faculty of Medicine -
@@ -364,9 +364,9 @@ export const AboutPageTemplate = ({
                 <img src={zak} alt="Dr Zak"></img>
               </div>
               <div className="column is-4">
-                <h1 className="has-text-weight-bold">
+                <h5 className="has-text-weight-bold">
                   Prof. Awni Hassan Ibrahim Yassin
-                </h1>
+                </h5>
                 <br />
                 <p>
                   Head of the Histology Department - Faculty of Medicine -
@@ -381,9 +381,9 @@ export const AboutPageTemplate = ({
                 <img src={maher} alt="Dr maher"></img>
               </div>
               <div className="column is-4">
-                <h1 className="has-text-weight-bold">
+                <h5 className="has-text-weight-bold">
                   Prof. Awni Hassan Ibrahim Yassin
-                </h1>
+                </h5>
                 <br />
                 <p>
                   Head of the Histology Department - Faculty of Medicine -
@@ -398,9 +398,9 @@ export const AboutPageTemplate = ({
                 <img src={mohamedm} alt="Dr Mohamed"></img>
               </div>
               <div className="column is-4">
-                <h1 className="has-text-weight-bold">
+                <h5 className="has-text-weight-bold">
                   Prof. Awni Hassan Ibrahim Yassin
-                </h1>
+                </h5>
                 <br />
                 <p>
                   Head of the Histology Department - Faculty of Medicine -
@@ -415,9 +415,9 @@ export const AboutPageTemplate = ({
                 <img src={fekry} alt="Dr Fekry"></img>
               </div>
               <div className="column is-4">
-                <h1 className="has-text-weight-bold">
+                <h5 className="has-text-weight-bold">
                   Prof. Awni Hassan Ibrahim Yassin
-                </h1>
+                </h5>
                 <br />
                 <p>
                   Head of the Histology Department - Faculty of Medicine -
