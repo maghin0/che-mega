@@ -11,7 +11,7 @@ import call from '../../img/social/callmu.svg';
 import '../../components/styles.scss';
 function encode(data) {
   return Object.keys(data)
-    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
     .join('&');
 }
 
@@ -21,11 +21,11 @@ export default class Index extends React.Component {
     this.state = { isValidated: false };
   }
 
-  handleChange = e => {
+  handleChange = (e) => {
     this.setState({ [e.target.name]: e.target.value });
   };
 
-  handleSubmit = e => {
+  handleSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
     fetch('/', {
@@ -37,7 +37,7 @@ export default class Index extends React.Component {
       }),
     })
       .then(() => navigate(form.getAttribute('action')))
-      .catch(error => alert(error));
+      .catch((error) => alert(error));
   };
 
   render() {
@@ -88,13 +88,11 @@ export default class Index extends React.Component {
                   <iframe
                     title="google maps"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3418.4847151948074!2d31.355184315631707!3d31.040603081530868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f79dd44a2aeb93%3A0xa609ad58cc230721!2sMansoura%20University%20College%20of%20Agriculture%20and%20Electron%20Microscopy%20Unit!5e0!3m2!1sen!2seg!4v1592389308186!5m2!1sen!2seg"
-                    width="1550"
-                    height="600"
                     frameborder="0"
                     style={{ border: 0 }}
                     allowfullscreen=""
                     aria-hidden="false"
-                    tabindex="0"
+                    className="googlemaps"
                   ></iframe>
                 </div>
                 <div className="column is-4">

@@ -7,10 +7,10 @@ import Layout from '../components/Layout';
 import Features from '../components/Features';
 import BlogRoll from '../components/BlogRoll';
 import ControlledCarousel from '../components/ControlledCarousel';
-
+import ControlledHero from '../components/ControlledHero';
 import '../components/styles.scss';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+//import { Carousel } from 'react-responsive-carousel';
 
 import carousel1 from '../img/01.jpg';
 import carousel2 from '../img/02.jpg';
@@ -30,9 +30,19 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <div>
-    <div>
-      <Carousel showArrows={true}>
+  <section className="hero is-medium">
+    <ControlledHero
+      img={carousel1}
+      img2={carousel2}
+      img3={carousel3}
+      img4={carousel4}
+      img5={carousel5}
+      img6={carousel6}
+      img7={carousel7}
+      img8={carousel8}
+    />
+
+    {/* <Carousel showArrows={true}>
         <div className="carousell">
           <img src={carousel1} alt="Third slide" />
           <p className="legend">flavor_wheel</p>
@@ -65,8 +75,8 @@ export const IndexPageTemplate = ({
           <img src={carousel8} alt="Third slide" />
           <p className="legend">flavor_wheel</p>
         </div>
-      </Carousel>
-    </div>
+      </Carousel> */}
+
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
@@ -91,7 +101,7 @@ export const IndexPageTemplate = ({
                 </div> */}
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
-                  <div className="column is-12 has-text-centered"></div>
+                  <div className="column is-12 has-text-centered"> </div>
                 </div>
                 <ControlledCarousel />
                 <div className="column is-12 has-text-centered">
@@ -166,9 +176,7 @@ export const IndexPageTemplate = ({
                   </a>
                 </div>
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
+                  <h3 className="has-text-weight-semibold is-size-2">Events</h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog">
@@ -182,7 +190,7 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
-  </div>
+  </section>
 );
 
 IndexPageTemplate.propTypes = {

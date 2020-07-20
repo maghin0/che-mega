@@ -49,9 +49,10 @@ const Navbar = class extends React.Component {
             </Link>
             {/* Hamburger menu */}
             <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+              className={`navbar-burger burger' ${this.state.navBarActiveClass}`}
               data-target="navMenu"
               onClick={() => this.toggleHamburger()}
+              style={{ marginLeft: '80vw' }}
             >
               <span />
               <span />
@@ -62,19 +63,56 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-end has-text-centered ">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
+            <div className="navbar-end has-text-centered  ">
+              <div className="navbar-item has-dropdown is-hoverable">
+                <Link className="navbar-link" to="/blog">
+                  Events
+                </Link>
+
+                <div class="navbar-dropdown">
+                  <Link className="navbar-item" to="/blog/#one">
+                    Events
+                  </Link>
+                  <Link className="navbar-item" to="/blog/#two">
+                    Workshops and Training
+                  </Link>
+                  <Link className="navbar-item" to="/blog/#three">
+                    Visits and Delegates
+                  </Link>
+                </div>
+              </div>
+              <div className="navbar-item has-dropdown is-hoverable">
+                <Link className="navbar-link" to="/about">
+                  About
+                </Link>
+                <div class="navbar-dropdown">
+                  <Link
+                    className="navbar-item"
+                    to="/about/#one"
+                    activeStyle={{ color: 'red' }}
+                  >
+                    Mission and Vission
+                  </Link>
+                  <Link className="navbar-item" to="/about/#two">
+                    Our Team
+                  </Link>
+                  <Link className="navbar-item" to="/about/#three">
+                    Scientific Consultants
+                  </Link>
+                </div>
+              </div>
               <Link className="navbar-item" to="/lab-devices-page">
-                Products
+                Lab Devices
               </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
+
+              <Link
+                className="navbar-item"
+                to="/contact"
+                activeStyle={{ color: 'red' }}
+              >
                 Contact
               </Link>
+
               {/* <Link className="navbar-item" to="/contact/examples">
                 Form Examples
               </Link> */}

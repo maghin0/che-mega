@@ -36,18 +36,18 @@ export default class BlogIndexPage extends React.Component {
                 padding: '1rem',
               }}
             >
-              Latest Stories
+              Events
             </h1>
           </div>
         </div>
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1>Latest News </h1>
+              <h1 id="one">Events </h1>
               <BlogRoll />
-              <h1>Conference and Events</h1>
+              <h1 id="two">Conference and Events</h1>
               <BlogRollEvents />
-              <h1>Visitations and Delegates</h1>
+              <h1 id="three">Visitations and Delegates</h1>
               <BlogRollVisits />
             </div>
           </div>
