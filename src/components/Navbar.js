@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import logo from '../img/social/logo.svg';
 
+import services from '../../static/img/price.pdf';
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props);
@@ -111,6 +112,17 @@ const Navbar = class extends React.Component {
                 activeStyle={{ color: 'red' }}
               >
                 Contact
+              </Link>
+              <Link>
+                <a
+                  className="button is-primary"
+                  href={services}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ backgroundColor: '#60f4b8 !important' }}
+                >
+                  <span>Services</span>
+                </a>
               </Link>
 
               {/* <Link className="navbar-item" to="/contact/examples">
