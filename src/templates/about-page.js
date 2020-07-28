@@ -11,20 +11,34 @@ import '../components/styles.scss';
 import yasser from '../img/about us/yasser.jpg';
 import yassercv from '../img/about us/yassercv.pdf';
 import basem from '../img/about us/basem-tawfik.jpg';
+import basempdf from '../img/about us/basem-tawfik.pdf';
 import mahomoud from '../img/about us/mahmoud-hasan.jpg';
+import mahomoudpdf from '../img/about us/mahmoud-hasan.pdf';
 import mohameds from '../img/about us/mohamed-shaheen.jpg';
+import mohamedspdf from '../img/about us/mohamed-shaheen.pdf';
 import reham from '../img/about us/reham-abdulah.jpg';
+
 import salmao from '../img/about us/salma-osama.jpg';
+
 import salmam from '../img/about us/salma-moustafa.jpg';
+
 import hagar from '../img/about us/hagar-dewedar.jpg';
+import hagarpdf from '../img/about us/hagar-dewedar.pdf';
 import khadiga from '../img/about us/khadiga-hassan.jpg';
+import khadigapdf from '../img/about us/khadiga-hassan.pdf';
 import khalid from '../img/about us/khalid-fathy.jpg';
+import khalidpdf from '../img/about us/khalid-fathy.pdf';
 //consultants
 import awni from '../img/about us/awni-hassan.jpg';
+
 import zak from '../img/about us/zak-baka.jpg';
+import zakpdf from '../img/about us/zak-baka.pdf';
 import maher from '../img/about us/maher-mahmoud.jpg';
+
 import mohamedm from '../img/about us/mohamed-mostafa.jpg';
+
 import fekry from '../img/about us/fekry-mohamed.jpg';
+import fekrypdf from '../img/about us/fekry-mohamed.pdf';
 
 export const AboutPageTemplate = ({
   title,
@@ -115,7 +129,7 @@ export const AboutPageTemplate = ({
                   <a href={yassercv} target="_blank" rel="noopener noreferrer">
                     {' '}
                     نبذة مختصرة{' '}
-                  </a>
+                  </a>{' '}
                   <br />
                   <a
                     href="http://osp.mans.edu.eg/yassershabana/"
@@ -132,21 +146,13 @@ export const AboutPageTemplate = ({
               </div>
               <div className="column is-4">
                 <h5 className="has-text-white">
-                  الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
-                  <br />{' '}
-                  <a href={yassercv} target="_blank" rel="noopener noreferrer">
+                  د/ ريهام عبدالله شمس الدين <br /> أخصائي علمي (TEM) <br />
+                  01140777134
+                  {/* <a target="_blank" rel="noopener noreferrer">
                     {' '}
                     نبذة مختصرة{' '}
-                  </a>
+                  </a> */}
                   <br />
-                  <a
-                    href="http://osp.mans.edu.eg/yassershabana/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {' '}
-                    الموقع الشخصي{' '}
-                  </a>
                 </h5>
               </div>
               <div className="column is-6">
@@ -154,21 +160,13 @@ export const AboutPageTemplate = ({
               </div>
               <div className="column is-4">
                 <h5 className="has-text-white">
-                  الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
+                  خالد فتحي إبراهيم <br /> أخصائي معالجة عينات
                   <br />{' '}
-                  <a href={yassercv} target="_blank" rel="noopener noreferrer">
+                  <a href={khalidpdf} target="_blank" rel="noopener noreferrer">
                     {' '}
                     نبذة مختصرة{' '}
                   </a>
                   <br />
-                  <a
-                    href="http://osp.mans.edu.eg/yassershabana/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {' '}
-                    الموقع الشخصي{' '}
-                  </a>
                 </h5>
               </div>
               <div className="column is-6">
@@ -176,21 +174,13 @@ export const AboutPageTemplate = ({
               </div>
               <div className="column is-4">
                 <h5 className="has-text-white">
-                  الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
-                  <br />{' '}
-                  <a href={yassercv} target="_blank" rel="noopener noreferrer">
+                  باسم محمد توفيق أخصائي علمي (SEM ، Zeta Analyzer) <br />
+                  01118254701 - 01116845186 <br />
+                  <a href={basempdf} target="_blank" rel="noopener noreferrer">
                     {' '}
                     نبذة مختصرة{' '}
                   </a>
                   <br />
-                  <a
-                    href="http://osp.mans.edu.eg/yassershabana/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {' '}
-                    الموقع الشخصي{' '}
-                  </a>
                 </h5>
               </div>
 
@@ -199,21 +189,19 @@ export const AboutPageTemplate = ({
               </div>
               <div className="column is-4">
                 <h5 className="has-text-white">
-                  الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
+                  محمود عبد الفتاح حسن <br />
+                  أخصائي علمي (TEM) <br />
+                  01020720431
                   <br />{' '}
-                  <a href={yassercv} target="_blank" rel="noopener noreferrer">
-                    {' '}
-                    نبذة مختصرة{' '}
-                  </a>
-                  <br />
                   <a
-                    href="http://osp.mans.edu.eg/yassershabana/"
+                    href={mahomoudpdf}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     {' '}
-                    الموقع الشخصي{' '}
+                    نبذة مختصرة{' '}
                   </a>
+                  <br />
                 </h5>
               </div>
               <div className="column is-6">
@@ -221,21 +209,19 @@ export const AboutPageTemplate = ({
               </div>
               <div className="column is-4">
                 <h5 className="has-text-white">
-                  الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
+                  محمد علي شاهين <br />
+                  أخصائي علمي (SEM ، Zeta Analyzer) <br />
+                  01000461196
                   <br />{' '}
-                  <a href={yassercv} target="_blank" rel="noopener noreferrer">
-                    {' '}
-                    نبذة مختصرة{' '}
-                  </a>
-                  <br />
                   <a
-                    href="http://osp.mans.edu.eg/yassershabana/"
+                    href={mohamedspdf}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     {' '}
-                    الموقع الشخصي{' '}
+                    نبذة مختصرة{' '}
                   </a>
+                  <br />
                 </h5>
               </div>
               <div className="column is-6">
@@ -243,21 +229,14 @@ export const AboutPageTemplate = ({
               </div>
               <div className="column is-4">
                 <h5 className="has-text-white">
-                  الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
+                  سلمى أسامة غانم <br />
+                  أخصائي ألتراميكروتوم
                   <br />{' '}
-                  <a href={yassercv} target="_blank" rel="noopener noreferrer">
+                  {/* <a target="_blank" rel="noopener noreferrer">
                     {' '}
                     نبذة مختصرة{' '}
-                  </a>
+                  </a> */}
                   <br />
-                  <a
-                    href="http://osp.mans.edu.eg/yassershabana/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {' '}
-                    الموقع الشخصي{' '}
-                  </a>
                 </h5>
               </div>
               <div className="column is-6">
@@ -265,21 +244,13 @@ export const AboutPageTemplate = ({
               </div>
               <div className="column is-4">
                 <h5 className="has-text-white">
-                  الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
+                  هاجر السعيد دويدار <br /> أخصائي ألتراميكروتوم
                   <br />{' '}
-                  <a href={yassercv} target="_blank" rel="noopener noreferrer">
+                  <a href={hagarpdf} target="_blank" rel="noopener noreferrer">
                     {' '}
                     نبذة مختصرة{' '}
                   </a>
                   <br />
-                  <a
-                    href="http://osp.mans.edu.eg/yassershabana/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {' '}
-                    الموقع الشخصي{' '}
-                  </a>
                 </h5>
               </div>
               <div className="column is-6">
@@ -287,20 +258,16 @@ export const AboutPageTemplate = ({
               </div>
               <div className="column is-4">
                 <h5 className="has-text-white">
-                  الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
-                  <br />{' '}
-                  <a href={yassercv} target="_blank" rel="noopener noreferrer">
-                    {' '}
-                    نبذة مختصرة{' '}
-                  </a>
+                  خديجة أحمد حسن <br />
+                  أخصائي معالجة عينات
                   <br />
                   <a
-                    href="http://osp.mans.edu.eg/yassershabana/"
+                    href={khadigapdf}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     {' '}
-                    الموقع الشخصي{' '}
+                    نبذة مختصرة{' '}
                   </a>
                 </h5>
               </div>
@@ -309,21 +276,14 @@ export const AboutPageTemplate = ({
               </div>
               <div className="column is-4">
                 <h5 className="has-text-white">
-                  الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
+                  سلمى مصطفى قاسم <br />
+                  أخصائي ألتراميكروتوم
                   <br />{' '}
-                  <a href={yassercv} target="_blank" rel="noopener noreferrer">
+                  {/* <a target="_blank" rel="noopener noreferrer">
                     {' '}
                     نبذة مختصرة{' '}
-                  </a>
+                  </a> */}
                   <br />
-                  <a
-                    href="http://osp.mans.edu.eg/yassershabana/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {' '}
-                    الموقع الشخصي{' '}
-                  </a>
                 </h5>
               </div>
 
@@ -354,14 +314,13 @@ export const AboutPageTemplate = ({
               </div>
               <div className="column is-4">
                 <h5 className="has-text-weight-bold">
-                  Prof. Awni Hassan Ibrahim Yassin
+                  أ.د/ عونى حسن إبراهيم ياسين
                 </h5>
                 <br />
                 <p>
-                  Head of the Histology Department - Faculty of Medicine -
-                  Mansoura University Scientific consultant for the unit in the
-                  field of processing and examination of living tissues with the
-                  electron microscope in force.
+                  رئيس قسم الهستولوجى - كلية الطب – جامعة المنصورة استشارى علمى
+                  للوحدة فى مجال تجهيز وفحص الأنسجة الحية بالميكروسكوب
+                  الإلكترونى النافذ
                 </p>
               </div>
             </div>
@@ -369,17 +328,20 @@ export const AboutPageTemplate = ({
               <div className="column is-4 is-offset-2">
                 <img src={zak} alt="Dr Zak"></img>
               </div>
+
               <div className="column is-4">
-                <h5 className="has-text-weight-bold">
-                  Prof. Awni Hassan Ibrahim Yassin
-                </h5>
+                <h5 className="has-text-weight-bold">أ.د/ زكريا عوض بقا </h5>
                 <br />
                 <p>
-                  Head of the Histology Department - Faculty of Medicine -
-                  Mansoura University Scientific consultant for the unit in the
-                  field of processing and examination of living tissues with the
-                  electron microscope in force.
+                  - أستاذ متفرغ - قسم النبات – كلية العلوم – جامعة دمياط استشارى
+                  علمى للوحدة فى مجال فحص المواد الحية النباتية بالميكروسكوب
+                  الإلكترونى الماسح والنافذ
                 </p>
+
+                <a href={zakpdf} target="_blank" rel="noopener noreferrer">
+                  {' '}
+                  نبذة مختصرة{' '}
+                </a>
               </div>
             </div>
             <div className="columns">
@@ -388,14 +350,13 @@ export const AboutPageTemplate = ({
               </div>
               <div className="column is-4">
                 <h5 className="has-text-weight-bold">
-                  Prof. Awni Hassan Ibrahim Yassin
+                  أ.د/ ماهر محمود سعد التونسى{' '}
                 </h5>
                 <br />
                 <p>
-                  Head of the Histology Department - Faculty of Medicine -
-                  Mansoura University Scientific consultant for the unit in the
-                  field of processing and examination of living tissues with the
-                  electron microscope in force.
+                  - أستاذ متفرغ – قسم الفيزياء – كلية العلوم – جامعة المنصورة
+                  استشارى علمى للوحدة فى مجال فحص المواد غير الحية بالميكروسكوب
+                  الإلكترونى الماسح
                 </p>
               </div>
             </div>
@@ -405,14 +366,12 @@ export const AboutPageTemplate = ({
               </div>
               <div className="column is-4">
                 <h5 className="has-text-weight-bold">
-                  Prof. Awni Hassan Ibrahim Yassin
+                  د/ محمد مصطفى إبراهيم مصطفى
                 </h5>
                 <br />
                 <p>
-                  Head of the Histology Department - Faculty of Medicine -
-                  Mansoura University Scientific consultant for the unit in the
-                  field of processing and examination of living tissues with the
-                  electron microscope in force.
+                  - مدرس - قسم الصيدلانيات - كلية الصيدلة – جامعة المنصورة
+                  استشارى علمى للوحدة فى مجال القياسات بجهاز تحليل الجهد زيتا
                 </p>
               </div>
             </div>
@@ -422,15 +381,18 @@ export const AboutPageTemplate = ({
               </div>
               <div className="column is-4">
                 <h5 className="has-text-weight-bold">
-                  Prof. Awni Hassan Ibrahim Yassin
+                  أ.د/ فكرى محمد حسن ريشة{' '}
                 </h5>
                 <br />
                 <p>
-                  Head of the Histology Department - Faculty of Medicine -
-                  Mansoura University Scientific consultant for the unit in the
-                  field of processing and examination of living tissues with the
-                  electron microscope in force.
+                  - أستاذ متفرغ – قسم الفيزياء – كلية العلوم – جامعة المنصورة
+                  استشارى علمى للوحدة فى مجال فحص المواد غير الحية بالميكروسكوب
+                  الإلكترونى النافذ
                 </p>
+                <a href={fekrypdf} target="_blank" rel="noopener noreferrer">
+                  {' '}
+                  نبذة مختصرة{' '}
+                </a>
               </div>
             </div>
           </div>
