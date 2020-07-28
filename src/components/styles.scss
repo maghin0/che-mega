@@ -10,7 +10,7 @@
   list-style-type: none !important;
 }
 .carousel-indicators {
-  margin-left: 8vw !important;
+  margin-left: 12vw !important;
 }
 .carousel-indicators li {
   background-color: pink !important;
@@ -40,4 +40,24 @@
 }
 .containerabout {
   max-width: 800px;
+}
+
+.googlemaps {
+  width: 85vw;
+  height: 50vh;
+
+  @media screen and (min-width: 1000px) {
+    width: 1550px;
+    height: 600px;
+  }
+}
+
+.content h3 {
+  font-size: 0.1rem;
+  margin-bottom: 0.1rem;
+
+  @media screen and (min-width: 1000px) {
+    font-size: 1.5em;
+    margin-bottom: 0.6666em;
+  }
 }

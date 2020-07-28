@@ -80,7 +80,7 @@ export const AboutPageTemplate = ({
                   {title}
                 </h2>
 
-                <Features gridItems={intro.blurbs} />
+                <Features id="one" gridItems={intro.blurbs} />
                 <PageContent className="content" content={content} />
               </div>
             </div>
@@ -94,7 +94,10 @@ export const AboutPageTemplate = ({
               padding: '4em',
             }}
           >
-            <h5 className="has-text-weight-bold has-text-white is-size-2 has-text-centered">
+            <h5
+              id="two"
+              className="has-text-weight-bold has-text-white is-size-2 has-text-centered"
+            >
               Our Team
             </h5>
 
@@ -337,7 +340,10 @@ export const AboutPageTemplate = ({
           <br />
           <br />
           <div className="container">
-            <h5 className="has-text-weight-bold is-size-2 has-text-centered">
+            <h5
+              id="three"
+              className="has-text-weight-bold is-size-2 has-text-centered"
+            >
               Scientific Consultant
             </h5>
             <br />
