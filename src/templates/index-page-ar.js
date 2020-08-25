@@ -11,7 +11,7 @@ import ControlledHero from '../components/ControlledHero';
 import '../components/styles.scss';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 //import { Carousel } from 'react-responsive-carousel';
-import Services from '../components/Services';
+import Servicess from '../components/Servicess';
 
 import carousel1 from '../img/01.jpg';
 import carousel2 from '../img/02.jpg';
@@ -100,7 +100,7 @@ export const IndexPageArTemplate = ({
                     <p>{description}</p>
                   </div>
                 </div> */}
-                <Services />
+                <Servicess />
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered"> </div>

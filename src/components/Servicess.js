@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Services = () => (
+const Servicess = () => (
   <>
     <table className="table">
       <thead>
@@ -10,7 +10,7 @@ const Services = () => (
             style={{ backgroundColor: '#1c1c47' }}
           >
             <abbr title="Position" style={{ color: 'white' }}>
-              Services
+              Servicess
             </abbr>
           </th>
           <th
@@ -62,7 +62,7 @@ const Services = () => (
     </table>
     <div className="column is-12 has-text-centered">
       <a className="btn" href="/img/price.pdf" target="_blank">
-        View full Services
+        View full Servicess
       </a>
     </div>
     <br />
@@ -70,4 +70,4 @@ const Services = () => (
   </>
 );
 
-export default Services;
+export default Servicess;
