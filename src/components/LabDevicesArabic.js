@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LabDevices = (props) => {
+const LabDevicesArabicArabic = (props) => {
   const img = props.img;
   const imgtwo = props.imgtwo;
   const device = props.device;
@@ -25,7 +25,12 @@ const LabDevices = (props) => {
               <img src={img} alt={device} />
             </div>
 
-            <div className="column is-5 is-offset-1">{description}</div>
+            <div
+              className="column is-5 is-offset-1"
+              style={{ textAlign: 'right' }}
+            >
+              {description}
+            </div>
           </div>
         </div>
       </div>
@@ -40,7 +45,12 @@ const LabDevices = (props) => {
 
         <div className="section">
           <div className="columns">
-            <div className="column is-6 is-offset-2">{descriptiontwo}</div>
+            <div
+              className="column is-6 is-offset-2"
+              style={{ textAlign: 'right' }}
+            >
+              {descriptiontwo}
+            </div>
             <div className="column is-2 ">
               <img src={imgtwo} alt={devicetwo} />
             </div>
@@ -51,4 +61,4 @@ const LabDevices = (props) => {
   );
 };
 
-export default LabDevices;
+export default LabDevicesArabicArabic;

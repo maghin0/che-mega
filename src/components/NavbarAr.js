@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'gatsby';
 import logo from '../img/social/logo.png';
 
-// import servicespdf from '../../static/img/price.pdf';
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props);
@@ -77,7 +76,7 @@ const Navbar = class extends React.Component {
                   to="/blog"
                   activeStyle={{ color: '#60f4b8' }}
                 >
-                  Events
+                  الأحداث
                 </Link>
 
                 <div class="navbar-dropdown">
@@ -86,70 +85,77 @@ const Navbar = class extends React.Component {
                     to="/blog/#one"
                     activeStyle={{ color: '#60f4b8' }}
                   >
-                    Events
+                    الأحداث
                   </Link>
                   <Link
                     className="navbar-item"
                     to="/blog/#two"
                     activeStyle={{ color: '#60f4b8' }}
                   >
-                    Workshops and Training
+                    ورش العمل والتدريب
                   </Link>
                   <Link
                     className="navbar-item"
                     to="/blog/#three"
                     activeStyle={{ color: '#60f4b8' }}
                   >
-                    Visits and Delegates
+                    الزيارات والمندوبين
                   </Link>
                 </div>
               </div>
               <div className="navbar-item has-dropdown is-hoverable">
                 <Link
                   className="navbar-link"
-                  to="/about"
+                  to="/about-ar"
                   activeStyle={{ color: '#60f4b8' }}
                 >
-                  About
+                  معلومات عنا
                 </Link>
                 <div class="navbar-dropdown">
                   <Link
                     className="navbar-item"
-                    to="/about/#one"
+                    to="/about-ar/#one"
                     activeStyle={{ color: '#60f4b8' }}
                   >
-                    Mission and Vission
+                    المهمة والرؤية
                   </Link>
-                  <Link className="navbar-item" to="/about/#two">
-                    Our Team
+                  <Link
+                    className="navbar-item"
+                    to="/about-ar/#two"
+                    activeStyle={{ color: '#60f4b8' }}
+                  >
+                    فريق العمل
                   </Link>
-                  <Link className="navbar-item" to="/about/#three">
-                    Scientific Consultants
+                  <Link
+                    className="navbar-item"
+                    to="/about-ar/#three"
+                    activeStyle={{ color: '#60f4b8' }}
+                  >
+                    المستشارون العلميون
                   </Link>
                 </div>
               </div>
               <Link
                 className="navbar-item"
-                to="/lab-devices-page"
+                to="/lab-devices-ar"
                 activeStyle={{ color: '#60f4b8' }}
               >
-                Lab Devices
+                أجهزة المعامل
               </Link>
 
               <Link
                 className="navbar-item"
-                to="/contact"
+                to="/contact-ar"
                 activeStyle={{ color: '#60f4b8' }}
               >
-                Contact
+                اتصل
               </Link>
-
               <Link
                 className="navbar-item"
-                to="/arabic"
+                to="/"
                 activeStyle={{ color: '#60f4b8' }}
               >
-                Arabic
+                الإنجليزية
               </Link>
 
               {/* <Link className="navbar-item" to="/contact/examples">

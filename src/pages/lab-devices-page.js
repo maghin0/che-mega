@@ -58,13 +58,12 @@ const LabDevicesPage = () => {
           }}
         >
           <h1
-            className=" has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+            className=" has-text-weight-bold size-big is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
             style={{
               color: 'white',
               lineHeight: '1',
               padding: '0.25em',
               margin: 'auto',
-              backgroundColor: '#00d1b2',
             }}
           >
             Lab Devices
@@ -80,9 +79,9 @@ const LabDevicesPage = () => {
           modeltwo="Digital Magnetic Stirrer"
           devicetwo="Four-Spot Magnetic Stirrer"
           description="
-          يستخدم فى وزن المواد المختلفة وتحضير الوزنات الدقيقة بصورة دقيقه جدا تصل إلى أربعة أرقام عشرية.
+          It is used in weighing different materials and preparing accurate weights in a very accurate way, up to four decimal places.
       "
-          descriptiontwo="يستخدم فى إذابة ومزج المواد الكميائية المختلفة بسرعات مختلفة ومدد زمنية متعددة وإمكانيات أخرى. "
+          descriptiontwo="It is used to dissolve and mix different chemicals with different speeds, multiple periods of time and other possibilities."
         />
         <LabDevices
           img={asset3}
@@ -91,9 +90,8 @@ const LabDevicesPage = () => {
           devicetwo="Binocular Microscopes"
           model="OHAUS Laboratory Balance"
           modeltwo="Olympus CX31 Binocular Halogen Microscope"
-          description="
-          يستخدم فى وزن المواد المختلفة وتحضير الوزنات بدقه تصل لرقمين عشريين."
-          descriptiontwo="لتكبير الأجسام الصغيرة التي لا يمكن رؤيتها بالعين المجردة أو لإظهار التفاصيل الدقيقة للأشياء من أجل اكتشاف تكوينها و دراستها ، حيث يمكن لهذا النوع التكبير لأكثر من ألف مرة."
+          description="It is used in weighing different materials and preparing weighs as accurately as two decimal places."
+          descriptiontwo="To enlarge small objects that cannot be seen with the naked eye or to show the fine details of things in order to discover their composition and study, as this type can zoom in more than a thousand times."
         />
         <LabDevices
           img={asset5}
@@ -102,9 +100,8 @@ const LabDevicesPage = () => {
           devicetwo="Critical Point Dryer"
           model="Thermo Scientific Incubator"
           modeltwo="Tousimis Autosamdri – 815 Coater"
-          description="
-          تستخدم حاضنة الميكروبيولوجى صغيرة الحجم فى توفيرمدى من درجات الحرارة اللازمة لنمو كثير من الكائنات الحية الدقيقة ، وتستخدم أيضا فى بعض العمليات التى قد تتطلب حفظ العينات فى درجات حراة معينة."
-          descriptiontwo="يستخدم فى تجفيف العينات البيولوجية المعدة للفحص بالميكروسكوب الإلكترونى الماسح وذلك بعد مرحلة التجفيف بالإيثانول المطلق حيث يتبادل الإيثانول مع ثانى أكسيد الكربون السائل ويتم ذلك تحت ضغط ويتميز التجفيف به بالمحافظة على التفاصيل السطحية للعينة."
+          description="A small-scale microbiological incubator is used to provide a range of temperatures necessary for the growth of many microorganisms, and is also used in some operations that may require keeping samples at certain temperatures."
+          descriptiontwo="To enlarge small objects that cannot be seen with the naked eye or to show the fine details of things in order to discover their composition and study, as this type can zoom in more than a thousand times."
         />
 
         <LabDevices
@@ -114,8 +111,8 @@ const LabDevicesPage = () => {
           devicetwo="Fume Hood"
           model="Oxford X-Max 20"
           modeltwo="FH1500 Fume Hood BIOBASE"
-          description="وحدة التحليل باستخدام الأشعة السينية وهي وحدة ملحقة بالميكروسكوب الإلكتروني الماسح وتستخدم فى تحليل أسطع العينات المختلفة وإعطاء فكرة عن العناصر الموجودة "
-          descriptiontwo="يستخدم هذا الجهاز فى الحد والوقاية من التعرض إلى الأبخرة الخطرة والضارة للمواد الكيميائية المختلفة."
+          description="An analysis unit using X-rays, a unit attached to the scanning electron microscope and used to analyze the brightest of different samples and give an idea of ​​the existing elements."
+          descriptiontwo="This device is used to reduce and prevent exposure to dangerous and harmful fumes of various chemicals."
         />
         <LabDevices
           img={asset9}
@@ -124,8 +121,8 @@ const LabDevicesPage = () => {
           devicetwo="Scanning Electron Microscope (SEM)"
           model="Scientificindustries Roto-Shake Genie"
           modeltwo="JEOL JSM 6510 lv"
-          description="يستخدم هذا الجهاز فى تقليب وخلط ومزج العينات والمواد الكميائية عن طريق دوران الجهاز بسرعات مختلفة سريعة وبطيئة."
-          descriptiontwo="يستخدم لفحص أسطح العينات ويعطى صورة مجسمة عالية الجودة والوضوح تصل القدرة التكبيرية إلى 300000 مرة ، يعمل تحت تفريغ عالى ، ويمكنه العمل تحت تفريغ منخفض ، "
+          description="This device is used to stir, mix and mix samples and chemicals by rotating the device at different speeds fast and slow."
+          descriptiontwo="It is used to check sample surfaces and gives high-quality and clear stereoscopic image. The magnification capacity reaches 300000 times, it works under high discharge, and it can work under low discharge."
         />
         <LabDevices
           img={asset11}
@@ -134,8 +131,8 @@ const LabDevicesPage = () => {
           devicetwo="Sputter Coating Evaporator"
           model="Ultrasonic Cleaner (XH-E412)"
           modeltwo="SPI Module - Sputter Carbon / Gold Coater"
-          description="        هو فعل من تطبيق الصوت (عادة الموجات فوق الصوتية) لهز وتقليب مكونات العينة والإسراع "
-          descriptiontwo="تغطية العينة بطبقة رقيقة من الكربون أو الذهب او مزيج من الذهب والبلاديوم بسمك 10-30 نانوميتر وذلك بعد عمليات التجفيف للعينات المراد فحصها بهدف جعلها موصلة للتيار الكهربى لأن فحص العينات يكون باستخدام الإلكترونات داخل المجهر الإلكتروني الماسح."
+          description="It is an act of applying sound (usually ultrasound) to shaking and flipping sample components and speeding up"
+          descriptiontwo="  Cover the sample with a thin layer of carbon or gold, or a mixture of gold and palladium with a thickness of 10-30 nanometers, after the drying processes of the samples to be examined in order to make them conductive to the electrical current because the examination of the samples is using electrons within the scanning electron microscope."
         />
         <LabDevices
           img={asset13}
@@ -144,8 +141,8 @@ const LabDevicesPage = () => {
           devicetwo="Stirring Hot Plate"
           model="Olympus SZ30 Stereo Zoom Microscope (9X - 40X Magnification) with Led Ring Light"
           modeltwo="Corning Stirring Hot Plate (10.2x12.7cm)"
-          description="جهاز لتكبير الأجسام الصغيرة المجسمة التي لا يمكن رؤية تفاصيلها الدقيقة بالعين المجردة، حيث يمكن لهذا النوع التكبير لأربعين مرة."
-          descriptiontwo=" يستخدم فى إذابة ومزج المواد الكميائية المختلفة مع التسخين لدرجات حرارة مختلفة وسرعات مختلفة ومدد زمنية مختلفة."
+          description="A device for enlarging small stereoscopic objects whose precise details cannot be seen with the naked eye, as this type can be enlarged forty times."
+          descriptiontwo=" It is used to dissolve and mix different chemicals with heating to different temperatures, different speeds and different time periods."
         />
         <LabDevices
           img={asset15}
@@ -154,8 +151,8 @@ const LabDevicesPage = () => {
           devicetwo="Transmission Electron Microscope"
           model="Micro Centrifuge"
           modeltwo="JEOL JEM-2100"
-          description="فصل المكونات الغير ذائبة من السوائل المختلفة بوضعها فى انابيب Centrifuge tubes ثم تدويرها عند السرعات المناسبة وللمدد الزمنية الكافية لكل نوعية من السوائل أو العينات بالمعامل طبقا للتعليمات المحددة لكل مهمة."
-          descriptiontwo="هى تقنية مجهرية يستخدم فيها حزمة من الإلكترونات التى تنفذ خلال عينة فائقة الرقة ، مما يؤدى الى ظهور صورة تخضع لعملية تضخيم وتكبير وتركيز على أجهزة تصوير  مثل شاشات مفلورة أو على فيلم فوتوغرافى أو أن تقاس"
+          description="Separating the insoluble components from the different liquids by placing them in the centrifuge tubes, then rotating them at the appropriate speeds and for sufficient periods of time for each type of fluid or samples in the laboratory according to the instructions specified for each task.."
+          descriptiontwo="It is a microscopic technique in which a bundle of electrons is used that is executed through a super-thin sample, which leads to the appearance of an image that is subject to an amplification, enlargement and focus process on imaging devices such as fluorescent screens or a photographic film or to be measured"
         />
         <LabDevices
           img={asset17}
@@ -164,8 +161,8 @@ const LabDevicesPage = () => {
           devicetwo="Tissue Rotator"
           model="PICCOLO Plus HI1295"
           modeltwo="EMS Tissue Rotator (0-6 RPM)"
-          description="يستخدم جهاز قياس الأس الهيدروجينى pH فى معرفة رقم الحموضة والقلوية فى المحاليل المختلفة المستخدمة فى معالجة العينات المراد فحصها مثل"
-          descriptiontwo="يستخدم هذا الجهاز فى تقليب وخلط ومزج الأنسجة والعينات البيولوجية ببطء عن طريق دوران الجهاز بسرعات بطيئة مختلفة داخل المواد الكميائية أثناء عمليات الإعداد المختلفة لفترات طويلة وذلك لضمان تخلل المواد داخل العينات."
+          description="The pH meter is used On knowing the acidity and alkalinity number of the different solutions used in treating the samples to be examined, such as"
+          descriptiontwo="The exponent measurement device is used. This device is used to stir, mix and mix tissue and biological samples slowly by rotating the device at different slow speeds within the chemicals during the different preparation processes for long periods so as to ensure the permeation of the substances inside the samples."
         />
         <LabDevices
           img={asset19}
@@ -175,14 +172,14 @@ const LabDevicesPage = () => {
           model="RMC PT-XL PowerTome Ultramicrotome"
           modeltwo="Thermo Scientific Oven under Vacuum"
           description="
-          للحصول على قطاعات فائقة الرقة (30 – 70 نانومتر) حتى نتمكن من فحصها بالميكروسكوب الإلكتروني"
-          descriptiontwo="يستخدم فرن التفريغ فى تجفيف العينات المختلفة حيث يعد أسرع بكثير من الأفران التقليدية."
+          For ultra-thin sectors (30 - 70 nanometers) we can scan them with an electron microscope"
+          descriptiontwo="The vacuum furnace is used to dry different samples as it is much faster than conventional ovens."
         />
         <LabDevices
           img={asset21}
           device="Zeta Potential Analyzer"
           model="Malvern Zetasize Nano-zs90"
-          description="يستخدم فى قياسات تحليل الجهد زيتا بالإضافة إلى قياس حجم الحبيبات الموجودة فى المذيبات من 0.3 نانوميتر إلى 5 ميكروميتر وكذلك الحجم الجزيئى والوزن الجزيئى والخصائص الريولوجية."
+          description="It is used in measurements of voltage analysis as an oil in addition to measuring the size of the granules present in the solvents from 0.3 nm to 5 ترm as well as the molecular size, molecular weight and rheological properties."
         />
       </section>
     </Layout>

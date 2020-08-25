@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../../components/Layout';
 import BlogRoll from '../../components/BlogRoll';
-import BlogRollEvents from '../../components/BlogRollEvents';
+import BlogRollWorkShop from '../../components/BlogRollWorkShop';
 import BlogRollVisits from '../../components/BlogRollVisits';
 export default class BlogIndexPage extends React.Component {
   render() {
@@ -29,11 +29,12 @@ export default class BlogIndexPage extends React.Component {
             }}
           >
             <h1
-              className="has-text-weight-bold is-size-1"
+              className=" has-text-weight-bold size-big is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
               style={{
-                backgroundColor: '#00d1b2',
                 color: 'white',
-                padding: '1rem',
+                lineHeight: '1',
+                padding: '0.25em',
+                margin: 'auto',
               }}
             >
               Events
@@ -45,8 +46,8 @@ export default class BlogIndexPage extends React.Component {
             <div className="content">
               <h1 id="one">Events </h1>
               <BlogRoll />
-              <h1 id="two">Conference and Events</h1>
-              <BlogRollEvents />
+              <h1 id="two">Workshops and Training</h1>
+              <BlogRollWorkShop />
               <h1 id="three">Visitations and Delegates</h1>
               <BlogRollVisits />
             </div>

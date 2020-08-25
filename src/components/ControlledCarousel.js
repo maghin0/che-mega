@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import product1 from '../img/asset 1.png';
 import product2 from '../img/asset 2.png';
 import product3 from '../img/asset 4.png';
+import product4 from '../img/asset 5.png';
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -23,7 +24,11 @@ function ControlledCarousel() {
       keyboard={true}
     >
       <Carousel.Item>
-        <img className="d-block w-100" src={product1} alt="First slide" />
+        <img
+          className="d-block w-100"
+          src={product1}
+          alt="Transmission Electron Microscope"
+        />
         <Carousel.Caption>
           <h3 style={{ color: '#1c1c47' }}>
             Transmission Electron Microscope (TEM)
@@ -32,7 +37,7 @@ function ControlledCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={product2} alt="Third slide" />
+        <img className="d-block w-100" src={product2} alt="Fume Hood" />
 
         <Carousel.Caption>
           <h3 style={{ color: '#1c1c47' }}>Fume Hood </h3>
@@ -40,13 +45,29 @@ function ControlledCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={product3} alt="Third slide" />
+        <img
+          className="d-block w-100"
+          src={product3}
+          alt="Scanning Electron Microscope"
+        />
 
         <Carousel.Caption>
           <h3 style={{ color: '#f4f4f4' }}>
             Scanning Electron Microscope (SEM)
           </h3>
           <p>JEOL JSM 6510 lv</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={product4}
+          alt="Zoom Binocular Stereo Microscope"
+        />
+
+        <Carousel.Caption>
+          <h3 style={{ color: '#f4f4f4' }}>Zoom Binocular Stereo Microscope</h3>
+          <p>Olympus SZ30 Stereo</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 
-import Layout from '../components/Layout';
+import LayoutAr from '../components/LayoutAr';
 import Features from '../components/Features';
 import BlogRoll from '../components/BlogRoll';
 import ControlledCarousel from '../components/ControlledCarousel';
@@ -22,7 +22,7 @@ import carousel6 from '../img/06.jpg';
 import carousel7 from '../img/07.jpg';
 import carousel8 from '../img/08.jpg';
 
-export const IndexPageTemplate = ({
+export const IndexPageArTemplate = ({
   // image,
   // title,
   heading,
@@ -107,76 +107,12 @@ export const IndexPageTemplate = ({
                 </div>
                 <ControlledCarousel />
                 <div className="column is-12 has-text-centered">
-                  <Link className="btn" to="/lab-devices-page">
+                  <Link className="btn" to="/lab-devices-ar">
                     Read more
                   </Link>
                 </div>
                 <br />
-                {/* <table className="table">
-                  <thead>
-                    <tr>
-                      <th
-                        className="has-text-centered"
-                        style={{ backgroundColor: '#1c1c47' }}
-                      >
-                        <abbr title="Position" style={{ color: 'white' }}>
-                          Services
-                        </abbr>
-                      </th>
-                      <th
-                        className="has-text-centered"
-                        style={{ backgroundColor: '#1c1c47', color: 'white' }}
-                      >
-                        Price (Egyptians)*
-                      </th>
-                      <th
-                        className="has-text-centered"
-                        style={{ backgroundColor: '#1c1c47', color: 'white' }}
-                      >
-                        <abbr title="Played">Price (non-Egyptians)**</abbr>
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Biological Sample</td>
-                      <td className="has-text-centered">300 L.E.</td>
-                      <td className="has-text-centered">$110</td>
-                    </tr>
-                    <tr>
-                      <td>Non-biological Sample</td>
-                      <td className="has-text-centered">250 L.E.</td>
-                      <td className="has-text-centered">$80</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        Elemental microanalysis for non-biological sample (EDS)
-                      </td>
-                      <td className="has-text-centered">240 L.E.</td>
-                      <td className="has-text-centered">$75</td>
-                    </tr>
-                    <tr>
-                      <td>EDS Mapping</td>
-                      <td className="has-text-centered">1000 L.E.</td>
-                      <td className="has-text-centered">$500</td>
-                    </tr>
-                    <tr>
-                      <td>Coating</td>
-                      <td className="has-text-centered">50 L.E.</td>
-                      <td className="has-text-centered"> $10</td>
-                    </tr>
-                    <tr>
-                      <td>Every Additional Picture</td>
-                      <td className="has-text-centered"> 10 L.E.</td>
-                      <td className="has-text-centered">$5</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <div className="column is-12 has-text-centered">
-                  <a className="btn" href="/img/price.pdf" target="_blank">
-                    View full Services
-                  </a>
-                </div> */}
+
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">Events</h3>
                   <BlogRoll />
@@ -195,7 +131,7 @@ export const IndexPageTemplate = ({
   </section>
 );
 
-IndexPageTemplate.propTypes = {
+IndexPageArTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
@@ -207,12 +143,13 @@ IndexPageTemplate.propTypes = {
   }),
 };
 
-const IndexPage = ({ data }) => {
+const IndexPageAr = ({ data }) => {
+  const { markdownRemark: post } = data;
   const { frontmatter } = data.markdownRemark;
 
   return (
-    <Layout>
-      <IndexPageTemplate
+    <LayoutAr>
+      <IndexPageArTemplate
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
@@ -221,11 +158,11 @@ const IndexPage = ({ data }) => {
         description={frontmatter.description}
         intro={frontmatter.intro}
       />
-    </Layout>
+    </LayoutAr>
   );
 };
 
-IndexPage.propTypes = {
+IndexPageAr.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -233,10 +170,10 @@ IndexPage.propTypes = {
   }),
 };
 
-export default IndexPage;
+export default IndexPageAr;
 
 export const pageQuery = graphql`
-  query IndexPageTemplate {
+  query IndexPageArTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title

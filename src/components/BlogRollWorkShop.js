@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Link, graphql, StaticQuery } from 'gatsby';
 import PreviewCompatibleImage from './PreviewCompatibleImage';
 
-class BlogRollEvents extends React.Component {
+class BlogRollWorkShop extends React.Component {
   render() {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
@@ -43,7 +43,7 @@ class BlogRollEvents extends React.Component {
                   </p>
                 </header>
                 <p>
-                  {post.excerpt}
+                  {post.frontmatter.description}
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
@@ -58,7 +58,7 @@ class BlogRollEvents extends React.Component {
   }
 }
 
-BlogRollEvents.propTypes = {
+BlogRollWorkShop.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -69,10 +69,10 @@ BlogRollEvents.propTypes = {
 export default () => (
   <StaticQuery
     query={graphql`
-      query BlogRollEventsQuery {
+      query BlogRollWorkShopQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { tags: { eq: "Events" } } }
+          filter: { frontmatter: { tags: { eq: "workshop" } } }
         ) {
           edges {
             node {
@@ -86,6 +86,7 @@ export default () => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
+                description
                 featuredimage {
                   childImageSharp {
                     fluid(maxWidth: 120, quality: 100) {
@@ -99,6 +100,6 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <BlogRollEvents data={data} count={count} />}
+    render={(data, count) => <BlogRollWorkShop data={data} count={count} />}
   />
 );

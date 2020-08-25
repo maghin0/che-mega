@@ -1,6 +1,7 @@
 ---
-templateKey: 'index-page'
-title: Great coffee with a conscience
+templateKey: 'index-page-ar'
+path: /ar
+title: Emunit Microscope
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
@@ -18,15 +19,15 @@ description: >-
   anyone.
 intro:
   blurbs:
-    - image: /img/mission.png
+    - image: /img/mission/mission.png
       title: Mission
       text: >
-        Ensure that the unit is one of the most important tools for the development of scientific research for various disci- plines and spread the culture of microscopic technology through educating and train- ng researchers, students and workers in factories.
-    - image: /img/vission.png
+        تأكد من أن الوحدة هي واحدة من أهم الأدوات لتطوير البحث العلمي لمختلف التخصصات ونشر ثقافة التكنولوجيا المجهرية من خلال تثقيف وتدريب الباحثين والطلاب والعاملين في المصانع.
+    - image: /img/mission/vission.png
       title: Vision
       text: >
-        The unit should be one of the latest units in the world in terms of equipment and staff, and the quality and accuracy of the results obtained.
-    - image: /img/goal.png
+        يجب أن تكون الوحدة من أحدث الوحدات في العالم من حيث المعدات والموظفين وجودة ودقة النتائج التي يتم الحصول عليها.
+    - image: /img/mission/goal.png
       title: Goal
       text: >
         Love a great cup of coffee, but never knew how to make one? Bought a
