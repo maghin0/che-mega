@@ -58,7 +58,7 @@ const Navbar = class extends React.Component {
               className={`navbar-burger burger' ${this.state.navBarActiveClass}`}
               data-target="navMenu"
               onClick={() => this.toggleHamburger()}
-              style={{ marginLeft: '80vw' }}
+              style={{ marginLeft: '60vw' }}
             >
               <span />
               <span />
