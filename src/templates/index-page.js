@@ -37,8 +37,8 @@ export const IndexPageTemplate = ({
   <section className="hero is-medium">
     <ControlledHero
       img11={carousel11}
-      img22={carousel22}
-      img33={carousel33}
+      // img22={carousel22}
+      // img33={carousel33}
       img={carousel1}
       img2={carousel2}
       img3={carousel3}
