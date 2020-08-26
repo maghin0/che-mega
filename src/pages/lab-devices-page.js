@@ -72,6 +72,51 @@ const LabDevicesPage = () => {
       </div>
       <section className="section section--gradient">
         <LabDevices
+          img={asset10}
+          imgtwo={asset16}
+          device="Scanning Electron Microscope (SEM)"
+          devicetwo="Transmission Electron Microscope"
+          model="JEOL JSM 6510 lv"
+          modeltwo="JEOL JEM-2100"
+          description="It is used to check sample surfaces and gives high-quality and clear stereoscopic image. The magnification capacity reaches 300000 times, it works under high discharge, and it can work under low discharge."
+          descriptiontwo="It is a microscopic technique in which a bundle of electrons is used that is executed through a super-thin sample, which leads to the appearance of an image that is subject to an amplification, enlargement and focus process on imaging devices such as fluorescent screens or a photographic film or to be measured"
+        />
+
+        <LabDevices
+          img={asset19}
+          imgtwo={asset20}
+          device="Ultramicrotome"
+          devicetwo="Vacuum Oven"
+          model="RMC PT-XL PowerTome Ultramicrotome"
+          modeltwo="Thermo Scientific Oven under Vacuum"
+          description="
+          For ultra-thin sectors (30 - 70 nanometers) we can scan them with an electron microscope"
+          descriptiontwo="The vacuum furnace is used to dry different samples as it is much faster than conventional ovens."
+        />
+
+        <LabDevices
+          img={asset5}
+          imgtwo={asset6}
+          device="Compact Incubator"
+          devicetwo="Critical Point Dryer"
+          model="Thermo Scientific Incubator"
+          modeltwo="Tousimis Autosamdri – 815 Coater"
+          description="A small-scale microbiological incubator is used to provide a range of temperatures necessary for the growth of many microorganisms, and is also used in some operations that may require keeping samples at certain temperatures."
+          descriptiontwo="To enlarge small objects that cannot be seen with the naked eye or to show the fine details of things in order to discover their composition and study, as this type can zoom in more than a thousand times."
+        />
+
+        <LabDevices
+          img={asset11}
+          imgtwo={asset12}
+          device="Ultrasonic Cleaner and Sonicator"
+          devicetwo="Sputter Coating Evaporator"
+          model="Ultrasonic Cleaner (XH-E412)"
+          modeltwo="SPI Module - Sputter Carbon / Gold Coater"
+          description="It is an act of applying sound (usually ultrasound) to shaking and flipping sample components and speeding up"
+          descriptiontwo="  Cover the sample with a thin layer of carbon or gold, or a mixture of gold and palladium with a thickness of 10-30 nanometers, after the drying processes of the samples to be examined in order to make them conductive to the electrical current because the examination of the samples is using electrons within the scanning electron microscope."
+        />
+
+        <LabDevices
           img={asset1}
           imgtwo={asset2}
           device="Four-Digit Analytical Balance"
@@ -93,16 +138,6 @@ const LabDevicesPage = () => {
           description="It is used in weighing different materials and preparing weighs as accurately as two decimal places."
           descriptiontwo="To enlarge small objects that cannot be seen with the naked eye or to show the fine details of things in order to discover their composition and study, as this type can zoom in more than a thousand times."
         />
-        <LabDevices
-          img={asset5}
-          imgtwo={asset6}
-          device="Compact Incubator"
-          devicetwo="Critical Point Dryer"
-          model="Thermo Scientific Incubator"
-          modeltwo="Tousimis Autosamdri – 815 Coater"
-          description="A small-scale microbiological incubator is used to provide a range of temperatures necessary for the growth of many microorganisms, and is also used in some operations that may require keeping samples at certain temperatures."
-          descriptiontwo="To enlarge small objects that cannot be seen with the naked eye or to show the fine details of things in order to discover their composition and study, as this type can zoom in more than a thousand times."
-        />
 
         <LabDevices
           img={asset7}
@@ -114,26 +149,7 @@ const LabDevicesPage = () => {
           description="An analysis unit using X-rays, a unit attached to the scanning electron microscope and used to analyze the brightest of different samples and give an idea of ​​the existing elements."
           descriptiontwo="This device is used to reduce and prevent exposure to dangerous and harmful fumes of various chemicals."
         />
-        <LabDevices
-          img={asset9}
-          imgtwo={asset10}
-          device="Rotary Shaker"
-          devicetwo="Scanning Electron Microscope (SEM)"
-          model="Scientificindustries Roto-Shake Genie"
-          modeltwo="JEOL JSM 6510 lv"
-          description="This device is used to stir, mix and mix samples and chemicals by rotating the device at different speeds fast and slow."
-          descriptiontwo="It is used to check sample surfaces and gives high-quality and clear stereoscopic image. The magnification capacity reaches 300000 times, it works under high discharge, and it can work under low discharge."
-        />
-        <LabDevices
-          img={asset11}
-          imgtwo={asset12}
-          device="Ultrasonic Cleaner and Sonicator"
-          devicetwo="Sputter Coating Evaporator"
-          model="Ultrasonic Cleaner (XH-E412)"
-          modeltwo="SPI Module - Sputter Carbon / Gold Coater"
-          description="It is an act of applying sound (usually ultrasound) to shaking and flipping sample components and speeding up"
-          descriptiontwo="  Cover the sample with a thin layer of carbon or gold, or a mixture of gold and palladium with a thickness of 10-30 nanometers, after the drying processes of the samples to be examined in order to make them conductive to the electrical current because the examination of the samples is using electrons within the scanning electron microscope."
-        />
+
         <LabDevices
           img={asset13}
           imgtwo={asset14}
@@ -144,16 +160,7 @@ const LabDevicesPage = () => {
           description="A device for enlarging small stereoscopic objects whose precise details cannot be seen with the naked eye, as this type can be enlarged forty times."
           descriptiontwo=" It is used to dissolve and mix different chemicals with heating to different temperatures, different speeds and different time periods."
         />
-        <LabDevices
-          img={asset15}
-          imgtwo={asset16}
-          device="Table Top Centrifuge"
-          devicetwo="Transmission Electron Microscope"
-          model="Micro Centrifuge"
-          modeltwo="JEOL JEM-2100"
-          description="Separating the insoluble components from the different liquids by placing them in the centrifuge tubes, then rotating them at the appropriate speeds and for sufficient periods of time for each type of fluid or samples in the laboratory according to the instructions specified for each task.."
-          descriptiontwo="It is a microscopic technique in which a bundle of electrons is used that is executed through a super-thin sample, which leads to the appearance of an image that is subject to an amplification, enlargement and focus process on imaging devices such as fluorescent screens or a photographic film or to be measured"
-        />
+
         <LabDevices
           img={asset17}
           imgtwo={asset18}
@@ -165,16 +172,16 @@ const LabDevicesPage = () => {
           descriptiontwo="The exponent measurement device is used. This device is used to stir, mix and mix tissue and biological samples slowly by rotating the device at different slow speeds within the chemicals during the different preparation processes for long periods so as to ensure the permeation of the substances inside the samples."
         />
         <LabDevices
-          img={asset19}
-          imgtwo={asset20}
-          device="Ultramicrotome"
-          devicetwo="Vacuum Oven"
-          model="RMC PT-XL PowerTome Ultramicrotome"
-          modeltwo="Thermo Scientific Oven under Vacuum"
-          description="
-          For ultra-thin sectors (30 - 70 nanometers) we can scan them with an electron microscope"
-          descriptiontwo="The vacuum furnace is used to dry different samples as it is much faster than conventional ovens."
+          img={asset9}
+          imgtwo={asset15}
+          device="Rotary Shaker"
+          devicetwo="Table Top Centrifuge "
+          model="Scientificindustries Roto-Shake Genie"
+          modeltwo="Micro Centrifuge "
+          description="This device is used to stir, mix and mix samples and chemicals by rotating the device at different speeds fast and slow."
+          descriptiontwo="Separating the insoluble components from the different liquids by placing them in the centrifuge tubes, then rotating them at the appropriate speeds and for sufficient periods of time for each type of fluid or samples in the laboratory according to the instructions specified for each task."
         />
+
         <LabDevices
           img={asset21}
           device="Zeta Potential Analyzer"

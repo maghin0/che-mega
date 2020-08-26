@@ -17,10 +17,13 @@ import mahomoudpdf from '../img/about us/mahmoud-hasan.pdf';
 import mohameds from '../img/about us/mohamed-shaheen.jpg';
 import mohamedspdf from '../img/about us/mohamed-shaheen.pdf';
 import reham from '../img/about us/reham-abdulah.jpg';
+import rehampdf from '../img/about us/reham-abdulah.pdf';
 
 import salmao from '../img/about us/salma-osama.jpg';
+import salmaopdf from '../img/about us/salma-osama.pdf';
 
 import salmam from '../img/about us/salma-moustafa.jpg';
+import salmampdf from '../img/about us/salma-moustafa.pdf';
 
 import hagar from '../img/about us/hagar-dewedar.jpg';
 import hagarpdf from '../img/about us/hagar-dewedar.pdf';
@@ -30,12 +33,14 @@ import khalid from '../img/about us/khalid-fathy.jpg';
 import khalidpdf from '../img/about us/khalid-fathy.pdf';
 //consultants
 import awni from '../img/about us/awni-hassan.jpg';
+import awnipdf from '../img/about us/awni-hassan.pdf';
 
 import zak from '../img/about us/zak-baka.jpg';
 import zakpdf from '../img/about us/zak-baka.pdf';
 import maher from '../img/about us/maher-mahmoud.jpg';
 
 import mohamedm from '../img/about us/mohamed-mostafa.jpg';
+import mohamedmpdf from '../img/about us/mohamed-mostafa.pdf';
 
 import fekry from '../img/about us/fekry-mohamed.jpg';
 import fekrypdf from '../img/about us/fekry-mohamed.pdf';
@@ -148,10 +153,11 @@ export const AboutPageTemplate = ({
                 <h5 className="has-text-white">
                   د/ ريهام عبدالله شمس الدين <br /> أخصائي علمي (TEM) <br />
                   01140777134
-                  {/* <a target="_blank" rel="noopener noreferrer">
+                  <br />
+                  <a href={rehampdf} target="_blank" rel="noopener noreferrer">
                     {' '}
                     نبذة مختصرة{' '}
-                  </a> */}
+                  </a>
                   <br />
                 </h5>
               </div>
@@ -232,10 +238,10 @@ export const AboutPageTemplate = ({
                   سلمى أسامة غانم <br />
                   أخصائي ألتراميكروتوم
                   <br />{' '}
-                  {/* <a target="_blank" rel="noopener noreferrer">
+                  <a href={salmaopdf} target="_blank" rel="noopener noreferrer">
                     {' '}
                     نبذة مختصرة{' '}
-                  </a> */}
+                  </a>
                   <br />
                 </h5>
               </div>
@@ -279,10 +285,10 @@ export const AboutPageTemplate = ({
                   سلمى مصطفى قاسم <br />
                   أخصائي ألتراميكروتوم
                   <br />{' '}
-                  {/* <a target="_blank" rel="noopener noreferrer">
+                  <a href={salmampdf} target="_blank" rel="noopener noreferrer">
                     {' '}
                     نبذة مختصرة{' '}
-                  </a> */}
+                  </a>
                   <br />
                 </h5>
               </div>
@@ -322,6 +328,10 @@ export const AboutPageTemplate = ({
                   للوحدة فى مجال تجهيز وفحص الأنسجة الحية بالميكروسكوب
                   الإلكترونى النافذ
                 </p>
+                <a href={awnipdf} target="_blank" rel="noopener noreferrer">
+                  {' '}
+                  نبذة مختصرة{' '}
+                </a>
               </div>
             </div>
             <div className="columns">
@@ -373,6 +383,10 @@ export const AboutPageTemplate = ({
                   - مدرس - قسم الصيدلانيات - كلية الصيدلة – جامعة المنصورة
                   استشارى علمى للوحدة فى مجال القياسات بجهاز تحليل الجهد زيتا
                 </p>
+                <a href={mohamedmpdf} target="_blank" rel="noopener noreferrer">
+                  {' '}
+                  نبذة مختصرة{' '}
+                </a>
               </div>
             </div>
             <div className="columns">

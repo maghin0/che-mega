@@ -10,7 +10,7 @@ const Servicess = () => (
             style={{ backgroundColor: '#1c1c47' }}
           >
             <abbr title="Position" style={{ color: 'white' }}>
-              Servicess
+              Services
             </abbr>
           </th>
           <th
@@ -62,7 +62,7 @@ const Servicess = () => (
     </table>
     <div className="column is-12 has-text-centered">
       <a className="btn" href="/img/price.pdf" target="_blank">
-        View full Servicess
+        View full Services
       </a>
     </div>
     <br />

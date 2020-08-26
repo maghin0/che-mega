@@ -11,6 +11,9 @@ function ControlledHero(props) {
     setIndex(selectedIndex);
   };
 
+  const img11 = props.img11;
+  const img22 = props.img22;
+  const img33 = props.img33;
   const img = props.img;
   const img2 = props.img2;
   const img3 = props.img3;
@@ -28,6 +31,15 @@ function ControlledHero(props) {
       interval={4000}
       pause={false}
     >
+      <Carousel.Item>
+        <img className="d-block w-100" src={img11} alt="Third slide" />
+      </Carousel.Item>{' '}
+      {/* <Carousel.Item>
+        <img className="d-block w-100" src={img22} alt="Third slide" />
+      </Carousel.Item>{' '}
+      <Carousel.Item>
+        <img className="d-block w-100" src={img33} alt="Third slide" />
+      </Carousel.Item> */}
       <Carousel.Item>
         <img className="d-block w-100" src={img} alt="First slide" />
         {/* <Carousel.Caption>

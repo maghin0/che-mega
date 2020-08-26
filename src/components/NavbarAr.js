@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'gatsby';
 import logo from '../img/social/logo.png';
 
+import servicespdf from '../../static/img/price.pdf';
+
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props);
@@ -40,7 +42,7 @@ const Navbar = class extends React.Component {
         style={{ paddingBottom: '0px' }}
       >
         <div className="container">
-          <div className="navbar-brand" style={{ padding: '0' }}>
+          <div className="navbar-brand">
             <Link
               to="/"
               className="navbar-item"
@@ -156,6 +158,11 @@ const Navbar = class extends React.Component {
                 activeStyle={{ color: '#60f4b8' }}
               >
                 الإنجليزية
+              </Link>
+              <Link className="navbar-item" activeStyle={{ color: '#60f4b8' }}>
+                <a className="button is-primary" href={servicespdf}>
+                  Service Cost
+                </a>
               </Link>
 
               {/* <Link className="navbar-item" to="/contact/examples">

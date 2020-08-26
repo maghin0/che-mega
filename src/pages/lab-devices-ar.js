@@ -72,6 +72,39 @@ const LabDevicesArabicPage = () => {
       </div>
       <section className="section section--gradient">
         <LabDevicesArabic
+          img={asset16}
+          imgtwo={asset10}
+          device="Transmission Electron Microscope"
+          devicetwo="Scanning Electron Microscope (SEM)"
+          model="JEOL JEM-2100"
+          modeltwo="JEOL JSM 6510 lv"
+          description=" هى تقنية مجهرية يستخدم فيها حزمة من الإلكترونات التى تنفذ خلال عينة فائقة الرقة ، مما يؤدى الى ظهور صورة تخضع لعملية تضخيم وتكبير وتركيز على أجهزة تصوير  مثل شاشات مفلورة أو على فيلم فوتوغرافى أو أن تقاس."
+          descriptiontwo="يستخدم لفحص أسطح العينات ويعطى صورة مجسمة عالية الجودة والوضوح تصل القدرة التكبيرية إلى 300000 مرة ، يعمل تحت تفريغ عالى ، ويمكنه العمل تحت تفريغ منخفض ، "
+        />
+
+        <LabDevicesArabic
+          img={asset19}
+          imgtwo={asset20}
+          device="Ultramicrotome"
+          devicetwo="Vacuum Oven"
+          model="RMC PT-XL PowerTome Ultramicrotome"
+          modeltwo="Thermo Scientific Oven under Vacuum"
+          description="
+          للحصول على قطاعات فائقة الرقة (30 – 70 نانومتر) حتى نتمكن من فحصها بالميكروسكوب الإلكتروني"
+          descriptiontwo="يستخدم فرن التفريغ فى تجفيف العينات المختلفة حيث يعد أسرع بكثير من الأفران التقليدية."
+        />
+
+        <LabDevicesArabic
+          img={asset11}
+          imgtwo={asset12}
+          device="Ultrasonic Cleaner and Sonicator"
+          devicetwo="Sputter Coating Evaporator"
+          model="Ultrasonic Cleaner (XH-E412)"
+          modeltwo="SPI Module - Sputter Carbon / Gold Coater"
+          description="        هو فعل من تطبيق الصوت (عادة الموجات فوق الصوتية) لهز وتقليب مكونات العينة والإسراع "
+          descriptiontwo="تغطية العينة بطبقة رقيقة من الكربون أو الذهب او مزيج من الذهب والبلاديوم بسمك 10-30 نانوميتر وذلك بعد عمليات التجفيف للعينات المراد فحصها بهدف جعلها موصلة للتيار الكهربى لأن فحص العينات يكون باستخدام الإلكترونات داخل المجهر الإلكتروني الماسح."
+        />
+        <LabDevicesArabic
           img={asset1}
           imgtwo={asset2}
           device="Four-Digit Analytical Balance"
@@ -116,26 +149,7 @@ const LabDevicesArabicPage = () => {
           description="وحدة التحليل باستخدام الأشعة السينية وهي وحدة ملحقة بالميكروسكوب الإلكتروني الماسح وتستخدم فى تحليل أسطع العينات المختلفة وإعطاء فكرة عن العناصر الموجودة "
           descriptiontwo="يستخدم هذا الجهاز فى الحد والوقاية من التعرض إلى الأبخرة الخطرة والضارة للمواد الكيميائية المختلفة."
         />
-        <LabDevicesArabic
-          img={asset9}
-          imgtwo={asset10}
-          device="Rotary Shaker"
-          devicetwo="Scanning Electron Microscope (SEM)"
-          model="Scientificindustries Roto-Shake Genie"
-          modeltwo="JEOL JSM 6510 lv"
-          description="يستخدم هذا الجهاز فى تقليب وخلط ومزج العينات والمواد الكميائية عن طريق دوران الجهاز بسرعات مختلفة سريعة وبطيئة."
-          descriptiontwo="يستخدم لفحص أسطح العينات ويعطى صورة مجسمة عالية الجودة والوضوح تصل القدرة التكبيرية إلى 300000 مرة ، يعمل تحت تفريغ عالى ، ويمكنه العمل تحت تفريغ منخفض ، "
-        />
-        <LabDevicesArabic
-          img={asset11}
-          imgtwo={asset12}
-          device="Ultrasonic Cleaner and Sonicator"
-          devicetwo="Sputter Coating Evaporator"
-          model="Ultrasonic Cleaner (XH-E412)"
-          modeltwo="SPI Module - Sputter Carbon / Gold Coater"
-          description="        هو فعل من تطبيق الصوت (عادة الموجات فوق الصوتية) لهز وتقليب مكونات العينة والإسراع "
-          descriptiontwo="تغطية العينة بطبقة رقيقة من الكربون أو الذهب او مزيج من الذهب والبلاديوم بسمك 10-30 نانوميتر وذلك بعد عمليات التجفيف للعينات المراد فحصها بهدف جعلها موصلة للتيار الكهربى لأن فحص العينات يكون باستخدام الإلكترونات داخل المجهر الإلكتروني الماسح."
-        />
+
         <LabDevicesArabic
           img={asset13}
           imgtwo={asset14}
@@ -148,14 +162,15 @@ const LabDevicesArabicPage = () => {
         />
         <LabDevicesArabic
           img={asset15}
-          imgtwo={asset16}
+          imgtwo={asset9}
           device="Table Top Centrifuge"
-          devicetwo="Transmission Electron Microscope"
+          devicetwo="Rotary Shaker "
           model="Micro Centrifuge"
-          modeltwo="JEOL JEM-2100"
+          modeltwo="Scientificindustries Roto-Shake Genie"
           description="فصل المكونات الغير ذائبة من السوائل المختلفة بوضعها فى انابيب Centrifuge tubes ثم تدويرها عند السرعات المناسبة وللمدد الزمنية الكافية لكل نوعية من السوائل أو العينات بالمعامل طبقا للتعليمات المحددة لكل مهمة."
-          descriptiontwo="هى تقنية مجهرية يستخدم فيها حزمة من الإلكترونات التى تنفذ خلال عينة فائقة الرقة ، مما يؤدى الى ظهور صورة تخضع لعملية تضخيم وتكبير وتركيز على أجهزة تصوير  مثل شاشات مفلورة أو على فيلم فوتوغرافى أو أن تقاس"
+          descriptiontwo="يستخدم هذا الجهاز فى تقليب وخلط ومزج العينات والمواد الكميائية عن طريق دوران الجهاز بسرعات مختلفة سريعة وبطيئة"
         />
+
         <LabDevicesArabic
           img={asset17}
           imgtwo={asset18}
@@ -166,17 +181,7 @@ const LabDevicesArabicPage = () => {
           description="يستخدم جهاز قياس الأس الهيدروجينى pH فى معرفة رقم الحموضة والقلوية فى المحاليل المختلفة المستخدمة فى معالجة العينات المراد فحصها مثل"
           descriptiontwo="يستخدم هذا الجهاز فى تقليب وخلط ومزج الأنسجة والعينات البيولوجية ببطء عن طريق دوران الجهاز بسرعات بطيئة مختلفة داخل المواد الكميائية أثناء عمليات الإعداد المختلفة لفترات طويلة وذلك لضمان تخلل المواد داخل العينات."
         />
-        <LabDevicesArabic
-          img={asset19}
-          imgtwo={asset20}
-          device="Ultramicrotome"
-          devicetwo="Vacuum Oven"
-          model="RMC PT-XL PowerTome Ultramicrotome"
-          modeltwo="Thermo Scientific Oven under Vacuum"
-          description="
-          للحصول على قطاعات فائقة الرقة (30 – 70 نانومتر) حتى نتمكن من فحصها بالميكروسكوب الإلكتروني"
-          descriptiontwo="يستخدم فرن التفريغ فى تجفيف العينات المختلفة حيث يعد أسرع بكثير من الأفران التقليدية."
-        />
+
         <LabDevicesArabic
           img={asset21}
           device="Zeta Potential Analyzer"

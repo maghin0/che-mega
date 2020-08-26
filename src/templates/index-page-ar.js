@@ -13,6 +13,9 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a lo
 //import { Carousel } from 'react-responsive-carousel';
 import Servicess from '../components/Servicess';
 
+import carousel11 from '../img/11.jpg';
+import carousel22 from '../img/22.jpg';
+import carousel33 from '../img/33.jpg';
 import carousel1 from '../img/01.jpg';
 import carousel2 from '../img/02.jpg';
 import carousel3 from '../img/03.jpg';
@@ -33,6 +36,9 @@ export const IndexPageArTemplate = ({
 }) => (
   <section className="hero is-medium">
     <ControlledHero
+      img11={carousel11}
+      img22={carousel22}
+      img33={carousel33}
       img={carousel1}
       img2={carousel2}
       img3={carousel3}
