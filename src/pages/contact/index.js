@@ -131,7 +131,7 @@ export default class Index extends React.Component {
 
                     <div className="column is-4 ">
                       <a
-                        title="facebook"
+                        title="YouTube"
                         href="https://www.youtube.com/user/mansvu"
                         target="_blank"
                         rel="noopener noreferrer"

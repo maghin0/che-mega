@@ -14,8 +14,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a lo
 import Servicess from '../components/Servicess';
 
 import carousel11 from '../img/11.jpg';
-import carousel22 from '../img/22.jpg';
-import carousel33 from '../img/33.jpg';
+// import carousel22 from '../img/12.jpg';
+// import carousel33 from '../img/33.jpg';
 import carousel1 from '../img/01.jpg';
 import carousel2 from '../img/02.jpg';
 import carousel3 from '../img/03.jpg';
