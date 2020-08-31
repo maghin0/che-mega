@@ -1,11 +1,11 @@
 ---
 templateKey: 'blog-post'
-title: ''Prof. Dr. Yasser Shabana Director of the Seed Diseases and Cultivation Laboratory receives the delegation from Menoufia Medicine'
+title: 'Prof. Dr. Yasser Shabana receives the delegation from Menoufia Medicine'
 date: 2020-02-16T15:04:10.000Z
 featuredpost: true
 featuredimage: /img/blog/comment-2020-02-16-1.jpg
 description: >-
- Commenting on the visit of the student exchange delegation from Menoufia Medicine
+  Commenting on the visit of the student exchange delegation from Menoufia Medicine
 tags:
   - visitseng
 ---
