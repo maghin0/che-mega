@@ -150,7 +150,7 @@ const Navbar = class extends React.Component {
                 to="/arabic"
                 activeStyle={{ color: '#60f4b8' }}
               >
-                Arabic
+                عربى
               </Link>
               <Link className="navbar-item" activeStyle={{ color: '#60f4b8' }}>
                 <a className="button is-primary" href={servicespdf}>

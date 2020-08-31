@@ -1,6 +1,6 @@
 ---
 templateKey: 'index-page-ar'
-path: /ar
+path: /arabic
 title: Emunit Microscope
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
@@ -17,24 +17,23 @@ description: >-
   java’s origin and support the farmers that grew it. We take coffee production,
   roasting and brewing seriously and we’re glad to pass that knowledge to
   anyone.
+
 intro:
   blurbs:
     - image: /img/mission/mission.png
-      title: Mission
+      title: الرسالة
       text: >
         تأكد من أن الوحدة هي واحدة من أهم الأدوات لتطوير البحث العلمي لمختلف التخصصات ونشر ثقافة التكنولوجيا المجهرية من خلال تثقيف وتدريب الباحثين والطلاب والعاملين في المصانع.
     - image: /img/mission/vission.png
-      title: Vision
+      title: الرؤية
       text: >
         يجب أن تكون الوحدة من أحدث الوحدات في العالم من حيث المعدات والموظفين وجودة ودقة النتائج التي يتم الحصول عليها.
     - image: /img/mission/goal.png
-      title: Goal
+      title: الأهداف
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        تنظيم دورات تدريبية عامة ومتخصصة للطلاب والباحثين والعاملين في الصناعة من داخل الجامعة وخارجها ، وعلى المستوى الإقليمى.
+        الإسهام في دعم العملية التعليمية في مجالات تخصص الوحدة.
+        توفير الخدمات اللازمة للشركات والمصانع.
 
   heading: What we offer
   description: >

@@ -180,7 +180,7 @@ export default IndexPageAr;
 
 export const pageQuery = graphql`
   query IndexPageArTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+    markdownRemark(frontmatter: { templateKey: { eq: "index-page-ar" } }) {
       frontmatter {
         title
         image {
