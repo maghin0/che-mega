@@ -40,8 +40,8 @@ function ControlledCarousel() {
         <img className="d-block w-100" src={product2} alt="Fume Hood" />
 
         <Carousel.Caption>
-          <h3 style={{ color: '#1c1c47' }}>Fume Hood </h3>
-          <p style={{ color: '#1c1c47' }}>FH1500 Fume Hood BIOBASE</p>
+          <h3 style={{ color: '#1c1c47' }}>Zeta Potential Analyzer</h3>
+          <p style={{ color: '#1c1c47' }}>Model: Malvern Zetasize Nano-zs90</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -55,7 +55,7 @@ function ControlledCarousel() {
           <h3 style={{ color: '#f4f4f4' }}>
             Scanning Electron Microscope (SEM)
           </h3>
-          <p>JEOL JSM 6510 lv</p>
+          <p>Model: JEOL JSM 6510 lv</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -66,8 +66,8 @@ function ControlledCarousel() {
         />
 
         <Carousel.Caption>
-          <h3 style={{ color: '#f4f4f4' }}>Zoom Binocular Stereo Microscope</h3>
-          <p>Olympus SZ30 Stereo</p>
+          <h3 style={{ color: '#f4f4f4' }}>Ultramicrotome</h3>
+          <p>Model: RMC PT-XL PowerTome Ultramicrotome</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

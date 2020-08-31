@@ -130,6 +130,8 @@ export const AboutPageTemplate = ({
               <div className="column is-4">
                 <h5 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
+                  <br />
+                  01149892220
                   <br />{' '}
                   <a href={yassercv} target="_blank" rel="noopener noreferrer">
                     {' '}
@@ -166,7 +168,9 @@ export const AboutPageTemplate = ({
               </div>
               <div className="column is-4">
                 <h5 className="has-text-white">
-                  خالد فتحي إبراهيم <br /> أخصائي معالجة عينات
+                  د/ خالد فتحي إبراهيم <br /> أخصائي معالجة عينات
+                  <br />
+                  01211156956
                   <br />{' '}
                   <a href={khalidpdf} target="_blank" rel="noopener noreferrer">
                     {' '}
@@ -195,7 +199,7 @@ export const AboutPageTemplate = ({
               </div>
               <div className="column is-4">
                 <h5 className="has-text-white">
-                  محمود عبد الفتاح حسن <br />
+                  د/ محمود عبد الفتاح حسن <br />
                   أخصائي علمي (TEM) <br />
                   01020720431
                   <br />{' '}
@@ -215,8 +219,9 @@ export const AboutPageTemplate = ({
               </div>
               <div className="column is-4">
                 <h5 className="has-text-white">
-                  محمد علي شاهين <br />
-                  أخصائي علمي (SEM ، Zeta Analyzer) <br />
+                  د/ محمد علي شاهين <br />
+                  أخصائي علمي (SEM ، Zeta Analyzer)
+                  <br />
                   01000461196
                   <br />{' '}
                   <a
