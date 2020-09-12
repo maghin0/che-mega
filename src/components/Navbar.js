@@ -153,7 +153,12 @@ const Navbar = class extends React.Component {
                 عربى
               </Link>
               <Link className="navbar-item" activeStyle={{ color: '#60f4b8' }}>
-                <a className="button is-primary" href={servicespdf}>
+                <a
+                  className="button is-primary"
+                  href={servicespdf}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Service Cost
                 </a>
               </Link>

@@ -14,8 +14,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a lo
 import Servicess from '../components/Servicess';
 
 import carousel11 from '../img/11.jpg';
-// import carousel22 from '../img/12.jpg';
-// import carousel33 from '../img/33.jpg';
+import carousel22 from '../img/22.jpg';
+import carousel33 from '../img/33.jpg';
 import carousel1 from '../img/01.jpg';
 import carousel2 from '../img/02.jpg';
 import carousel3 from '../img/03.jpg';
@@ -34,21 +34,22 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <section className="hero is-medium">
-    <ControlledHero
-      img11={carousel11}
-      // img22={carousel22}
-      // img33={carousel33}
-      img={carousel1}
-      img2={carousel2}
-      img3={carousel3}
-      img4={carousel4}
-      img5={carousel5}
-      img6={carousel6}
-      img7={carousel7}
-      img8={carousel8}
-    />
-
+  <>
+    <section className="hero is-medium">
+      <ControlledHero
+        img11={carousel11}
+        img22={carousel22}
+        img33={carousel33}
+        img={carousel1}
+        img2={carousel2}
+        img3={carousel3}
+        img4={carousel4}
+        img5={carousel5}
+        img6={carousel6}
+        img7={carousel7}
+        img8={carousel8}
+      />
+    </section>
     {/* <Carousel showArrows={true}>
         <div className="carousell">
           <img src={carousel1} alt="Third slide" />
@@ -198,7 +199,7 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
-  </section>
+  </>
 );
 
 IndexPageTemplate.propTypes = {

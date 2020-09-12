@@ -142,7 +142,7 @@ const Navbar = class extends React.Component {
                 to="/lab-devices-ar"
                 activeStyle={{ color: '#60f4b8' }}
               >
-                أجهزة المعامل
+                أجهزة الوحدة
               </Link>
 
               <Link
@@ -160,7 +160,12 @@ const Navbar = class extends React.Component {
                 English
               </Link>
               <Link className="navbar-item" activeStyle={{ color: '#60f4b8' }}>
-                <a className="button is-primary" href={servicespdf}>
+                <a
+                  className="button is-primary"
+                  href={servicespdf}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Service Cost
                 </a>
               </Link>

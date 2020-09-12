@@ -7,7 +7,7 @@ featuredimage: /img/blog/comment-2020-02-16-1.jpg
 description: >-
   Visit of the Ukrainian delegation from Ternopil University
 tags:
-  - visitseng
+  - visitseng 
 ---
 
 ![chemex](/img/blog/comment-2020-02-16-2.jpg)

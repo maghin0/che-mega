@@ -21,19 +21,16 @@ intro:
     - image: /img/mission.png
       title: Mission
       text: >
-        Ensure that the unit is one of the most important tools for the development of scientific research for various disci- plines and spread the culture of microscopic technology through educating and train- ng researchers, students and workers in factories.
+        Working to make the unit one of the most important tools for developing scientific research for various disciplines and working to spread the microscopy technology through education and training for researchers, students and industry workers.
     - image: /img/vission.png
       title: Vision
       text: >
-        The unit should be one of the latest units in the world in terms of equipment and staff, and the quality and accuracy of the results obtained.
+        To be one of the most modern units worldwide in terms of equipment, expertise, and the quality and accuracy of the obtained results.
     - image: /img/goal.png
       title: Goal
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        Firstly, Organize general and specialized training courses for students, researchers and industry workers at regional level, secondly Contribute to supporting the educational process in the areas of the unit’s specialization, thirdly Provide the necessary services to companies and industry, fourthly Support and develop scientific research in the Egyptian and regional universities and research centers, finally provide Leadership in testing and analyzing micro samples at the nanoscale level as well as in biological and non-biological disciplines.
+
 
   heading: What we offer
   description: >

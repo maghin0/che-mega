@@ -47,7 +47,7 @@ export default class Index extends React.Component {
           className="full-width-image margin-top-0"
           style={{
             backgroundImage: `url(
-        img/home-jumbotron.jpg
+        img/contact-bg.jpg
         )`,
             backgroundPosition: `top left`,
             backgroundAttachment: `fixed`,
@@ -157,7 +157,15 @@ export default class Index extends React.Component {
                       />
                       Call Us 002 (050) 2221688
                     </div>
-                    <div className="column is-6">
+                    <div className="column is-8">
+                      <img
+                        src={call}
+                        alt="call us"
+                        style={{ width: '2em', height: '2em', margin: '1em' }}
+                      />
+                      Call +20 114989220
+                    </div>
+                    <div className="column is-8">
                       <a title="facebook" href="mailto:emunit@mans.edu.eg">
                         <img
                           src={email}
@@ -166,6 +174,26 @@ export default class Index extends React.Component {
                         />
                         Email Us
                       </a>
+                    </div>
+                    <div className="column is-8">
+                      <a
+                        title="facebook"
+                        href="mailto:yassershabana2@yahoo.com"
+                      >
+                        <img
+                          src={email}
+                          alt="email us"
+                          style={{ width: '2em', height: '2em', margin: '1em' }}
+                        />
+                        Email Prof. Yasser Shabana
+                      </a>
+                    </div>
+                    <div className="column is-8">
+                      <p style={{ textAlign: 'right' }}>
+                        شارع الجمهورية - حرم جامعة المنصورة - كلية الزراعة -
+                        مبنى "و" (المبني الجديد) - الدور الأرضي – المنصورة –
+                        مصر. 35516
+                      </p>
                     </div>
                   </div>
                 </div>

@@ -39,9 +39,9 @@ const LabDevicesPage = () => {
         className="full-width-image margin-top-0"
         style={{
           backgroundImage: `url(
-  img/home-jumbotron.jpg
+  img/lab-bg.jpg
   )`,
-          backgroundPosition: `top left`,
+          backgroundPosition: `bottom right`,
           backgroundAttachment: `fixed`,
         }}
       >

@@ -61,7 +61,7 @@ export const AboutPageTemplate = ({
           backgroundImage: `url(
   img/home-jumbotron.jpg
   )`,
-          backgroundPosition: `top left`,
+          backgroundPosition: `top right`,
           backgroundAttachment: `fixed`,
         }}
       >
