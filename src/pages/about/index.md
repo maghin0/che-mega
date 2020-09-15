@@ -19,7 +19,7 @@ intro:
         Firstly, Organize general and specialized training courses for students, researchers and industry workers at regional level, secondly Contribute to supporting the educational process in the areas of the unit’s specialization, thirdly Provide the necessary services to companies and industry, fourthly Support and develop scientific research in the Egyptian and regional universities and research centers, finally provide Leadership in testing and analyzing micro samples at the nanoscale level as well as in biological and non-biological disciplines.
 ---
 
-![Meeting](/img/02.jpg)
+![Meeting](/img/aboutus.jpg)
 
 ### About the Unit
 

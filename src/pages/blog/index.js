@@ -11,7 +11,7 @@ export default class BlogIndexPage extends React.Component {
         <div
           className="full-width-image margin-top-0"
           style={{
-            backgroundImage: `url('/img/blog-index.jpg')`,
+            backgroundImage: `url('/img/event-bg.jpg')`,
 
             backgroundAttachment: 'fixed',
           }}

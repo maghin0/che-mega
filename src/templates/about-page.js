@@ -59,7 +59,7 @@ export const AboutPageTemplate = ({
         className="full-width-image margin-top-0"
         style={{
           backgroundImage: `url(
-  img/home-jumbotron.jpg
+  img/about-bg.jpg
   )`,
           backgroundPosition: `top right`,
           backgroundAttachment: `fixed`,

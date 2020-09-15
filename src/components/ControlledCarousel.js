@@ -37,17 +37,9 @@ function ControlledCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={product2} alt="Fume Hood" />
-
-        <Carousel.Caption>
-          <h3 style={{ color: '#1c1c47' }}>Zeta Potential Analyzer</h3>
-          <p style={{ color: '#1c1c47' }}>Model: Malvern Zetasize Nano-zs90</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
         <img
           className="d-block w-100"
-          src={product3}
+          src={product2}
           alt="Scanning Electron Microscope"
         />
 
@@ -56,6 +48,18 @@ function ControlledCarousel() {
             Scanning Electron Microscope (SEM)
           </h3>
           <p>Model: JEOL JSM 6510 lv</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={product3}
+          alt="Zeta Potential Analyzer"
+        />
+
+        <Carousel.Caption>
+          <h3 style={{ color: '#1c1c47' }}>Zeta Potential Analyzer</h3>
+          <p style={{ color: '#1c1c47' }}>Model: Malvern Zetasize Nano-zs90</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
