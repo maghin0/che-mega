@@ -114,7 +114,7 @@ export const IndexPageArTemplate = ({
                 <ControlledCarousel />
                 <div className="column is-12 has-text-centered">
                   <Link className="btn" to="/lab-devices-ar">
-                    Read more
+                    View All Devices
                   </Link>
                 </div>
                 <br />

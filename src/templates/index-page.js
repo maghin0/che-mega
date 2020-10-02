@@ -15,7 +15,7 @@ import Servicess from '../components/Servicess';
 
 import carousel9 from '../img/09.jpg';
 import carousel10 from '../img/10.jpg';
-import carousel11 from '../img/11.jpg';
+//import carousel11 from '../img/11.jpg';
 import carousel1 from '../img/01.jpg';
 import carousel2 from '../img/02.jpg';
 import carousel3 from '../img/03.jpg';
@@ -39,7 +39,7 @@ export const IndexPageTemplate = ({
       <ControlledHero
         img9={carousel9}
         img10={carousel10}
-        img11={carousel11}
+        //img11={carousel11}
         img={carousel1}
         img2={carousel2}
         img3={carousel3}
@@ -115,7 +115,7 @@ export const IndexPageTemplate = ({
                 <ControlledCarousel />
                 <div className="column is-12 has-text-centered">
                   <Link className="btn" to="/lab-devices-page">
-                    Read more
+                    View All Devices
                   </Link>
                 </div>
                 <br />

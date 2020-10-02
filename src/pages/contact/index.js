@@ -189,11 +189,9 @@ export default class Index extends React.Component {
                       </a>
                     </div>
                     <div className="column is-8">
-                      <p style={{ textAlign: 'right' }}>
-                        شارع الجمهورية - حرم جامعة المنصورة - كلية الزراعة -
-                        مبنى "و" (المبني الجديد) - الدور الأرضي – المنصورة –
-                        مصر. 35516
-                      </p>
+                      Al-Gomhoria Street - Mansoura University Campus - Faculty
+                      of Agriculture - W building (the new building) - Ground
+                      Floor - Mansoura - Egypt. 35516
                     </div>
                   </div>
                 </div>

@@ -173,6 +173,13 @@ export default class Index extends React.Component {
                         البريد الإلكتروني
                       </a>
                     </div>
+                    <div className="column is-8">
+                      <p style={{ textAlign: 'right' }}>
+                        شارع الجمهورية - حرم جامعة المنصورة - كلية الزراعة -
+                        مبنى "و" (المبني الجديد) - الدور الأرضي – المنصورة –
+                        مصر. 35516
+                      </p>
+                    </div>
                   </div>
                 </div>
                 <div className="column">

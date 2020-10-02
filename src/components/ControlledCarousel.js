@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
+import './all.sass';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import product1 from '../img/asset 1.png';
@@ -25,7 +26,7 @@ function ControlledCarousel() {
     >
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 herocontroll"
           src={product1}
           alt="Transmission Electron Microscope"
         />
@@ -38,7 +39,7 @@ function ControlledCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 herocontroll"
           src={product2}
           alt="Scanning Electron Microscope"
         />
@@ -52,7 +53,7 @@ function ControlledCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 herocontroll"
           src={product3}
           alt="Zeta Potential Analyzer"
         />
@@ -64,7 +65,7 @@ function ControlledCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 herocontroll"
           src={product4}
           alt="Zoom Binocular Stereo Microscope"
         />

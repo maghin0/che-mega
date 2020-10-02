@@ -78,8 +78,8 @@ const LabDevicesPage = () => {
           devicetwo="Transmission Electron Microscope"
           model="JEOL JSM 6510 lv"
           modeltwo="JEOL JEM-2100"
-          description="It is used to check sample surfaces and gives high-quality and clear stereoscopic image. The magnification capacity reaches 300000 times, it works under high discharge, and it can work under low discharge."
-          descriptiontwo="It is a microscopic technique in which a bundle of electrons is used that is executed through a super-thin sample, which leads to the appearance of an image that is subject to an amplification, enlargement and focus process on imaging devices such as fluorescent screens or a photographic film or to be measured"
+          description="It is used to inspect the surfaces of samples and give a high-quality and clear stereoscopic image. The magnification capacity reaches 300,000 times, it works under high vacuum, and it can work under low vacuum, to suit all physical, biological and industrial applications, mining, soil and material analysis, crystallography, nanoscale research, as well as tissues and surface structures."
+          descriptiontwo="It is a microscopic technique in which a beam of electrons is used that penetrates through an ultra-thin sample, which leads to the emergence of an image that is subjected to a process of amplification and magnification and focus on imaging devices such as fluorescent screens or on photographic film, or to be measured with a dual-device CCD camera. Many light microscopes are a result of the small wavelength of the electrons, which enables the user to examine the details of the sample accurately to the point of a row of atoms, with an enlargement of one and a half million times the actual size. The microscope is an essential analysis method in many branches of natural sciences, such as materials science, semiconductor research, and nanoscale research, in addition to biological sciences such as studying microorganisms such as viruses, bacteria, fungi and various tissue cells."
         />
 
         <LabDevices
@@ -89,8 +89,7 @@ const LabDevicesPage = () => {
           devicetwo="Vacuum Oven"
           model="RMC PT-XL PowerTome Ultramicrotome"
           modeltwo="Thermo Scientific Oven under Vacuum"
-          description="
-          For ultra-thin sectors (30 - 70 nanometers) we can scan them with an electron microscope"
+          description="Used to obtain ultra-thin sectors (30 - 70 nanometers) so that we can examine them with the electron microscope, in addition to making some thicker sectors (500 - 1000 nm) for samples prepared for the electron microscope to be examined by the optical microscope, which facilitates the process of follow-up and examination with the electron microscope."
           descriptiontwo="The vacuum furnace is used to dry different samples as it is much faster than conventional ovens."
         />
 
@@ -112,7 +111,10 @@ const LabDevicesPage = () => {
           devicetwo="Sputter Coating Evaporator"
           model="Ultrasonic Cleaner (XH-E412)"
           modeltwo="SPI Module - Sputter Carbon / Gold Coater"
-          description="It is an act of applying sound (usually ultrasound) to shaking and flipping sample components and speeding up"
+          description="Applying sound (usually ultrasound) to shaking and stirring the components of a sample and accelerating the breakdown of the particles in them. It is especially useful when it is not possible to stir the sample, as is the case with NMR tubes and it can also be used to provide the energy needed for some chemical reactions. It is also commonly used in nanotechnology for the homogeneous distribution of nanoparticles in liquids. It can also be used to induce crystallisations and help isolate small crystals.
+And in biological applications, it is often used to break down cell membranes and release cell contents. This process is called sonoporation.
+It is also a mechanism used to clean surfaces such as glasses and jewelry. It is also used to extract microfossils from rocks.
+"
           descriptiontwo="  Cover the sample with a thin layer of carbon or gold, or a mixture of gold and palladium with a thickness of 10-30 nanometers, after the drying processes of the samples to be examined in order to make them conductive to the electrical current because the examination of the samples is using electrons within the scanning electron microscope."
         />
 

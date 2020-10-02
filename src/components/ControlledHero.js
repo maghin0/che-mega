@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
+import './all.sass';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ControlledHero(props) {
@@ -13,7 +14,7 @@ function ControlledHero(props) {
 
   const img9 = props.img9;
   const img10 = props.img10;
-  const img11 = props.img11;
+  //const img11 = props.img11;
   const img = props.img;
   const img2 = props.img2;
   const img3 = props.img3;
@@ -28,20 +29,32 @@ function ControlledHero(props) {
       onSelect={handleSelect}
       indicators={true}
       keyboard={true}
-      interval={4000}
+      interval={5000000000}
       pause={false}
     >
       <Carousel.Item>
-        <img className="d-block w-100" src={img9} alt="Third slide" />
+        <img
+          className="d-block w-100 herocontroll"
+          src={img9}
+          alt="Third slide"
+        />
       </Carousel.Item>{' '}
       <Carousel.Item>
-        <img className="d-block w-100" src={img10} alt="Third slide" />
+        <img
+          className="d-block w-100 herocontroll"
+          src={img10}
+          alt="Third slide"
+        />
       </Carousel.Item>{' '}
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <img className="d-block w-100" src={img11} alt="Third slide" />
-      </Carousel.Item>
+      </Carousel.Item> */}
       <Carousel.Item>
-        <img className="d-block w-100" src={img} alt="First slide" />
+        <img
+          className="d-block w-100 herocontroll"
+          src={img}
+          alt="First slide"
+        />
         {/* <Carousel.Caption>
           <h3 style={{ color: '#1c1c47' }}>
             Transmission Electron Microscope (TEM)
@@ -50,25 +63,53 @@ function ControlledHero(props) {
         </Carousel.Caption>*/}
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={img2} alt="Third slide" />
+        <img
+          className="d-block w-100 herocontroll"
+          src={img2}
+          alt="Third slide"
+        />
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={img3} alt="Third slide" />
+        <img
+          className="d-block w-100 herocontroll"
+          src={img3}
+          alt="Third slide"
+        />
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={img4} alt="Third slide" />
+        <img
+          className="d-block w-100 herocontroll"
+          src={img4}
+          alt="Third slide"
+        />
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={img5} alt="Third slide" />
+        <img
+          className="d-block w-100 herocontroll"
+          src={img5}
+          alt="Third slide"
+        />
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={img6} alt="Third slide" />
+        <img
+          className="d-block w-100 herocontroll"
+          src={img6}
+          alt="Third slide"
+        />
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={img7} alt="Third slide" />
+        <img
+          className="d-block w-100 herocontroll"
+          src={img7}
+          alt="Third slide"
+        />
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={img8} alt="Third slide" />
+        <img
+          className="d-block w-100 herocontroll"
+          src={img8}
+          alt="Third slide"
+        />
       </Carousel.Item>
     </Carousel>
   );
