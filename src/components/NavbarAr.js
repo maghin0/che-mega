@@ -44,7 +44,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link
-              to="/"
+              to="/arabic"
               className="navbar-item"
               title="Logo"
               style={{ padding: '0' }}
@@ -74,7 +74,7 @@ const Navbar = class extends React.Component {
               <div className="navbar-item has-dropdown is-hoverable">
                 <Link
                   className="navbar-link"
-                  to="/blog"
+                  to="/blogar"
                   activeStyle={{ color: '#60f4b8' }}
                 >
                   الأحداث

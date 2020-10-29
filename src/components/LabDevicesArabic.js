@@ -13,11 +13,8 @@ const LabDevicesArabicArabic = (props) => {
     <section className="section section--gradient">
       <div className="container">
         <div className="column is-offset-2 is-12">
-          <h2 className="title">
-            {' '}
-            <h4 className="is-size-4">{model}</h4>
-            {device}
-          </h2>
+          <h2 className="title">{device}</h2>
+          <h4 className="is-size-4">{model}</h4>
         </div>
         <div className="section">
           <div className="columns">
@@ -30,29 +27,6 @@ const LabDevicesArabicArabic = (props) => {
               style={{ textAlign: 'right' }}
             >
               {description}
-            </div>
-          </div>
-        </div>
-      </div>
-      <br />
-      <div className="container">
-        <div className="column is-offset-2 is-12">
-          <h2 className="title">
-            <h4 className="is-size-4">{modeltwo}</h4>
-            {devicetwo}
-          </h2>
-        </div>
-
-        <div className="section">
-          <div className="columns">
-            <div
-              className="column is-6 is-offset-2"
-              style={{ textAlign: 'right' }}
-            >
-              {descriptiontwo}
-            </div>
-            <div className="column is-2 ">
-              <img src={imgtwo} alt={devicetwo} />
             </div>
           </div>
         </div>

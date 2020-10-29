@@ -155,18 +155,10 @@ export default class Index extends React.Component {
                         alt="call us"
                         style={{ width: '2em', height: '2em', margin: '1em' }}
                       />
-                      Call Us 002 (050) 2221688
-                    </div>
-                    <div className="column is-8">
-                      <img
-                        src={call}
-                        alt="call us"
-                        style={{ width: '2em', height: '2em', margin: '1em' }}
-                      />
                       Call +20 114989220
                     </div>
                     <div className="column is-8">
-                      <a title="facebook" href="mailto:emunit@mans.edu.eg">
+                      <a title="Email EM unit" href="mailto:emunit@mans.edu.eg">
                         <img
                           src={email}
                           alt="email us"
@@ -177,7 +169,7 @@ export default class Index extends React.Component {
                     </div>
                     <div className="column is-8">
                       <a
-                        title="facebook"
+                        title="Email Prof. Yasser"
                         href="mailto:yassershabana2@yahoo.com"
                       >
                         <img
@@ -190,7 +182,7 @@ export default class Index extends React.Component {
                     </div>
                     <div className="column is-8">
                       Al-Gomhoria Street - Mansoura University Campus - Faculty
-                      of Agriculture - W building (the new building) - Ground
+                      of Agriculture - W Building (the new building) - Ground
                       Floor - Mansoura - Egypt. 35516
                     </div>
                   </div>

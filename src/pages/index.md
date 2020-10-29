@@ -21,7 +21,7 @@ intro:
     - image: /img/mission.png
       title: Mission
       text: >
-        Working to make the unit one of the most important tools for developing scientific research for various disciplines and working to spread the microscopy technology through education and training for researchers, students and industry workers.
+        Working to make the unit one of the most important tools for developing scientific research for various disciplines and working to spread the microscopy technology through education and training for researchers, students and industry.
     - image: /img/vission.png
       title: Vision
       text: >
@@ -29,8 +29,7 @@ intro:
     - image: /img/goal.png
       title: Goal
       text: >
-        Firstly, Organize general and specialized training courses for students, researchers and industry workers at regional level, secondly Contribute to supporting the educational process in the areas of the unit’s specialization, thirdly Provide the necessary services to companies and industry, fourthly Support and develop scientific research in the Egyptian and regional universities and research centers, finally provide Leadership in testing and analyzing micro samples at the nanoscale level as well as in biological and non-biological disciplines.
-
+        To organize general and specialized training courses for students, researchers and industry workers at regional level. Contribute to supporting the educational process in the area of the electron microscopy. Provide the necessary services to companies and industry. Support and develop scientific research in the Egyptian and regional universities and research centers. Become leaders in testing and analyzing micro samples at the nanoscale level as well as in biological and non-biological disciplines. Offer consultation services to the scientific community locally and regionally.
 
   heading: What we offer
   description: >

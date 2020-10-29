@@ -2,6 +2,7 @@ import React from 'react';
 
 import Layout from '../../components/Layout';
 import BlogRoll from '../../components/BlogRoll';
+import BlogRollEng from '../../components/BlogRollEng';
 import BlogRollWorkShop from '../../components/BlogRollWorkShop';
 import BlogRollVisits from '../../components/BlogRollVisits';
 export default class BlogIndexPage extends React.Component {
@@ -45,11 +46,11 @@ export default class BlogIndexPage extends React.Component {
           <div className="container">
             <div className="content">
               <h1 id="one">Events </h1>
-              <BlogRoll />
+              <BlogRollEng />
               <h1 id="two">Workshops and Training</h1>
               <BlogRollWorkShop />
               <h1 id="three">Visitations and Delegates</h1>
-              <BlogRollVisits />
+              <BlogRollEng />
             </div>
           </div>
         </section>

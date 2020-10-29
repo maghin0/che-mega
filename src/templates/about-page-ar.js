@@ -114,6 +114,7 @@ export const AboutPageArTemplate = ({
               backgroundColor: '#1c1c47',
               borderRadius: '1rem',
               padding: '4em',
+              
             }}
           >
             <h5
@@ -126,21 +127,25 @@ export const AboutPageArTemplate = ({
             <br />
             <br />
 
-            <div className="columns column is-multiline is-offset-2 ">
-              <div className="column is-6">
+            <div className="columns column is-multiline is-offset-2">
+              <div className="column is-6" >
                 <img src={yasser} alt="" />
               </div>
-              <div className="column is-4">
+              <div className="column is-4" >
                 <h5 className="has-text-white">
                   الأستاذ الدكتور/ ياسر محمد نور الدين شبانه
                   <br />{' '}
+                  مدير الوحدة
+                  <br />
+                  01149892220
+                  <br />
                   <a
                     href={yassercvar}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     {' '}
-                    نبذة مختصرة{' '}
+                    السيرة الذاتية{' '}
                   </a>{' '}
                   <br />
                   <a
@@ -163,7 +168,7 @@ export const AboutPageArTemplate = ({
                   <br />
                   <a href={rehampdf} target="_blank" rel="noopener noreferrer">
                     {' '}
-                    نبذة مختصرة{' '}
+                    السيرة الذاتية{' '}
                   </a>
                   <br />
                 </h5>
@@ -173,11 +178,13 @@ export const AboutPageArTemplate = ({
               </div>
               <div className="column is-4">
                 <h5 className="has-text-white">
-                  خالد فتحي إبراهيم <br /> أخصائي معالجة عينات
+                د/ خالد فتحي إبراهيم <br /> أخصائي معالجة عينات (Zeta Analyzer)
                   <br />{' '}
+                  01211156956
+                  <br />
                   <a href={khalidpdf} target="_blank" rel="noopener noreferrer">
                     {' '}
-                    نبذة مختصرة{' '}
+                    السيرة الذاتية{' '}
                   </a>
                   <br />
                 </h5>
@@ -187,11 +194,11 @@ export const AboutPageArTemplate = ({
               </div>
               <div className="column is-4">
                 <h5 className="has-text-white">
-                  باسم محمد توفيق أخصائي علمي (SEM ، Zeta Analyzer) <br />
+                  باسم محمد توفيق أخصائي علمي (SEM, Zeta Analyzer) <br />
                   01118254701 - 01116845186 <br />
                   <a href={basempdf} target="_blank" rel="noopener noreferrer">
                     {' '}
-                    نبذة مختصرة{' '}
+                    السيرة الذاتية{' '}
                   </a>
                   <br />
                 </h5>
@@ -202,7 +209,7 @@ export const AboutPageArTemplate = ({
               </div>
               <div className="column is-4">
                 <h5 className="has-text-white">
-                  محمود عبد الفتاح حسن <br />
+                د/ محمود عبد الفتاح حسن <br />
                   أخصائي علمي (TEM) <br />
                   01020720431
                   <br />{' '}
@@ -212,7 +219,7 @@ export const AboutPageArTemplate = ({
                     rel="noopener noreferrer"
                   >
                     {' '}
-                    نبذة مختصرة{' '}
+                    السيرة الذاتية{' '}
                   </a>
                   <br />
                 </h5>
@@ -222,8 +229,8 @@ export const AboutPageArTemplate = ({
               </div>
               <div className="column is-4">
                 <h5 className="has-text-white">
-                  محمد علي شاهين <br />
-                  أخصائي علمي (SEM ، Zeta Analyzer) <br />
+                د/ محمد علي شاهين <br />
+                  أخصائي علمي (SEM, Zeta Analyzer) <br />
                   01000461196
                   <br />{' '}
                   <a
@@ -232,7 +239,7 @@ export const AboutPageArTemplate = ({
                     rel="noopener noreferrer"
                   >
                     {' '}
-                    نبذة مختصرة{' '}
+                    السيرة الذاتية{' '}
                   </a>
                   <br />
                 </h5>
@@ -245,9 +252,11 @@ export const AboutPageArTemplate = ({
                   سلمى أسامة غانم <br />
                   أخصائي ألتراميكروتوم
                   <br />{' '}
+                  01096693151
+                  <br />
                   <a href={salmaopdf} target="_blank" rel="noopener noreferrer">
                     {' '}
-                    نبذة مختصرة{' '}
+                    السيرة الذاتية{' '}
                   </a>
                   <br />
                 </h5>
@@ -259,9 +268,11 @@ export const AboutPageArTemplate = ({
                 <h5 className="has-text-white">
                   هاجر السعيد دويدار <br /> أخصائي ألتراميكروتوم
                   <br />{' '}
+                  01008198249
+                  <br />
                   <a href={hagarpdf} target="_blank" rel="noopener noreferrer">
                     {' '}
-                    نبذة مختصرة{' '}
+                    السيرة الذاتية{' '}
                   </a>
                   <br />
                 </h5>
@@ -272,7 +283,9 @@ export const AboutPageArTemplate = ({
               <div className="column is-4">
                 <h5 className="has-text-white">
                   خديجة أحمد حسن <br />
-                  أخصائي معالجة عينات
+                  أخصائي معالجة عينات (SEM, Zeta Analyzer) 
+                  <br />
+                  01068088925
                   <br />
                   <a
                     href={khadigapdf}
@@ -280,7 +293,7 @@ export const AboutPageArTemplate = ({
                     rel="noopener noreferrer"
                   >
                     {' '}
-                    نبذة مختصرة{' '}
+                    السيرة الذاتية{' '}
                   </a>
                 </h5>
               </div>
@@ -292,9 +305,11 @@ export const AboutPageArTemplate = ({
                   سلمى مصطفى قاسم <br />
                   أخصائي ألتراميكروتوم
                   <br />{' '}
+                  01005787739
+                  <br />
                   <a href={salmampdf} target="_blank" rel="noopener noreferrer">
                     {' '}
-                    نبذة مختصرة{' '}
+                    السيرة الذاتية{' '}
                   </a>
                   <br />
                 </h5>
@@ -337,7 +352,7 @@ export const AboutPageArTemplate = ({
                 </p>
                 <a href={awnipdf} target="_blank" rel="noopener noreferrer">
                   {' '}
-                  نبذة مختصرة{' '}
+                  السيرة الذاتية{' '}
                 </a>
               </div>
             </div>
@@ -357,7 +372,7 @@ export const AboutPageArTemplate = ({
 
                 <a href={zakpdf} target="_blank" rel="noopener noreferrer">
                   {' '}
-                  نبذة مختصرة{' '}
+                  السيرة الذاتية{' '}
                 </a>
               </div>
             </div>
@@ -392,7 +407,7 @@ export const AboutPageArTemplate = ({
                 </p>
                 <a href={mohamedmpdf} target="_blank" rel="noopener noreferrer">
                   {' '}
-                  نبذة مختصرة{' '}
+                  السيرة الذاتية{' '}
                 </a>
               </div>
             </div>
@@ -412,7 +427,7 @@ export const AboutPageArTemplate = ({
                 </p>
                 <a href={fekrypdf} target="_blank" rel="noopener noreferrer">
                   {' '}
-                  نبذة مختصرة{' '}
+                  السيرة الذاتية{' '}
                 </a>
               </div>
             </div>

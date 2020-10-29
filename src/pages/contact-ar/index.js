@@ -154,13 +154,13 @@ export default class Index extends React.Component {
                     <div className="column is-8">
                       <img
                         src={call}
-                        alt="call us"
+                        alt="call Prof. Yasser"
                         style={{ width: '2em', height: '2em', margin: '1em' }}
                       />
-                      002 (050) 2221688
+                      Call +20 114989220
                     </div>
                     <div className="column is-6">
-                      <a title="facebook" href="mailto:emunit@mans.edu.eg">
+                      <a title="Email EM unit" href="mailto:emunit@mans.edu.eg">
                         <img
                           src={email}
                           alt="email us"
@@ -170,7 +170,20 @@ export default class Index extends React.Component {
                             margin: '1em',
                           }}
                         />
-                        البريد الإلكتروني
+                        البريد الإلكتروني للوحدة
+                      </a>
+                    </div>
+                    <div className="column is-8">
+                      <a
+                        title="Email Prof. Yasser"
+                        href="mailto:yassershabana2@yahoo.com"
+                      >
+                        <img
+                          src={email}
+                          alt="email us"
+                          style={{ width: '2em', height: '2em', margin: '1em' }}
+                        />
+                        بريد الكتروني خاص بالبروفيسور ياسر
                       </a>
                     </div>
                     <div className="column is-8">

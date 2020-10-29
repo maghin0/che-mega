@@ -110,7 +110,7 @@ const Navbar = class extends React.Component {
                   to="/about"
                   activeStyle={{ color: '#60f4b8' }}
                 >
-                  About
+                  About Us
                 </Link>
                 <div class="navbar-dropdown">
                   <Link
@@ -141,7 +141,7 @@ const Navbar = class extends React.Component {
                 to="/contact"
                 activeStyle={{ color: '#60f4b8' }}
               >
-                Contact
+                Contact Us 
               </Link>
 
               <Link

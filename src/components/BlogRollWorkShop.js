@@ -72,7 +72,7 @@ export default () => (
       query BlogRollWorkShopQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { tags: { eq: "workshop" } } }
+          filter: { frontmatter: { tags: { eq: "workshopeng" } } }
         ) {
           edges {
             node {

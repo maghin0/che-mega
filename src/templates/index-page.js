@@ -13,9 +13,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a lo
 //import { Carousel } from 'react-responsive-carousel';
 import Servicess from '../components/Servicess';
 
-import carousel9 from '../img/09.jpg';
-import carousel10 from '../img/10.jpg';
-//import carousel11 from '../img/11.jpg';
+
+//import carousel15 from '../img/15.jpg';
 import carousel1 from '../img/01.jpg';
 import carousel2 from '../img/02.jpg';
 import carousel3 from '../img/03.jpg';
@@ -24,6 +23,12 @@ import carousel5 from '../img/05.jpg';
 import carousel6 from '../img/06.jpg';
 import carousel7 from '../img/07.jpg';
 import carousel8 from '../img/08.jpg';
+import carousel9 from '../img/09.jpg';
+import carousel10 from '../img/10.jpg';
+import carousel11 from '../img/11.jpg';
+import carousel12 from '../img/12.jpg';
+import carousel13 from '../img/13.jpg';
+import carousel14 from '../img/14.jpg';
 
 export const IndexPageTemplate = ({
   // image,
@@ -37,9 +42,8 @@ export const IndexPageTemplate = ({
   <>
     <section className="hero is-medium">
       <ControlledHero
-        img9={carousel9}
-        img10={carousel10}
-        //img11={carousel11}
+        
+        //img11={carousel15}
         img={carousel1}
         img2={carousel2}
         img3={carousel3}
@@ -48,6 +52,12 @@ export const IndexPageTemplate = ({
         img6={carousel6}
         img7={carousel7}
         img8={carousel8}
+        img9={carousel9}
+        img10={carousel10}
+        img11={carousel11}
+        img12={carousel12}
+        img13={carousel13}
+        img14={carousel14}
       />
     </section>
     {/* <Carousel showArrows={true}>

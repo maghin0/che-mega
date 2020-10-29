@@ -12,8 +12,7 @@ function ControlledHero(props) {
     setIndex(selectedIndex);
   };
 
-  const img9 = props.img9;
-  const img10 = props.img10;
+ 
   //const img11 = props.img11;
   const img = props.img;
   const img2 = props.img2;
@@ -23,6 +22,12 @@ function ControlledHero(props) {
   const img6 = props.img6;
   const img7 = props.img7;
   const img8 = props.img8;
+  const img9 = props.img9;
+  const img10 = props.img10;
+  const img11 = props.img11;
+  const img12 = props.img12;
+  const img13 = props.img13;
+  const img14 = props.img14;
   return (
     <Carousel
       activeIndex={index}
@@ -108,6 +113,43 @@ function ControlledHero(props) {
         <img
           className="d-block w-100 herocontroll"
           src={img8}
+          alt="Third slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100 herocontroll"
+          src={img9}
+          alt="Third slide"
+        />
+      </Carousel.Item><Carousel.Item>
+        <img
+          className="d-block w-100 herocontroll"
+          src={img10}
+          alt="Third slide"
+        />
+      </Carousel.Item><Carousel.Item>
+        <img
+          className="d-block w-100 herocontroll"
+          src={img11}
+          alt="Third slide"
+        />
+      </Carousel.Item><Carousel.Item>
+        <img
+          className="d-block w-100 herocontroll"
+          src={img12}
+          alt="Third slide"
+        />
+      </Carousel.Item><Carousel.Item>
+        <img
+          className="d-block w-100 herocontroll"
+          src={img13}
+          alt="Third slide"
+        />
+      </Carousel.Item><Carousel.Item>
+        <img
+          className="d-block w-100 herocontroll"
+          src={img14}
           alt="Third slide"
         />
       </Carousel.Item>
