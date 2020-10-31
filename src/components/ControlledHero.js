@@ -23,7 +23,7 @@ function ControlledHero(props) {
   const img7 = props.img7;
   const img8 = props.img8;
   const img9 = props.img9;
-  const img10 = props.img10;
+  const img10 = props.img10;  
   const img11 = props.img11;
   const img12 = props.img12;
   const img13 = props.img13;
