@@ -28,7 +28,7 @@ import carousel10 from '../img/10.jpg';
 import carousel11 from '../img/11.jpg';
 import carousel12 from '../img/12.jpg';
 import carousel13 from '../img/13.jpg';
-import carousel14 from '../img/14.jpg';
+//import carousel14 from '../img/14.jpg';
 
 export const IndexPageTemplate = ({
   // image,
@@ -43,7 +43,7 @@ export const IndexPageTemplate = ({
     <section className="hero is-medium">
       <ControlledHero
         
-        //img11={carousel15}
+        //img15={carousel15}
         img={carousel1}
         img2={carousel2}
         img3={carousel3}
@@ -57,7 +57,7 @@ export const IndexPageTemplate = ({
         img11={carousel11}
         img12={carousel12}
         img13={carousel13}
-        img14={carousel14}
+        //img14={carousel14}
       />
     </section>
     {/* <Carousel showArrows={true}>

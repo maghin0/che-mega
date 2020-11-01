@@ -27,7 +27,7 @@ function ControlledHero(props) {
   const img11 = props.img11;
   const img12 = props.img12;
   const img13 = props.img13;
-  const img14 = props.img14;
+  //const img14 = props.img14;
   return (
     <Carousel
       activeIndex={index}
@@ -146,13 +146,13 @@ function ControlledHero(props) {
           src={img13}
           alt="Third slide"
         />
-      </Carousel.Item><Carousel.Item>
+      {/* </Carousel.Item><Carousel.Item>
         <img
           className="d-block w-100 herocontroll"
           src={img14}
           alt="Third slide"
         />
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
   );
 }
