@@ -83,21 +83,21 @@ const Navbar = class extends React.Component {
                 <div class="navbar-dropdown">
                   <Link
                     className="navbar-item"
-                    to="/blog/#one"
+                    to="/blogar/#one"
                     activeStyle={{ color: '#60f4b8' }}
                   >
                     الأحداث
                   </Link>
                   <Link
                     className="navbar-item"
-                    to="/blog/#two"
+                    to="/blogar/#two"
                     activeStyle={{ color: '#60f4b8' }}
                   >
                     ورش العمل والتدريب
                   </Link>
                   <Link
                     className="navbar-item"
-                    to="/blog/#three"
+                    to="/blogar/#three"
                     activeStyle={{ color: '#60f4b8' }}
                   >
                     الزيارات والمندوبين
