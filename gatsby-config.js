@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Electron Microscope Unit',
+    title: 'Mansoura University Electron Microscope Unit',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'A website for one of the few electron microscopes in Egypt at the university of Mansoura',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
