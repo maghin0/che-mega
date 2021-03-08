@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Mansoura University Electron Microscope Unit',
+    title: 'Mansoura University Electron Microscope Unit, وحدة الميكروسكوب الإلكتروني ',
     description:
-      'A website for one of the few electron microscopes in Egypt at the university of Mansoura',
+      'A website for one of the few electron microscopes in Egypt at the university of Mansoura Egypt, وحدة الميكروسكوب الإلكتروني - جامعة المنصورة - مصر',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
