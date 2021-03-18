@@ -1,10 +1,10 @@
 ---
 templateKey: 'index-page-ar'
 path: /arabic
-title: Emunit Microscope
+title: وحدة الميكروسكوب الإلكتروني بجامعة المنصورة
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: وحدة الميكروسكوب الإلكترونى جامعة المنصورة
+subheading: أحدث الوحدات على مستوى العالم من حيث الأجهزة وفريق العمل وجودة ودقة النتائج المتحصل عليها
 mainpitch:
   title: Why Kaldi
   description: >

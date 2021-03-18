@@ -217,7 +217,8 @@ export default class Index extends React.Component {
                       <label
                         className="label"
                         htmlFor={'name'}
-                        style={{ textAlign: 'right' }}
+                        style={{ textAlign: 'right' }}   
+                        id={'name'}                                    
                       >
                         اسمك
                       </label>
@@ -237,6 +238,7 @@ export default class Index extends React.Component {
                         className="label"
                         htmlFor={'email'}
                         style={{ textAlign: 'right' }}
+                        id={'email'}
                       >
                         البريد الإلكتروني
                       </label>
@@ -253,9 +255,11 @@ export default class Index extends React.Component {
                     </div>
                     <div className="field">
                       <label
+                        id={'message'}
                         className="label"
                         htmlFor={'message'}
                         style={{ textAlign: 'right' }}
+
                       >
                         رسالة
                       </label>

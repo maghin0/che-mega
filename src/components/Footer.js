@@ -96,7 +96,7 @@ const Footer = class extends React.Component {
                     style={{ width: '2em', height: '2em' }}
                   />
                 </a>
-                <a title="call" href="">
+                <a title="call" href="../pages/contact/index.js">
                   <img
                     src={smallcall}
                     alt="Call"

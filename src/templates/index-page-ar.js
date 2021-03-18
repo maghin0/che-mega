@@ -150,7 +150,7 @@ IndexPageArTemplate.propTypes = {
 };
 
 const IndexPageAr = ({ data }) => {
-  const { markdownRemark: post } = data;
+  // const { markdownRemark: post } = data;
   const { frontmatter } = data.markdownRemark;
 
   return (

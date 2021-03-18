@@ -2,13 +2,13 @@ import React from 'react';
 
 const LabDevicesArabicArabic = (props) => {
   const img = props.img;
-  const imgtwo = props.imgtwo;
+ // const imgtwo = props.imgtwo;
   const device = props.device;
-  const devicetwo = props.devicetwo;
+//  const devicetwo = props.devicetwo;
   const description = props.description;
-  const descriptiontwo = props.descriptiontwo;
+//  const descriptiontwo = props.descriptiontwo;
   const model = props.model;
-  const modeltwo = props.modeltwo;
+//  const modeltwo = props.modeltwo;
   return (
     <section className="section section--gradient">
       <div className="container">

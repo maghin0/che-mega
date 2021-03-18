@@ -2,9 +2,9 @@ import React from 'react';
 
 import LayoutAr from '../../components/LayoutAr';
 import BlogRollAr from '../../components/BlogRollAr';
-import BlogRollEng from '../../components/BlogRollEng';
+// import BlogRollEng from '../../components/BlogRollEng';
 import BlogRollWorkShopAr from '../../components/BlogRollWorkShopAr';
-import BlogRollVisitsAr from '../../components/BlogRollVisits';
+// import BlogRollVisitsAr from '../../components/BlogRollVisits';
 export default class BlogIndexPage extends React.Component {
   render() {
     return (
