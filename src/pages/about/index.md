@@ -1,7 +1,7 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title: About the electron microscope unit and our values
 
 intro:
   blurbs:

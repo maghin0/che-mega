@@ -2,8 +2,8 @@
 templateKey: 'index-page'
 title: Mansoura University electron microscope unit
 image: /img/home-jumbotron.jpg
-heading: Electron microscope unit in El Mansoura university
-subheading: وحدة الميكروسكوب الإلكتروني بجامعة المنصورة
+heading: Electron microscope unit in El Mansoura university - emunit
+subheading: وحدة الميكروسكوب الإلكتروني بجامعة المنصورة- emunit
 mainpitch:
   title: Why an electron microscope?
   description: >
