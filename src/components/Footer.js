@@ -77,7 +77,7 @@ const Footer = class extends React.Component {
                 >
                   <img
                     src={smallfacebook}
-                    alt="Facebook"
+                    alt="Facebook for Electron microscope Mansoura"
                     style={{ width: '2em', height: '2em' }}
                   />
                 </a>
@@ -85,28 +85,28 @@ const Footer = class extends React.Component {
                   <img
                     className="fas fa-lg"
                     src={smalltwitter}
-                    alt="Twitter"
+                    alt="Twitter for Electron microscope Mansoura"
                     style={{ width: '2em', height: '2em' }}
                   />
                 </a>
                 <a title="Youtube" href="https://www.youtube.com/user/mansvu">
                   <img
                     src={smallyoutube}
-                    alt="YouTube"
+                    alt="YouTube for Electron microscope Mansoura"
                     style={{ width: '2em', height: '2em' }}
                   />
                 </a>
                 <a title="call" href="../pages/contact/index.js">
                   <img
                     src={smallcall}
-                    alt="Call"
+                    alt="Call us at the Electron microscope Mansoura"
                     style={{ width: '2em', height: '2em' }}
                   />
                 </a>
                 <a title="email" href="https://vimeo.com">
                   <img
                     src={smallemail}
-                    alt="Email"
+                    alt="Email the Electron microscope Mansoura"
                     style={{ width: '2em', height: '2em' }}
                   />
                 </a>

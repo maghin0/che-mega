@@ -24,7 +24,7 @@ class BlogRollWorkShopAr extends React.Component {
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                          alt: `وحدة الميكروسكوب الإلكتروني ${post.frontmatter.title}`,
                         }}
                       />
                     </div>

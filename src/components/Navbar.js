@@ -46,12 +46,12 @@ const Navbar = class extends React.Component {
             <Link
               to="/"
               className="navbar-item"
-              title="Logo"
+              title="electron microscope mansoura"
               style={{ padding: '0' }}
             >
               <img
                 src={logo}
-                alt="Electron Microscope"
+                alt="Electron Microscope mansoura"
                 style={{ paddingLeft: '1rem' }}
               />
             </Link>

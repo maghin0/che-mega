@@ -24,7 +24,7 @@ class BlogRollVisits extends React.Component {
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                          alt: `Electron microscope Mansoura posts ${post.frontmatter.title}`,
                         }}
                       />
                     </div>
