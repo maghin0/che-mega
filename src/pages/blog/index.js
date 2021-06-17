@@ -10,7 +10,7 @@ export default class BlogIndexPage extends React.Component {
     return (
       <Layout>
         <div
-          className="full-width-image margin-top-0"
+          className='full-width-image margin-top-0'
           style={{
             backgroundImage: `url('/img/event-bg.jpg')`,
 
@@ -30,7 +30,7 @@ export default class BlogIndexPage extends React.Component {
             }}
           >
             <h1
-              className=" has-text-weight-bold size-big is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+              className=' has-text-weight-bold size-big is-size-3-mobile is-size-2-tablet is-size-1-widescreen'
               style={{
                 color: 'white',
                 lineHeight: '1',
@@ -42,14 +42,14 @@ export default class BlogIndexPage extends React.Component {
             </h1>
           </div>
         </div>
-        <section className="section">
-          <div className="container">
-            <div className="content">
-              <h1 id="one">Events </h1>
+        <section className='section'>
+          <div className='container'>
+            <div className='content'>
+              <h1 id='one'>Events </h1>
               <BlogRollEng />
-              <h1 id="two">Workshops and Training</h1>
+              <h1 id='two'>Workshops and Training</h1>
               <BlogRollWorkShop />
-              <h1 id="three">Visitations and Delegates</h1>
+              <h1 id='three'>Visitations and Delegates</h1>
               <BlogRollEng />
             </div>
           </div>
