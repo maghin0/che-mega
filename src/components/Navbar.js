@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import logo from '../img/social/logo.png';
 
-import servicespdf from '../../static/img/price.pdf';
+import servicespdf from '../../static/img/price-2.pdf';
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -36,29 +36,29 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className='navbar is-transparent'
-        role='navigation'
-        aria-label='main-navigation'
+        className="navbar is-transparent"
+        role="navigation"
+        aria-label="main-navigation"
         style={{ paddingBottom: '0px' }}
       >
-        <div className='container'>
-          <div className='navbar-brand'>
+        <div className="container">
+          <div className="navbar-brand">
             <Link
-              to='/'
-              className='navbar-item'
-              title='electron microscope mansoura'
+              to="/"
+              className="navbar-item"
+              title="electron microscope mansoura"
               style={{ padding: '0' }}
             >
               <img
                 src={logo}
-                alt='Electron Microscope mansoura'
+                alt="Electron Microscope mansoura"
                 style={{ paddingLeft: '1rem' }}
               />
             </Link>
             {/* Hamburger menu */}
             <div
               className={`navbar-burger burger' ${this.state.navBarActiveClass}`}
-              data-target='navMenu'
+              data-target="navMenu"
               onClick={() => this.toggleHamburger()}
             >
               <span />
@@ -67,96 +67,96 @@ const Navbar = class extends React.Component {
             </div>
           </div>
           <div
-            id='navMenu'
+            id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className='navbar-end has-text-centered  '>
-              <div className='navbar-item has-dropdown is-hoverable'>
+            <div className="navbar-end has-text-centered  ">
+              <div className="navbar-item has-dropdown is-hoverable">
                 <Link
-                  className='navbar-link'
-                  to='/blog'
+                  className="navbar-link"
+                  to="/blog"
                   activeStyle={{ color: '#60f4b8' }}
                 >
                   Events
                 </Link>
 
-                <div class='navbar-dropdown'>
+                <div class="navbar-dropdown">
                   <Link
-                    className='navbar-item'
-                    to='/blog/#one'
+                    className="navbar-item"
+                    to="/blog/#one"
                     activeStyle={{ color: '#60f4b8' }}
                   >
                     Events
                   </Link>
                   <Link
-                    className='navbar-item'
-                    to='/blog/#two'
+                    className="navbar-item"
+                    to="/blog/#two"
                     activeStyle={{ color: '#60f4b8' }}
                   >
                     Workshops and Training
                   </Link>
                   <Link
-                    className='navbar-item'
-                    to='/blog/#three'
+                    className="navbar-item"
+                    to="/blog/#three"
                     activeStyle={{ color: '#60f4b8' }}
                   >
                     Visits and Delegates
                   </Link>
                 </div>
               </div>
-              <div className='navbar-item has-dropdown is-hoverable'>
+              <div className="navbar-item has-dropdown is-hoverable">
                 <Link
-                  className='navbar-link'
-                  to='/about'
+                  className="navbar-link"
+                  to="/about"
                   activeStyle={{ color: '#60f4b8' }}
                 >
                   About Us
                 </Link>
-                <div class='navbar-dropdown'>
+                <div class="navbar-dropdown">
                   <Link
-                    className='navbar-item'
-                    to='/about/#one'
+                    className="navbar-item"
+                    to="/about/#one"
                     activeStyle={{ color: '#60f4b8' }}
                   >
                     Mission and Vission
                   </Link>
-                  <Link className='navbar-item' to='/about/#two'>
+                  <Link className="navbar-item" to="/about/#two">
                     Our Team
                   </Link>
-                  <Link className='navbar-item' to='/about/#three'>
+                  <Link className="navbar-item" to="/about/#three">
                     Scientific Consultants
                   </Link>
                 </div>
               </div>
               <Link
-                className='navbar-item'
-                to='/lab-devices-page'
+                className="navbar-item"
+                to="/lab-devices-page"
                 activeStyle={{ color: '#60f4b8' }}
               >
                 Lab Devices
               </Link>
 
               <Link
-                className='navbar-item'
-                to='/contact'
+                className="navbar-item"
+                to="/contact"
                 activeStyle={{ color: '#60f4b8' }}
               >
                 Contact Us
               </Link>
 
               <Link
-                className='navbar-item'
-                to='/arabic'
+                className="navbar-item"
+                to="/arabic"
                 activeStyle={{ color: '#60f4b8' }}
               >
                 عربى
               </Link>
-              <Link className='navbar-item' activeStyle={{ color: '#60f4b8' }}>
+              <Link className="navbar-item" activeStyle={{ color: '#60f4b8' }}>
                 <a
-                  className='button is-primary'
+                  className="button is-primary"
                   href={servicespdf}
-                  target='_blank'
-                  rel='noopener noreferrer'
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Service Cost
                 </a>
