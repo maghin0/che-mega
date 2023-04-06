@@ -5,13 +5,16 @@ import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
 import Features from '../components/Features';
-import BlogRoll from '../components/BlogRoll';
+import BlogRollEng from '../components/BlogRollEng';
 import ControlledCarousel from '../components/ControlledCarousel';
 import ControlledHero from '../components/ControlledHero';
 import '../components/styles.scss';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 //import { Carousel } from 'react-responsive-carousel';
+import Servicess from '../components/Servicess';
 
+
+//import carousel15 from '../img/15.jpg';
 import carousel1 from '../img/01.jpg';
 import carousel2 from '../img/02.jpg';
 import carousel3 from '../img/03.jpg';
@@ -20,6 +23,12 @@ import carousel5 from '../img/05.jpg';
 import carousel6 from '../img/06.jpg';
 import carousel7 from '../img/07.jpg';
 import carousel8 from '../img/08.jpg';
+import carousel9 from '../img/09.jpg';
+import carousel10 from '../img/10.jpg';
+import carousel11 from '../img/11.jpg';
+import carousel12 from '../img/12.jpg';
+import carousel13 from '../img/13.jpg';
+//import carousel14 from '../img/14.jpg';
 
 export const IndexPageTemplate = ({
   // image,
@@ -30,18 +39,27 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <section className="hero is-medium">
-    <ControlledHero
-      img={carousel1}
-      img2={carousel2}
-      img3={carousel3}
-      img4={carousel4}
-      img5={carousel5}
-      img6={carousel6}
-      img7={carousel7}
-      img8={carousel8}
-    />
-
+  <>
+    <section className="hero is-medium">
+      <ControlledHero
+        
+        //img15={carousel15}
+        img={carousel1}
+        img2={carousel2}
+        img3={carousel3}
+        img4={carousel4}
+        img5={carousel5}
+        img6={carousel6}
+        img7={carousel7}
+        img8={carousel8}
+        img9={carousel9}
+        img10={carousel10}
+        img11={carousel11}
+        img12={carousel12}
+        img13={carousel13}
+        //img14={carousel14}
+      />
+    </section>
     {/* <Carousel showArrows={true}>
         <div className="carousell">
           <img src={carousel1} alt="Third slide" />
@@ -99,6 +117,7 @@ export const IndexPageTemplate = ({
                     <p>{description}</p>
                   </div>
                 </div> */}
+                <Servicess />
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered"> </div>
@@ -106,11 +125,11 @@ export const IndexPageTemplate = ({
                 <ControlledCarousel />
                 <div className="column is-12 has-text-centered">
                   <Link className="btn" to="/lab-devices-page">
-                    Read more
+                    View All Devices
                   </Link>
                 </div>
                 <br />
-                <table className="table">
+                {/* <table className="table">
                   <thead>
                     <tr>
                       <th
@@ -118,7 +137,7 @@ export const IndexPageTemplate = ({
                         style={{ backgroundColor: '#1c1c47' }}
                       >
                         <abbr title="Position" style={{ color: 'white' }}>
-                          Services
+                          Servicess
                         </abbr>
                       </th>
                       <th
@@ -171,13 +190,18 @@ export const IndexPageTemplate = ({
                   </tbody>
                 </table>
                 <div className="column is-12 has-text-centered">
+<<<<<<< HEAD
                   <a className="btn" href="/img/price-2.pdf" target="_blank">
                     View full Services
+=======
+                  <a className="btn" href="/img/price.pdf" target="_blank">
+                    View full Servicess
+>>>>>>> d02508e89306a0d92399dd005f52a42c0b73a9fb
                   </a>
-                </div>
+                </div> */}
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">Events</h3>
-                  <BlogRoll />
+                  <BlogRollEng />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog">
                       Read more
@@ -190,7 +214,7 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
-  </section>
+  </>
 );
 
 IndexPageTemplate.propTypes = {
@@ -256,7 +280,7 @@ export const pageQuery = graphql`
           blurbs {
             image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
+                fluid(maxWidth: 2048, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }

@@ -47,7 +47,7 @@ export default class Index extends React.Component {
           className="full-width-image margin-top-0"
           style={{
             backgroundImage: `url(
-        img/home-jumbotron.jpg
+        img/contact-bg.jpg
         )`,
             backgroundPosition: `top left`,
             backgroundAttachment: `fixed`,
@@ -131,7 +131,7 @@ export default class Index extends React.Component {
 
                     <div className="column is-4 ">
                       <a
-                        title="facebook"
+                        title="YouTube"
                         href="https://www.youtube.com/user/mansvu"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -155,10 +155,10 @@ export default class Index extends React.Component {
                         alt="call us"
                         style={{ width: '2em', height: '2em', margin: '1em' }}
                       />
-                      Call Us 002 (050) 2221688
+                      Call +20 114989220
                     </div>
-                    <div className="column is-6">
-                      <a title="facebook" href="mailto:emunit@mans.edu.eg">
+                    <div className="column is-8">
+                      <a title="Email EM unit" href="mailto:emunit@mans.edu.eg">
                         <img
                           src={email}
                           alt="email us"
@@ -166,6 +166,24 @@ export default class Index extends React.Component {
                         />
                         Email Us
                       </a>
+                    </div>
+                    <div className="column is-8">
+                      <a
+                        title="Email Prof. Yasser"
+                        href="mailto:yassershabana2@yahoo.com"
+                      >
+                        <img
+                          src={email}
+                          alt="email us"
+                          style={{ width: '2em', height: '2em', margin: '1em' }}
+                        />
+                        Email Prof. Yasser Shabana
+                      </a>
+                    </div>
+                    <div className="column is-8">
+                      Al-Gomhoria Street - Mansoura University Campus - Faculty
+                      of Agriculture - W Building (the new building) - Ground
+                      Floor - Mansoura - Egypt. 35516
                     </div>
                   </div>
                 </div>

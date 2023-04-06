@@ -1,6 +1,7 @@
 import React from 'react';
 
 import LabDevices from '../components/LabDevices';
+import LabDevicesTwo from '../components/LabDevicesTwo';
 import Layout from '../components/Layout';
 
 import asset1 from '../img/devices/analytical balance.png';
@@ -11,7 +12,7 @@ import asset5 from '../img/devices/compact incubator.png';
 import asset6 from '../img/devices/critical point dryer.png';
 import asset7 from '../img/devices/eds.png';
 import asset8 from '../img/devices/fume hood.png';
-import asset9 from '../img/devices/rotary shaker.png';
+import asset9 from '../img/devices/glass knife maker.png';
 import asset10 from '../img/devices/sem.png';
 import asset11 from '../img/devices/sonicator.png';
 import asset12 from '../img/devices/sputter coating evaporator.png';
@@ -24,6 +25,7 @@ import asset18 from '../img/devices/tissue rotator.png';
 import asset19 from '../img/devices/microtome.png';
 import asset20 from '../img/devices/vacuum oven.png';
 import asset21 from '../img/devices/zeta potential analyzer.png';
+import asset22 from '../img/devices/rotary shaker.png';
 
 const LabDevicesPage = () => {
   // let content = {
@@ -39,9 +41,9 @@ const LabDevicesPage = () => {
         className="full-width-image margin-top-0"
         style={{
           backgroundImage: `url(
-  img/home-jumbotron.jpg
+  img/lab-bg.jpg
   )`,
-          backgroundPosition: `top left`,
+          backgroundPosition: `bottom right`,
           backgroundAttachment: `fixed`,
         }}
       >
@@ -58,13 +60,12 @@ const LabDevicesPage = () => {
           }}
         >
           <h1
-            className=" has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+            className=" has-text-weight-bold size-big is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
             style={{
               color: 'white',
               lineHeight: '1',
               padding: '0.25em',
               margin: 'auto',
-              backgroundColor: '#00d1b2',
             }}
           >
             Lab Devices
@@ -73,116 +74,142 @@ const LabDevicesPage = () => {
       </div>
       <section className="section section--gradient">
         <LabDevices
-          img={asset1}
-          imgtwo={asset2}
-          device="Four-Digit Analytical Balance"
-          model="OHAUS Laboratory Analytical Balance"
-          modeltwo="Digital Magnetic Stirrer"
-          devicetwo="Four-Spot Magnetic Stirrer"
-          description="
-          يستخدم فى وزن المواد المختلفة وتحضير الوزنات الدقيقة بصورة دقيقه جدا تصل إلى أربعة أرقام عشرية.
-      "
-          descriptiontwo="يستخدم فى إذابة ومزج المواد الكميائية المختلفة بسرعات مختلفة ومدد زمنية متعددة وإمكانيات أخرى. "
+          img={asset10}
+          device="Scanning Electron Microscope (SEM)"
+          model="JEOL JSM 6510 lv"
+          description="It is used to inspect the surfaces of samples and give a high-quality and clear stereoscopic image. The magnification capacity reaches 300,000 times, it works under high vacuum, and it can work under low vacuum, to suit all physical, biological and industrial applications, mining, soil and material analysis, crystallography, nanoscale research, as well as tissues and surface structures."
         />
-        <LabDevices
-          img={asset3}
-          imgtwo={asset4}
-          device="Two-Digit Top-Pan Balance"
-          devicetwo="Binocular Microscopes"
-          model="OHAUS Laboratory Balance"
-          modeltwo="Olympus CX31 Binocular Halogen Microscope"
-          description="
-          يستخدم فى وزن المواد المختلفة وتحضير الوزنات بدقه تصل لرقمين عشريين."
-          descriptiontwo="لتكبير الأجسام الصغيرة التي لا يمكن رؤيتها بالعين المجردة أو لإظهار التفاصيل الدقيقة للأشياء من أجل اكتشاف تكوينها و دراستها ، حيث يمكن لهذا النوع التكبير لأكثر من ألف مرة."
+        <LabDevicesTwo
+          img={asset16}
+          device="Transmission Electron Microscope"
+          model="JEOL JEM-2100"
+          description="It is a microscopic technique in which a beam of electrons is used that penetrates through an ultra-thin sample, which leads to the emergence of an image that is subjected to a process of amplification and magnification and focus on imaging devices such as fluorescent screens or on photographic film, or to be measured with a dual-device CCD camera. Many light microscopes are a result of the small wavelength of the electrons, which enables the user to examine the details of the sample accurately to the point of a row of atoms, with an enlargement of one and a half million times the actual size. The microscope is an essential analysis method in many branches of natural sciences, such as materials science, semiconductor research, and nanoscale research, in addition to biological sciences such as studying microorganisms such as viruses, bacteria, fungi and various tissue cells."
         />
-        <LabDevices
-          img={asset5}
-          imgtwo={asset6}
-          device="Compact Incubator"
-          devicetwo="Critical Point Dryer"
-          model="Thermo Scientific Incubator"
-          modeltwo="Tousimis Autosamdri – 815 Coater"
-          description="
-          تستخدم حاضنة الميكروبيولوجى صغيرة الحجم فى توفيرمدى من درجات الحرارة اللازمة لنمو كثير من الكائنات الحية الدقيقة ، وتستخدم أيضا فى بعض العمليات التى قد تتطلب حفظ العينات فى درجات حراة معينة."
-          descriptiontwo="يستخدم فى تجفيف العينات البيولوجية المعدة للفحص بالميكروسكوب الإلكترونى الماسح وذلك بعد مرحلة التجفيف بالإيثانول المطلق حيث يتبادل الإيثانول مع ثانى أكسيد الكربون السائل ويتم ذلك تحت ضغط ويتميز التجفيف به بالمحافظة على التفاصيل السطحية للعينة."
-        />
-
         <LabDevices
           img={asset7}
-          imgtwo={asset8}
           device="EDS Analysis for the SEM"
-          devicetwo="Fume Hood"
           model="Oxford X-Max 20"
-          modeltwo="FH1500 Fume Hood BIOBASE"
-          description="وحدة التحليل باستخدام الأشعة السينية وهي وحدة ملحقة بالميكروسكوب الإلكتروني الماسح وتستخدم فى تحليل أسطع العينات المختلفة وإعطاء فكرة عن العناصر الموجودة "
-          descriptiontwo="يستخدم هذا الجهاز فى الحد والوقاية من التعرض إلى الأبخرة الخطرة والضارة للمواد الكيميائية المختلفة."
+          description="An analysis unit using X-rays, a unit attached to the scanning electron microscope and used to analyze the brightest of different samples and give an idea of ​​the existing elements."
+        />
+        <LabDevicesTwo
+          img={asset19}
+          device="Ultramicrotome"
+          model="RMC PT-XL PowerTome Ultramicrotome"
+          description="Used to obtain ultra-thin sectors (30 - 70 nanometers) so that we can examine them with the electron microscope, in addition to making some thicker sectors (500 - 1000 nm) for samples prepared for the electron microscope to be examined by the optical microscope, which facilitates the process of follow-up and examination with the electron microscope."
         />
         <LabDevices
           img={asset9}
-          imgtwo={asset10}
-          device="Rotary Shaker"
-          devicetwo="Scanning Electron Microscope (SEM)"
-          model="Scientificindustries Roto-Shake Genie"
-          modeltwo="JEOL JSM 6510 lv"
-          description="يستخدم هذا الجهاز فى تقليب وخلط ومزج العينات والمواد الكميائية عن طريق دوران الجهاز بسرعات مختلفة سريعة وبطيئة."
-          descriptiontwo="يستخدم لفحص أسطح العينات ويعطى صورة مجسمة عالية الجودة والوضوح تصل القدرة التكبيرية إلى 300000 مرة ، يعمل تحت تفريغ عالى ، ويمكنه العمل تحت تفريغ منخفض ، "
+          device="Glass Knife Maker "
+          model="RMC GKM-2 Glass Knife Maker"
+          description=""
+        />
+        <LabDevicesTwo
+          img={asset12}
+          device="Sputter Coating Evaporator"
+          model="SPI Module - Sputter Carbon / Gold Coater"
+          description="The vacuum furnace is used to dry different samples as it is much faster than conventional ovens."
         />
         <LabDevices
-          img={asset11}
-          imgtwo={asset12}
-          device="Ultrasonic Cleaner and Sonicator"
-          devicetwo="Sputter Coating Evaporator"
-          model="Ultrasonic Cleaner (XH-E412)"
-          modeltwo="SPI Module - Sputter Carbon / Gold Coater"
-          description="        هو فعل من تطبيق الصوت (عادة الموجات فوق الصوتية) لهز وتقليب مكونات العينة والإسراع "
-          descriptiontwo="تغطية العينة بطبقة رقيقة من الكربون أو الذهب او مزيج من الذهب والبلاديوم بسمك 10-30 نانوميتر وذلك بعد عمليات التجفيف للعينات المراد فحصها بهدف جعلها موصلة للتيار الكهربى لأن فحص العينات يكون باستخدام الإلكترونات داخل المجهر الإلكتروني الماسح."
+          img={asset6}
+          device="Critical Point Dryer"
+          model="Tousimis Autosamdri – 815 Coater"
+          description="It is used to dry biological samples prepared for examination with a scanning electron microscope, after the absolute ethanol drying stage, where ethanol is exchanged with liquid carbon dioxide and this is done under pressure and its drying is characterized by preserving the surface details of the sample."
         />
-        <LabDevices
-          img={asset13}
-          imgtwo={asset14}
-          device="Zoom Binocular Stereo Microscope"
-          devicetwo="Stirring Hot Plate"
-          model="Olympus SZ30 Stereo Zoom Microscope (9X - 40X Magnification) with Led Ring Light"
-          modeltwo="Corning Stirring Hot Plate (10.2x12.7cm)"
-          description="جهاز لتكبير الأجسام الصغيرة المجسمة التي لا يمكن رؤية تفاصيلها الدقيقة بالعين المجردة، حيث يمكن لهذا النوع التكبير لأربعين مرة."
-          descriptiontwo=" يستخدم فى إذابة ومزج المواد الكميائية المختلفة مع التسخين لدرجات حرارة مختلفة وسرعات مختلفة ومدد زمنية مختلفة."
-        />
-        <LabDevices
-          img={asset15}
-          imgtwo={asset16}
-          device="Table Top Centrifuge"
-          devicetwo="Transmission Electron Microscope"
-          model="Micro Centrifuge"
-          modeltwo="JEOL JEM-2100"
-          description="فصل المكونات الغير ذائبة من السوائل المختلفة بوضعها فى انابيب Centrifuge tubes ثم تدويرها عند السرعات المناسبة وللمدد الزمنية الكافية لكل نوعية من السوائل أو العينات بالمعامل طبقا للتعليمات المحددة لكل مهمة."
-          descriptiontwo="هى تقنية مجهرية يستخدم فيها حزمة من الإلكترونات التى تنفذ خلال عينة فائقة الرقة ، مما يؤدى الى ظهور صورة تخضع لعملية تضخيم وتكبير وتركيز على أجهزة تصوير  مثل شاشات مفلورة أو على فيلم فوتوغرافى أو أن تقاس"
-        />
-        <LabDevices
-          img={asset17}
-          imgtwo={asset18}
-          device="Digital pH Meter and Thermometer"
-          devicetwo="Tissue Rotator"
-          model="PICCOLO Plus HI1295"
-          modeltwo="EMS Tissue Rotator (0-6 RPM)"
-          description="يستخدم جهاز قياس الأس الهيدروجينى pH فى معرفة رقم الحموضة والقلوية فى المحاليل المختلفة المستخدمة فى معالجة العينات المراد فحصها مثل"
-          descriptiontwo="يستخدم هذا الجهاز فى تقليب وخلط ومزج الأنسجة والعينات البيولوجية ببطء عن طريق دوران الجهاز بسرعات بطيئة مختلفة داخل المواد الكميائية أثناء عمليات الإعداد المختلفة لفترات طويلة وذلك لضمان تخلل المواد داخل العينات."
-        />
-        <LabDevices
-          img={asset19}
-          imgtwo={asset20}
-          device="Ultramicrotome"
-          devicetwo="Vacuum Oven"
-          model="RMC PT-XL PowerTome Ultramicrotome"
-          modeltwo="Thermo Scientific Oven under Vacuum"
-          description="
-          للحصول على قطاعات فائقة الرقة (30 – 70 نانومتر) حتى نتمكن من فحصها بالميكروسكوب الإلكتروني"
-          descriptiontwo="يستخدم فرن التفريغ فى تجفيف العينات المختلفة حيث يعد أسرع بكثير من الأفران التقليدية."
-        />
-        <LabDevices
+        <LabDevicesTwo
           img={asset21}
           device="Zeta Potential Analyzer"
           model="Malvern Zetasize Nano-zs90"
-          description="يستخدم فى قياسات تحليل الجهد زيتا بالإضافة إلى قياس حجم الحبيبات الموجودة فى المذيبات من 0.3 نانوميتر إلى 5 ميكروميتر وكذلك الحجم الجزيئى والوزن الجزيئى والخصائص الريولوجية."
+          description="It is used to measure the size of the granules present in the solvents from 0.3 nm to 5 µm as well as the molecular size, molecular weight and rheological properties. It is useful in the fields of pharmacy, engineering, science, and agriculture."
+        />
+        <LabDevices
+          img={asset18}
+          device="Tissue Rotator"
+          model="EMS Tissue Rotator (0-6 RPM)"
+          description="This device is used to stir, mix and mix tissue and biological samples slowly by rotating the device at different slow speeds within the chemicals during the different preparation processes for long periods so as to ensure the permeation of the substances inside the samples."
+        />
+        <LabDevicesTwo
+          img={asset22}
+          device="Rotary Shaker"
+          model="Scientificindustries Roto-Shake Genie"
+          description="This device is used for stirring, mixing and mixing samples and chemicals by rotating the device at different speeds, fast and slow."
+        />
+        <LabDevices
+          img={asset2}
+          device="Four-Spot Magnetic Stirrer"
+          model="Digital Magnetic Stirrer"
+          description="It is used to dissolve and mix different chemicals with different speeds, multiple periods of time and other possibilities."
+        />
+        <LabDevicesTwo
+          img={asset15}
+          device="Table Top Centrifuge"
+          model="Micro Centrifuge"
+          description="Separating the insoluble components from the different liquids by placing them in the Centrifuge tubes and then rotating them at the appropriate speeds and for sufficient periods of time for each type of liquid or samples in laboratories according to the specific instructions for each task."
+        />
+        <LabDevices
+          img={asset14}
+          device="Stirring Hot Plate"
+          model="Corning Stirring Hot Plate (10.2x12.7cm)"
+          description=" It is used to dissolve and mix different chemicals with heating to different temperatures, different speeds and different time periods."
+        />
+
+        <LabDevicesTwo
+          img={asset20}
+          device="Vacuum Oven"
+          model="Thermo Scientific Oven under Vacuum"
+          description="The vacuum furnace is used to dry different samples as it is much faster than conventional ovens."
+        />
+        <LabDevices
+          img={asset5}
+          device="Compact Incubator"
+          model="Thermo Scientific Incubator"
+          description="A small-scale microbiological incubator is used to provide a range of temperatures necessary for the growth of many microorganisms, and is also used in some operations that may require keeping samples at certain temperatures."
+        />
+        <LabDevicesTwo
+          img={asset3}
+          device="Two-Digit Top-Pan Balance"
+          model="OHAUS Laboratory Balance"
+          description="It is used in weighing different materials and preparing weighs as accurately as  decimal places."
+        />
+        <LabDevices
+          img={asset1}
+          device="Four-Digit Analytical Balance"
+          model="OHAUS Laboratory Analytical Balance"
+          description="It is used in weighing different materials and preparing accurate weights in a very accurate way, up to four decimal places."
+        />
+        <LabDevicesTwo
+          img={asset4}
+          device="Binocular Microscopes"
+          model="Olympus CX31 Binocular Halogen Microscope"
+          description="To enlarge small objects that cannot be seen with the naked eye or to show the fine details of things in order to discover their composition and study, as this type can zoom in more than a thousand times."
+        />
+
+        <LabDevices
+          img={asset13}
+          device="Zoom Binocular Stereo Microscope"
+          model="Olympus SZ30 Stereo Zoom Microscope (9X - 40X Magnification) with Led Ring Light"
+          description="A device for enlarging small stereoscopic objects whose precise details cannot be seen with the naked eye, as this type can be enlarged forty times."
+        />
+        <LabDevices
+          img={asset11}
+          device="Ultrasonic Cleaner and Sonicator"
+          model="Ultrasonic Cleaner (XH-E412)"
+          description="Applying sound (usually ultrasound) to shaking and stirring the components of a sample and accelerating the breakdown of the particles in them. It is especially useful when it is not possible to stir the sample, as is the case with NMR tubes and it can also be used to provide the energy needed for some chemical reactions. It is also commonly used in nanotechnology for the homogeneous distribution of nanoparticles in liquids. It can also be used to induce crystallisations and help isolate small crystals.
+          And in biological applications, it is often used to break down cell membranes and release cell contents. This process is called sonoporation.
+          It is also a mechanism used to clean surfaces such as glasses and jewelry. It is also used to extract microfossils from rocks."
+        />
+
+        <LabDevicesTwo
+          img={asset8}
+          device="Fume Hood"
+          model="FH1500 Fume Hood BIOBASE"
+          description="This device is used to reduce and prevent exposure to dangerous and harmful fumes of various chemicals."
+        />
+
+        <LabDevices
+          img={asset17}
+          device="Digital pH Meter and Thermometer"
+          model="PICCOLO Plus HI1295"
+          description="The pH meter is used to know the number of acidity and alkalinity in the various solutions used in the treatment of the samples to be tested, such as buffers used in the preparation of fixatives and others. It usually consists of a special electrode (glass electrode) connected to an electronic scale that measures and displays the pH number with the ability to identify the temperature."
         />
       </section>
     </Layout>

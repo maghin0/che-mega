@@ -1,9 +1,10 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
-import BlogRoll from '../../components/BlogRoll';
-import BlogRollEvents from '../../components/BlogRollEvents';
-import BlogRollVisits from '../../components/BlogRollVisits';
+// import BlogRoll from '../../components/BlogRoll';
+import BlogRollEng from '../../components/BlogRollEng';
+import BlogRollWorkShop from '../../components/BlogRollWorkShop';
+// import BlogRollVisits from '../../components/BlogRollVisits';
 export default class BlogIndexPage extends React.Component {
   render() {
     return (
@@ -11,7 +12,7 @@ export default class BlogIndexPage extends React.Component {
         <div
           className="full-width-image margin-top-0"
           style={{
-            backgroundImage: `url('/img/blog-index.jpg')`,
+            backgroundImage: `url('/img/event-bg.jpg')`,
 
             backgroundAttachment: 'fixed',
           }}
@@ -29,11 +30,12 @@ export default class BlogIndexPage extends React.Component {
             }}
           >
             <h1
-              className="has-text-weight-bold is-size-1"
+              className=" has-text-weight-bold size-big is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
               style={{
-                backgroundColor: '#00d1b2',
                 color: 'white',
-                padding: '1rem',
+                lineHeight: '1',
+                padding: '0.25em',
+                margin: 'auto',
               }}
             >
               Events

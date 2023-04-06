@@ -1,39 +1,29 @@
 ---
-templateKey: index-page
-title: Great coffee with a conscience
+templateKey: 'index-page'
+title: Mansoura University electron microscope unit
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Electron microscope unit in El Mansoura university - emunit
+subheading: وحدة الميكروسكوب الإلكتروني بجامعة المنصورة- emunit
 mainpitch:
-  title: Why Kaldi
+  title: Why an electron microscope?
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Mansoura's first electron microscope allows for innovation possibilities like never before.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  The university is allowing for technological advancements that were impossible due to lack of an electron microscope!
 intro:
   blurbs:
     - image: /img/mission.png
       title: Mission
       text: >
-        Ensure that the unit is one of the most important tools for the development of scientific research for various disci- plines and spread the culture of microscopic technology through educating and train- ng researchers, students and workers in factories.
+        Working to make the unit one of the most important tools for developing scientific research for various disciplines and working to spread the microscopy technology through education and training for researchers, students and industry.
     - image: /img/vission.png
       title: Vision
       text: >
-        The unit should be one of the latest units in the world in terms of equipment and staff, and the quality and accuracy of the results obtained.
+        To be one of the most modern units worldwide in terms of equipment, expertise, and the quality and accuracy of the obtained results.
     - image: /img/goal.png
       title: Goal
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        To organize general and specialized training courses for students, researchers and industry workers at regional level. Contribute to supporting the educational process in the area of the electron microscopy. Provide the necessary services to companies and industry. Support and develop scientific research in the Egyptian and regional universities and research centers. Become leaders in testing and analyzing micro samples at the nanoscale level as well as in biological and non-biological disciplines. Offer consultation services to the scientific community locally and regionally.
 
   heading: What we offer
   description: >

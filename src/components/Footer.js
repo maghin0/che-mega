@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import logo from '../img/social/logo-w.svg';
+import logo from '../img/social/logo no text.png';
 import smallfacebook from '../img/social/smallfacebook.svg';
 import smalltwitter from '../img/social/smalltwitter.svg';
 import smallyoutube from '../img/social/smallyoutube.svg';
@@ -15,8 +15,8 @@ const Footer = class extends React.Component {
         <div className="content has-text-centered">
           <img
             src={logo}
-            alt="Kaldi"
-            style={{ width: '14em', height: '10em' }}
+            alt="Electron Microscope Unit"
+            style={{ width: '14em', height: '12em' }}
           />
         </div>
         <div className="content has-text-centered has-text-white">
@@ -71,39 +71,42 @@ const Footer = class extends React.Component {
                 </section>
               </div>
               <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
+                <a
+                  title="facebook"
+                  href="https://www.facebook.com/%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D9%85%D9%8A%D9%83%D8%B1%D9%88%D8%B3%D9%83%D9%88%D8%A8-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%89-%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1%D8%A9-566336020116519"
+                >
                   <img
                     src={smallfacebook}
-                    alt="Facebook"
+                    alt="Facebook for Electron microscope Mansoura"
                     style={{ width: '2em', height: '2em' }}
                   />
                 </a>
-                <a title="twitter" href="https://twitter.com">
+                <a title="twitter" href="https://twitter.com/mansoura_uni">
                   <img
                     className="fas fa-lg"
                     src={smalltwitter}
-                    alt="Twitter"
+                    alt="Twitter for Electron microscope Mansoura"
                     style={{ width: '2em', height: '2em' }}
                   />
                 </a>
-                <a title="instagram" href="https://instagram.com">
+                <a title="Youtube" href="https://www.youtube.com/user/mansvu">
                   <img
                     src={smallyoutube}
-                    alt="Instagram"
+                    alt="YouTube for Electron microscope Mansoura"
                     style={{ width: '2em', height: '2em' }}
                   />
                 </a>
-                <a title="call" href="https://vimeo.com">
+                <a title="call" href="../pages/contact/index.js">
                   <img
                     src={smallcall}
-                    alt="Vimeo"
+                    alt="Call us at the Electron microscope Mansoura"
                     style={{ width: '2em', height: '2em' }}
                   />
                 </a>
                 <a title="email" href="https://vimeo.com">
                   <img
                     src={smallemail}
-                    alt="Vimeo"
+                    alt="Email the Electron microscope Mansoura"
                     style={{ width: '2em', height: '2em' }}
                   />
                 </a>

@@ -1,8 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Electron Microscope Unit',
-    description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+    title: 'Electron Microscope Unit in Mansoura University Egypt,  مصر - وحدة الميكروسكوب الإلكتروني بجامعة المنصورة',
+    description: 'A website for one of the few electron microscopes in Egypt at the university of Mansoura Egypt, EM unit,El Mansoura, university, وحدة الميكروسكوب الإلكتروني - جامعة المنصورة - مصر',
+    author: 'maghin',
+    url: 'https://emunit.netlify.app/',
+    facebookUsername: 'وحدة الميكروسكوب الإلكترونى جامعة المنصورة',
+    image: './src/img/03.JPG',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
