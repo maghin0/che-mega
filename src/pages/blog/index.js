@@ -45,7 +45,7 @@ export default class BlogIndexPage extends React.Component {
             <div className="content">
               <h1 id="one">Events </h1>
               <BlogRoll />
-              <h1 id="two">Conference and Events</h1>
+              <h1 id="two">Workshops and Training</h1>
               <BlogRollEvents />
               <h1 id="three">Visitations and Delegates</h1>
               <BlogRollVisits />

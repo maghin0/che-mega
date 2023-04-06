@@ -171,7 +171,7 @@ export const IndexPageTemplate = ({
                   </tbody>
                 </table>
                 <div className="column is-12 has-text-centered">
-                  <a className="btn" href="/img/price.pdf" target="_blank">
+                  <a className="btn" href="/img/price-2.pdf" target="_blank">
                     View full Services
                   </a>
                 </div>
