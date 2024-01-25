@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import logo from '../img/social/logo.png';
 
-import servicespdf from '../../static/img/price.pdf';
+import servicespdf from '../../static/img/price-2.pdf';
 
 const Navbar = class extends React.Component {
   constructor(props) {
